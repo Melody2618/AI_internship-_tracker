@@ -1,8 +1,14 @@
 [
-    {
-        "name": "Anthropic",
-        "ats": "greenhouse",
-        "board_token": "anthropic",
-        "enabled": true
-    }
+  {
+    "name": "Anthropic",
+    "ats": "greenhouse",
+    "board_token": "anthropic",
+    "enabled": true
+  },
+  {
+    "name": "Notion",
+    "ats": "ashby",
+    "board_name": "notion",
+    "enabled": true
+  }
 ]

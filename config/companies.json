@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Anthropic",
+        "ats": "greenhouse",
+        "board_token": "anthropic",
+        "enabled": true
+    }
+]

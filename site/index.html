@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"
@@ -9,7 +10,10 @@
 
     <title>SHE Internship Tracker</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
 </head>
 
 <body>
@@ -18,8 +22,8 @@
             <h1>SHE Internship Tracker</h1>
 
             <p>
-                Internship listings collected from
-                company career boards.
+                Internship, fellowship, student, and early-career
+                listings collected from company career boards.
             </p>
         </header>
 
@@ -36,12 +40,15 @@
 
             <select id="ats-filter">
                 <option value="">All platforms</option>
-                <option value="Greenhouse">Greenhouse</option>
-                <option value="Ashby">Ashby</option>
+                <option value="greenhouse">Greenhouse</option>
+                <option value="ashby">Ashby</option>
+                <option value="workday">Workday</option>
             </select>
         </section>
 
-        <p id="job-count">Loading jobs...</p>
+        <p id="job-count">
+            Loading jobs...
+        </p>
 
         <div class="table-wrapper">
             <table>
@@ -59,7 +66,10 @@
             </table>
         </div>
 
-        <p id="error-message" class="error"></p>
+        <p
+            id="error-message"
+            class="error"
+        ></p>
     </main>
 
     <script src="app.js"></script>

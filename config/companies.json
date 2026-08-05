@@ -10,5 +10,14 @@
     "ats": "ashby",
     "board_name": "notion",
     "enabled": true
+  },
+  {
+    "name": "Agilent",
+    "ats": "workday",
+    "host": "https://agilent.wd5.myworkdayjobs.com",
+    "tenant": "agilent",
+    "site": "Agilent_Student_Careers",
+    "locale": "en-US",
+    "enabled": true
   }
 ]

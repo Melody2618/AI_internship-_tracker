@@ -5,6 +5,7 @@ import requests
 
 import ashby
 import greenhouse
+import workday
 
 
 CONFIG_PATH = Path("config/companies.json")
@@ -62,8 +63,115 @@ def scrape_ashby_company(company: dict) -> list[dict]:
     ]
 
 
+def scrape_workday_company(company: dict) -> list[dict]:
+    """Fetch and normalize student roles from Workday."""
+
+    all_jobs = workday.fetch_all_jobs(company)
+
+    return [
+        workday.normalize_job(
+            job=job,
+            company=company,
+        )
+        for job in all_jobs
+        if workday.is_student_role(job)
+    ]
+
+
+def deduplicate_jobs(jobs: list[dict]) -> list[dict]:
+    """Remove duplicate postings using normalized job IDs."""
+
+    unique_jobs: dict[str, dict] = {}
+
+    for job in jobs:
+        job_id = str(job.get("id", "")).strip()
+
+        if not job_id:
+            continue
+
+        unique_jobs[job_id] = job
+
+    return list(unique_jobs.values())
+
+
+def is_us_job(job: dict) -> bool:
+    """Return True when a normalized job appears to be US-based."""
+
+    location = str(job.get("location", "")).strip().lower()
+
+    if not location:
+        return False
+
+    direct_us_markers = (
+        "united states",
+        "usa",
+        "u.s.",
+        "us-",
+        "remote-friendly, united states",
+    )
+
+    if any(marker in location for marker in direct_us_markers):
+        return True
+
+    state_markers = (
+        ", al",
+        ", ak",
+        ", az",
+        ", ar",
+        ", ca",
+        ", co",
+        ", ct",
+        ", de",
+        ", fl",
+        ", ga",
+        ", hi",
+        ", id",
+        ", il",
+        ", in",
+        ", ia",
+        ", ks",
+        ", ky",
+        ", la",
+        ", me",
+        ", md",
+        ", ma",
+        ", mi",
+        ", mn",
+        ", ms",
+        ", mo",
+        ", mt",
+        ", ne",
+        ", nv",
+        ", nh",
+        ", nj",
+        ", nm",
+        ", ny",
+        ", nc",
+        ", nd",
+        ", oh",
+        ", ok",
+        ", or",
+        ", pa",
+        ", ri",
+        ", sc",
+        ", sd",
+        ", tn",
+        ", tx",
+        ", ut",
+        ", vt",
+        ", va",
+        ", wa",
+        ", wv",
+        ", wi",
+        ", wy",
+        ", dc",
+    )
+
+    return any(marker in location for marker in state_markers)
+
+
 def save_jobs(jobs: list[dict], output_path: Path) -> None:
-    """Save the combined job list."""
+    """Save the combined job list to JSON."""
 
     output_path.parent.mkdir(
         parents=True,
@@ -84,8 +192,14 @@ def main() -> None:
     combined_jobs: list[dict] = []
 
     for company in companies:
-        company_name = company.get("name", "Unknown company")
-        ats = company.get("ats", "").lower()
+        company_name = company.get(
+            "name",
+            "Unknown company",
+        )
+
+        ats = str(
+            company.get("ats", "")
+        ).strip().lower()
 
         print(f"\nFetching {company_name} from {ats}...")
 
@@ -95,6 +209,9 @@ def main() -> None:
 
             elif ats == "ashby":
                 jobs = scrape_ashby_company(company)
+
+            elif ats == "workday":
+                jobs = scrape_workday_company(company)
 
             else:
                 print(f"Unsupported ATS: {ats}")
@@ -108,12 +225,18 @@ def main() -> None:
             continue
 
         except requests.RequestException as error:
-            print(f"Failed to fetch {company_name}: {error}")
+            print(
+                f"Failed to fetch {company_name}: "
+                f"{error}"
+            )
             continue
 
         combined_jobs.extend(jobs)
 
-        print(f"Found {len(jobs)} internship-like jobs")
+        print(
+            f"Found {len(jobs)} "
+            "internship or student-like jobs before US filtering"
+        )
 
         for job in jobs:
             print(
@@ -121,10 +244,21 @@ def main() -> None:
                 f"{job.get('location')}"
             )
 
+    combined_jobs = deduplicate_jobs(combined_jobs)
+
+    total_before_us_filter = len(combined_jobs)
+
+    combined_jobs = [
+        job
+        for job in combined_jobs
+        if is_us_job(job)
+    ]
+
     combined_jobs.sort(
         key=lambda job: (
             str(job.get("company", "")).lower(),
             str(job.get("title", "")).lower(),
+            str(job.get("location", "")).lower(),
         )
     )
 
@@ -134,7 +268,12 @@ def main() -> None:
     )
 
     print(
-        f"\nSaved {len(combined_jobs)} combined jobs "
+        f"\nKept {len(combined_jobs)} US-based jobs "
+        f"out of {total_before_us_filter} unique jobs"
+    )
+
+    print(
+        f"Saved {len(combined_jobs)} combined US jobs "
         f"to {OUTPUT_PATH}"
     )
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>SHE Internship Tracker</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <h1>SHE Internship Tracker</h1>
+
+            <p>
+                Internship listings collected from
+                company career boards.
+            </p>
+        </header>
+
+        <section class="controls">
+            <input
+                id="search-input"
+                type="search"
+                placeholder="Search company, title, or location"
+            >
+
+            <select id="company-filter">
+                <option value="">All companies</option>
+            </select>
+
+            <select id="ats-filter">
+                <option value="">All platforms</option>
+                <option value="Greenhouse">Greenhouse</option>
+                <option value="Ashby">Ashby</option>
+            </select>
+        </section>
+
+        <p id="job-count">Loading jobs...</p>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Position</th>
+                        <th>Location</th>
+                        <th>Platform</th>
+                        <th>Application</th>
+                    </tr>
+                </thead>
+
+                <tbody id="jobs-table-body"></tbody>
+            </table>
+        </div>
+
+        <p id="error-message" class="error"></p>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

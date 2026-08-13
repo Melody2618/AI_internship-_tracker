@@ -5,10 +5,13 @@
     "title": "Electrical Engineering Intern",
     "location": "US-DE-Wilmington",
     "ats": "workday",
-    "posted_at": "Posted 26 Days Ago",
+    "posted_at": "Posted 30+ Days Ago",
     "employment_type": null,
     "apply_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526",
-    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526"
+    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526",
+    "majors": [
+      "Electrical and Computer Engineering"
+    ]
   },
   {
     "id": "workday-agilent-4038181",
@@ -19,29 +22,11 @@
     "posted_at": "Posted 30+ Days Ago",
     "employment_type": null,
     "apply_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038181",
-    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038181"
-  },
-  {
-    "id": "workday-agilent-4038245",
-    "company": "Agilent",
-    "title": "Intern – Predictive Sales Prospecting",
-    "location": "US-DE-Wilmington",
-    "ats": "workday",
-    "posted_at": "Posted 30+ Days Ago",
-    "employment_type": null,
-    "apply_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038245",
-    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038245"
-  },
-  {
-    "id": "workday-agilent-4038198",
-    "company": "Agilent",
-    "title": "Quality Control Laboratory Intern",
-    "location": "US-CA-Carpinteria",
-    "ats": "workday",
-    "posted_at": "Posted 30+ Days Ago",
-    "employment_type": null,
-    "apply_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-CA-Carpinteria/Quality-Control-Laboratory-Intern_4038198",
-    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-CA-Carpinteria/Quality-Control-Laboratory-Intern_4038198"
+    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038181",
+    "majors": [
+      "Industrial Engineering",
+      "General/Other"
+    ]
   },
   {
     "id": "workday-agilent-4038869",
@@ -49,10 +34,13 @@
     "title": "Segment Marketing Communications & Insights Intern",
     "location": "US-DE-Wilmington",
     "ats": "workday",
-    "posted_at": "Posted 7 Days Ago",
+    "posted_at": "Posted 15 Days Ago",
     "employment_type": null,
     "apply_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Segment-Marketing-Communications---Insights-Intern_4038869",
-    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Segment-Marketing-Communications---Insights-Intern_4038869"
+    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Segment-Marketing-Communications---Insights-Intern_4038869",
+    "majors": [
+      "Industrial Engineering"
+    ]
   },
   {
     "id": "workday-agilent-4038651",
@@ -60,10 +48,13 @@
     "title": "Video Production Intern",
     "location": "US-DE-Wilmington",
     "ats": "workday",
-    "posted_at": "Posted 9 Days Ago",
+    "posted_at": "Posted 3 Days Ago",
     "employment_type": null,
     "apply_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Video-Production-Intern_4038651",
-    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Video-Production-Intern_4038651"
+    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Video-Production-Intern_4038651",
+    "majors": [
+      "General/Other"
+    ]
   },
   {
     "id": "greenhouse-anthropic-5023394008",
@@ -71,44 +62,37 @@
     "title": "Anthropic Fellows Program",
     "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
     "ats": "greenhouse",
-    "updated_at": "2026-08-03T18:25:22-04:00",
-    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5023394008"
+    "updated_at": "2026-08-11T15:52:47-04:00",
+    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5023394008",
+    "majors": [
+      "Electrical and Computer Engineering",
+      "General/Other"
+    ]
   },
   {
     "id": "greenhouse-anthropic-5183044008",
     "company": "Anthropic",
-    "title": "Anthropic Fellows Program, AI Safety",
+    "title": "Anthropic Fellows Program, AI Safety & Security",
     "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
     "ats": "greenhouse",
-    "updated_at": "2026-08-03T18:25:22-04:00",
-    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008"
-  },
-  {
-    "id": "greenhouse-anthropic-5030244008",
-    "company": "Anthropic",
-    "title": "Anthropic Fellows Program, AI Security",
-    "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
-    "ats": "greenhouse",
-    "updated_at": "2026-08-03T18:25:22-04:00",
-    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5030244008"
+    "updated_at": "2026-08-11T16:18:40-04:00",
+    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008",
+    "majors": [
+      "Electrical and Computer Engineering",
+      "General/Other"
+    ]
   },
   {
     "id": "greenhouse-anthropic-5183051008",
     "company": "Anthropic",
-    "title": "Anthropic Fellows Program, ML Systems & Performance",
+    "title": "Anthropic Fellows Program, ML Systems & Reinforcement Learning",
     "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
     "ats": "greenhouse",
-    "updated_at": "2026-08-03T18:25:22-04:00",
-    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183051008"
-  },
-  {
-    "id": "greenhouse-anthropic-5183052008",
-    "company": "Anthropic",
-    "title": "Anthropic Fellows Program, Reinforcement Learning",
-    "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
-    "ats": "greenhouse",
-    "updated_at": "2026-08-03T18:25:22-04:00",
-    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
+    "updated_at": "2026-08-11T16:17:47-04:00",
+    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183051008",
+    "majors": [
+      "Electrical and Computer Engineering"
+    ]
   },
   {
     "id": "greenhouse-anthropic-5183053008",
@@ -116,8 +100,99 @@
     "title": "Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",
     "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
     "ats": "greenhouse",
-    "updated_at": "2026-08-03T18:25:22-04:00",
-    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008"
+    "updated_at": "2026-08-11T15:53:30-04:00",
+    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "greenhouse-archer-4213164002",
+    "company": "Archer Daniels Midland",
+    "title": "DVM Student Externship/Preceptorship Program — Archer Veterinary Clinic (Sees Exotics)",
+    "location": "Lemont, IL",
+    "ats": "greenhouse",
+    "updated_at": "2026-08-13T14:27:24-04:00",
+    "apply_url": "https://boards.greenhouse.io/archer/jobs/4213164002?gh_jid=4213164002",
+    "majors": [
+      "Biomedical Engineering"
+    ]
+  },
+  {
+    "id": "greenhouse-ark-4914958002",
+    "company": "Ark",
+    "title": "DVM Student Externship/Preceptorship Program — Ark Veterinary Hospital (Urgent Care)",
+    "location": "Henrietta, New York, United States",
+    "ats": "greenhouse",
+    "updated_at": "2026-08-13T14:27:38-04:00",
+    "apply_url": "https://boards.greenhouse.io/ark/jobs/4914958002?gh_jid=4914958002",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "greenhouse-block-5108007008",
+    "company": "Block",
+    "title": "Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op)",
+    "location": "Bay Area, CA, United States of America",
+    "ats": "greenhouse",
+    "updated_at": "2026-08-12T14:32:38-04:00",
+    "apply_url": "http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008",
+    "majors": [
+      "Electrical and Computer Engineering"
+    ]
+  },
+  {
+    "id": "greenhouse-block-5108009008",
+    "company": "Block",
+    "title": "Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op)",
+    "location": "Toronto, Ontario , Canada",
+    "ats": "greenhouse",
+    "updated_at": "2026-08-12T14:32:38-04:00",
+    "apply_url": "http://block.xyz/careers/jobs/5108009008?gh_jid=5108009008",
+    "majors": [
+      "Electrical and Computer Engineering"
+    ]
+  },
+  {
+    "id": "ashby-circuithub-3ed17f67-7055-444b-af21-5b5088f83902",
+    "company": "CircuitHub",
+    "title": "High-Paying Part-Time Roles for UMass Engineering Students",
+    "location": "South Deerfield, Massachusetts, USA",
+    "team": "Production",
+    "department": "Production",
+    "employment_type": "FullTime",
+    "ats": "ashby",
+    "posted_at": "2025-08-29T14:59:22.714+00:00",
+    "apply_url": "https://jobs.ashbyhq.com/circuithub/3ed17f67-7055-444b-af21-5b5088f83902/application",
+    "source_url": "https://jobs.ashbyhq.com/circuithub/3ed17f67-7055-444b-af21-5b5088f83902",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "greenhouse-fox-5040378002",
+    "company": "Fox Corporation (Class B)",
+    "title": "DVM Student Externship/Preceptorship Program - Fox Creek Veterinary Hospital",
+    "location": "Wildwood, MO",
+    "ats": "greenhouse",
+    "updated_at": "2026-08-13T14:27:28-04:00",
+    "apply_url": "https://job-boards.greenhouse.io/fox/jobs/5040378002",
+    "majors": [
+      "Biomedical Engineering"
+    ]
+  },
+  {
+    "id": "greenhouse-gusto-7833882",
+    "company": "Gusto",
+    "title": "Summer Opportunities - Retirement Sales AE",
+    "location": "Denver, CO",
+    "ats": "greenhouse",
+    "updated_at": "2026-08-10T12:10:06-04:00",
+    "apply_url": "https://job-boards.greenhouse.io/gusto/jobs/7833882",
+    "majors": [
+      "General/Other"
+    ]
   },
   {
     "id": "ashby-notion-6ccbc30c-2de0-4395-af14-3641cd15961b",
@@ -130,6 +205,9 @@
     "ats": "ashby",
     "posted_at": "2026-07-15T23:18:57.929+00:00",
     "apply_url": "https://jobs.ashbyhq.com/notion/6ccbc30c-2de0-4395-af14-3641cd15961b/application",
-    "source_url": "https://jobs.ashbyhq.com/notion/6ccbc30c-2de0-4395-af14-3641cd15961b"
+    "source_url": "https://jobs.ashbyhq.com/notion/6ccbc30c-2de0-4395-af14-3641cd15961b",
+    "majors": [
+      "General/Other"
+    ]
   }
 ]

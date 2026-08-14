@@ -13,8 +13,15 @@
 #
 # Data sources (both free, no API key required):
 #   - S&P 500 company list: github.com/datasets/s-and-p-500-companies
+#     (small, ~503 companies, barely changes — re-checked in full
+#     every run, which is cheap)
 #   - Y Combinator company list: github.com/yc-oss/api (public,
-#     updated daily, mirrors YC's own directory)
+#     updated daily, ~5,900+ companies total). Since that's a much
+#     bigger list, this script only checks a BATCH of it per run
+#     (see fetch_yc_names_batch) and remembers where it left off in
+#     config/discovery_state.json — so running this on a weekly cron
+#     schedule gradually works through the entire YC directory over
+#     time, instead of re-checking the same slice every time.
 #
 # Run it with:
 #   python3 src/discover_companies.py
@@ -33,6 +40,7 @@ import requests
 
 CONFIG_PATH = Path("config/companies.json")
 UNMATCHED_LOG_PATH = Path("config/unmatched_companies.txt")
+DISCOVERY_STATE_PATH = Path("config/discovery_state.json")
 
 SP500_CSV_URL = (
     "https://raw.githubusercontent.com/datasets/"
@@ -239,19 +247,56 @@ def fetch_sp500_names() -> list[str]:
     return names
 
 
-def fetch_yc_names(limit: int = 300) -> list[str]:
+def fetch_yc_names_batch(batch_size: int = 300) -> list[str]:
     """
-    Pulls company names from the free YC directory mirror.
-    Limited by default since YC has thousands of companies and most
-    aren't currently hiring interns — raise `limit` once this is
-    working well and you want to cast a wider net.
+    Pulls the NEXT batch of company names from the YC directory,
+    picking up where the previous run left off (tracked in
+    DISCOVERY_STATE_PATH). This lets a scheduled cron job gradually
+    work through YC's full ~5,900+ company directory over many runs,
+    instead of re-checking the same fixed slice every time or needing
+    someone to manually raise a limit.
+
+    Once it reaches the end of the list, it loops back to the start —
+    useful since YC's directory does grow over time, so a second pass
+    can catch companies that were added after the first pass began.
     """
 
     response = requests.get(YC_COMPANIES_URL, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
 
-    companies = response.json()
-    return [c["name"] for c in companies[:limit] if c.get("name")]
+    all_companies = [c["name"] for c in response.json() if c.get("name")]
+    total = len(all_companies)
+
+    state = load_discovery_state()
+    offset = state.get("yc_offset", 0) % total if total else 0
+
+    end = offset + batch_size
+    if end <= total:
+        batch = all_companies[offset:end]
+    else:
+        # Wrap around to the start of the list
+        batch = all_companies[offset:] + all_companies[: end - total]
+
+    state["yc_offset"] = end % total if total else 0
+    save_discovery_state(state)
+
+    print(f"YC directory has {total} companies total. "
+          f"Checking companies {offset}-{offset + len(batch) - 1} this run "
+          f"(next run starts at {state['yc_offset']}).")
+
+    return batch
+
+
+def load_discovery_state() -> dict:
+    if DISCOVERY_STATE_PATH.exists():
+        with DISCOVERY_STATE_PATH.open("r", encoding="utf-8") as file:
+            return json.load(file)
+    return {}
+
+
+def save_discovery_state(state: dict) -> None:
+    with DISCOVERY_STATE_PATH.open("w", encoding="utf-8") as file:
+        json.dump(state, file, indent=2)
 
 
 def load_existing_companies() -> list[dict]:
@@ -295,9 +340,9 @@ def main() -> None:
     sp500_names = fetch_sp500_names()
     print(f"Got {len(sp500_names)} S&P 500 companies")
 
-    print("Fetching Y Combinator company list...")
-    yc_names = fetch_yc_names()
-    print(f"Got {len(yc_names)} YC companies (limited sample)")
+    print("Fetching Y Combinator company list (next batch)...")
+    yc_names = fetch_yc_names_batch()
+    print(f"Checking {len(yc_names)} YC companies this run")
 
     candidate_names = sp500_names + yc_names
     new_names = [

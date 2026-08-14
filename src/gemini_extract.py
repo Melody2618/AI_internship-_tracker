@@ -41,6 +41,11 @@ MODEL = "gemini-flash-lite-latest"  # auto-updates to Google's current Flash-Lit
 MAX_RETRIES = 3
 RETRY_WAIT_SECONDS = 60  # free tier resets roughly every 60 seconds
 
+# Flash-Lite's free tier allows 15 requests/minute, so pacing calls
+# ~4.5 seconds apart (60s / 15 = 4s, +buffer) keeps us under that
+# limit proactively, instead of only reacting after a 429 error.
+SECONDS_BETWEEN_BATCH_CALLS = 4.5
+
 # Engineering majors we tag postings against (Rutgers SOE list).
 # Keep this list in sync with the frontend filter buttons in site/app.js.
 MAJOR_TAGS = [
@@ -188,10 +193,19 @@ per job, in the SAME ORDER as the input, each shaped like:
 """
 
 
-def classify_jobs_batch(jobs: list[dict], batch_size: int = 25) -> list[dict]:
+def classify_jobs_batch(jobs: list[dict], batch_size: int = 40) -> list[dict]:
     """
     Classifies + tags a list of jobs in batches (one API call per batch,
     not per job) to stay well within the free tier's RPM/RPD limits.
+
+    Two things keep this from hitting the rate limit as often as before:
+      - A bigger batch size (40 instead of 25) means fewer total calls
+        for the same number of postings.
+      - A small proactive pause between calls (SECONDS_BETWEEN_BATCH_CALLS)
+        paces requests under the 15/minute free-tier limit BEFORE hitting
+        it, rather than only reacting with a 60-second wait after a 429
+        error. This makes total runtime more predictable — steady and
+        a bit slower throughout, instead of fast-then-stalled-then-fast.
 
     Returns a list the same length/order as `jobs`, each entry shaped like
     {"is_internship": bool, "majors": [str, ...]}. Any job that fails to
@@ -202,7 +216,12 @@ def classify_jobs_batch(jobs: list[dict], batch_size: int = 25) -> list[dict]:
     results: list[dict] = [None] * len(jobs)
     default = {"is_internship": False, "majors": []}
 
-    for start in range(0, len(jobs), batch_size):
+    total_batches = (len(jobs) + batch_size - 1) // batch_size
+
+    for batch_num, start in enumerate(range(0, len(jobs), batch_size)):
+        if batch_num > 0:
+            time.sleep(SECONDS_BETWEEN_BATCH_CALLS)
+
         batch = jobs[start:start + batch_size]
         prompt = build_batch_classification_prompt(batch)
         text = _call_gemini_with_retry(prompt)
@@ -241,7 +260,7 @@ def classify_jobs_batch(jobs: list[dict], batch_size: int = 25) -> list[dict]:
             results[start + i] = batch_results[i]
 
         print(
-            f"Classified batch {start}-{start + len(batch) - 1} "
+            f"Classified batch {batch_num + 1}/{total_batches} "
             f"({len(batch)} postings, 1 API call)"
         )
 

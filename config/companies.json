@@ -355,5 +355,155 @@
     "ats": "greenhouse",
     "board_token": "realm",
     "enabled": true
+  },
+  {
+    "name": "Weave",
+    "ats": "greenhouse",
+    "board_token": "weave",
+    "enabled": true
+  },
+  {
+    "name": "Algolia",
+    "ats": "greenhouse",
+    "board_token": "algolia",
+    "enabled": true
+  },
+  {
+    "name": "Checkr",
+    "ats": "greenhouse",
+    "board_token": "checkr",
+    "enabled": true
+  },
+  {
+    "name": "Clara Labs",
+    "ats": "greenhouse",
+    "board_token": "clara",
+    "enabled": true
+  },
+  {
+    "name": "Clear",
+    "ats": "greenhouse",
+    "board_token": "clear",
+    "enabled": true
+  },
+  {
+    "name": "Cheddar",
+    "ats": "greenhouse",
+    "board_token": "cheddar",
+    "enabled": true
+  },
+  {
+    "name": "UserGems",
+    "ats": "greenhouse",
+    "board_token": "usergems",
+    "enabled": true
+  },
+  {
+    "name": "Hive",
+    "ats": "greenhouse",
+    "board_token": "hive",
+    "enabled": true
+  },
+  {
+    "name": "Weave",
+    "ats": "greenhouse",
+    "board_token": "weave",
+    "enabled": true
+  },
+  {
+    "name": "Ginkgo Bioworks",
+    "ats": "greenhouse",
+    "board_token": "ginkgobioworks",
+    "enabled": true
+  },
+  {
+    "name": "Oklo",
+    "ats": "greenhouse",
+    "board_token": "oklo",
+    "enabled": true
+  },
+  {
+    "name": "Qventus",
+    "ats": "greenhouse",
+    "board_token": "qventus",
+    "enabled": true
+  },
+  {
+    "name": "Akido Labs",
+    "ats": "greenhouse",
+    "board_token": "akidolabs",
+    "enabled": true
+  },
+  {
+    "name": "SIRUM",
+    "ats": "greenhouse",
+    "board_token": "sirum",
+    "enabled": true
+  },
+  {
+    "name": "Tempo",
+    "ats": "greenhouse",
+    "board_token": "tempo",
+    "enabled": true
+  },
+  {
+    "name": "GitLab",
+    "ats": "greenhouse",
+    "board_token": "gitlab",
+    "enabled": true
+  },
+  {
+    "name": "Industrial Microbes",
+    "ats": "greenhouse",
+    "board_token": "industrial",
+    "enabled": true
+  },
+  {
+    "name": "Seed",
+    "ats": "greenhouse",
+    "board_token": "seed",
+    "enabled": true
+  },
+  {
+    "name": "Raven Tech",
+    "ats": "greenhouse",
+    "board_token": "raven",
+    "enabled": true
+  },
+  {
+    "name": "Flip",
+    "ats": "greenhouse",
+    "board_token": "flip",
+    "enabled": true
+  },
+  {
+    "name": "Spire Health",
+    "ats": "greenhouse",
+    "board_token": "spire",
+    "enabled": true
+  },
+  {
+    "name": "Thrive Agritech",
+    "ats": "greenhouse",
+    "board_token": "thrive",
+    "enabled": true
+  },
+  {
+    "name": "GiveCampus",
+    "ats": "greenhouse",
+    "board_token": "givecampus",
+    "enabled": true
+  },
+  {
+    "name": "Xendit",
+    "ats": "greenhouse",
+    "board_token": "xendit",
+    "enabled": true
+  },
+  {
+    "name": "Fetch",
+    "ats": "greenhouse",
+    "board_token": "fetch",
+    "enabled": true
   }
 ]

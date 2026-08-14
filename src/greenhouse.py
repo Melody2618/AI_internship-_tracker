@@ -96,8 +96,16 @@ def save_jobs(jobs: list[dict], output_path: Path) -> None:
 
 
 def main() -> None:
+    # TEAM NOTE: this writes to its OWN file (greenhouse_jobs.json),
+    # matching ashby.py and workday.py's pattern — NOT to
+    # data/jobs.json, which is the combined output the real pipeline
+    # (src/main.py) produces. Running this file directly is safe for
+    # testing/debugging the Greenhouse scraper alone; it will never
+    # overwrite the real combined results. To run the actual pipeline
+    # (all platforms + Gemini classification + US filtering), use:
+    #   python3 src/main.py
     config_path = Path("config/companies.json")
-    output_path = Path("data/jobs.json")
+    output_path = Path("data/greenhouse_jobs.json")
 
     companies = load_companies(config_path)
     all_internship_jobs: list[dict] = []

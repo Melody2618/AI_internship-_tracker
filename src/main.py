@@ -35,6 +35,38 @@ SENIOR_TITLE_MARKERS = (
     "executive",
 )
 
+# Catches roles that ARE genuinely internships/co-ops but are only open
+# to graduate students (MS/PhD) — these correctly match our internship
+# keywords (they often literally say "Intern" or "Co-op" in the title),
+# so the internship filter alone doesn't catch them. This is a separate
+# check: "is this an internship" and "is this open to undergrads" are
+# two different questions.
+#
+# Example that slipped through before this filter existed:
+#   "Applied Research Intern, ... (PhD / Graduate Co-op)" at Block —
+#   contains "Intern" AND "Co-op", correctly flagged as an internship,
+#   but explicitly for students "returning to your MS or PhD program."
+#
+# TEAM NOTE: this currently DROPS graduate-only postings entirely,
+# on the assumption most SHPE/SHE members are undergrads. If the team
+# wants to keep these (e.g. tagged separately) instead of hiding them,
+# that's a quick change — worth deciding together rather than me
+# assuming the right call here.
+GRADUATE_ONLY_MARKERS = (
+    "phd",
+    "ph.d",
+    "graduate co-op",
+    "graduate intern",
+    "graduate program",
+    "graduate student",
+    "master's student",
+    "master's degree",
+    "returning to your program",
+    "returning to your ms",
+    "returning to your phd",
+    "doctoral",
+)
+
 
 def is_obviously_not_internship(job: dict) -> bool:
     """
@@ -46,6 +78,20 @@ def is_obviously_not_internship(job: dict) -> bool:
 
     title = str(job.get("title") or "").lower()
     return any(marker in title for marker in SENIOR_TITLE_MARKERS)
+
+
+def is_graduate_only(job: dict) -> bool:
+    """
+    Checks whether a posting is explicitly restricted to graduate
+    (MS/PhD) students, based on its title. This runs on title text
+    only — a posting whose graduate-only requirement is only
+    mentioned in the full description, not the title, will be missed.
+    If that turns out to matter a lot in practice, this would need to
+    check description text too, not just the title.
+    """
+
+    title = str(job.get("title") or "").lower()
+    return any(marker in title for marker in GRADUATE_ONLY_MARKERS)
 
 
 def load_companies(config_path: Path) -> list[dict]:
@@ -138,15 +184,23 @@ def classify_and_tag_jobs(jobs: list[dict]) -> list[dict]:
     within the free tier's rate limits (25 jobs per API call instead of
     one call per job).
 
-    Before anything reaches Gemini, obvious non-student roles (senior,
-    staff, director, VP, principal, lead, etc.) are filtered out for
-    free — this matters a lot as more companies are added, since most
-    of a large company's postings are regular full-time roles that
-    don't need AI judgment at all. Anything not obviously senior still
-    goes to Gemini, so oddly-worded internship titles aren't lost.
+    Before anything reaches Gemini, two free title-based checks run:
+      1. Obvious non-student roles (senior, staff, director, VP,
+         principal, lead, etc.) are dropped.
+      2. Postings explicitly restricted to graduate (MS/PhD) students
+         are dropped too — these often DO look like real internships
+         (title literally says "Intern" or "Co-op"), so this has to be
+         a separate check from "is this an internship", not folded
+         into it. Runs BEFORE the Gemini call, not after, so we're not
+         spending an API call classifying something we're about to
+         throw away anyway.
+
+    Anything not caught by either free check still goes to Gemini, so
+    oddly-worded internship titles aren't lost.
 
     A job is kept if EITHER the regex filter flagged it OR Gemini's
-    batch classification says it's an internship.
+    batch classification says it's an internship, AND it wasn't
+    caught by the graduate-only filter.
     """
 
     likely_senior_pattern = re.compile(
@@ -158,13 +212,18 @@ def classify_and_tag_jobs(jobs: list[dict]) -> list[dict]:
     )
 
     needs_gemini: list[dict] = []
-    auto_kept: list[dict] = []
-    auto_dropped_count = 0
+    auto_dropped_senior_count = 0
+    auto_dropped_graduate_count = 0
 
     for job in jobs:
         title = job.get("title") or ""
 
-        if job.get("regex_internship"):
+        if is_graduate_only(job):
+            # Checked first, regardless of regex_internship — a
+            # graduate-only posting is excluded even if it's a
+            # genuine internship by every other measure.
+            auto_dropped_graduate_count += 1
+        elif job.get("regex_internship"):
             # Already confirmed an internship by regex — skip the
             # senior-title filter and send straight to Gemini for
             # major tagging only.
@@ -172,14 +231,15 @@ def classify_and_tag_jobs(jobs: list[dict]) -> list[dict]:
         elif likely_senior_pattern.search(title):
             # Clearly a senior/full-time role — no point spending an
             # API call confirming what the title already makes obvious.
-            auto_dropped_count += 1
+            auto_dropped_senior_count += 1
         else:
             # Ambiguous — let Gemini make the call.
             needs_gemini.append(job)
 
     print(
-        f"Pre-filter: skipped {auto_dropped_count} obviously senior/"
-        f"full-time postings before sending the rest to Gemini"
+        f"Pre-filter: skipped {auto_dropped_senior_count} obviously "
+        f"senior/full-time postings and {auto_dropped_graduate_count} "
+        f"graduate-only postings before sending the rest to Gemini"
     )
 
     results = classify_jobs_batch(needs_gemini)
@@ -187,7 +247,9 @@ def classify_and_tag_jobs(jobs: list[dict]) -> list[dict]:
     kept_jobs: list[dict] = []
 
     for job, result in zip(needs_gemini, results):
-        if job.get("regex_internship") or result["is_internship"]:
+        is_internship = job.get("regex_internship") or result["is_internship"]
+
+        if is_internship:
             job["majors"] = result["majors"] or ["General/Other"]
             kept_jobs.append(job)
 

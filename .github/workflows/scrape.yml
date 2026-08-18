@@ -35,6 +35,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/jobs.json 
+          git add docs/data/jobs.json git commit -m "Fix workflow: only commit files that exist on main"
           git diff --staged --quiet || git commit -m "Auto-update job postings [skip ci]"
           git push

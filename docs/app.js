@@ -30,7 +30,7 @@ const errorMessage = document.getElementById("error-message");
 
 async function loadJobs() {
     try {
-        const response = await fetch("../data/jobs.json");
+        const response = await fetch("data/jobs.json");
 
         if (!response.ok) {
             throw new Error(

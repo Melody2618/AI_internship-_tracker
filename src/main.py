@@ -13,7 +13,7 @@ from gemini_extract import classify_jobs_batch, keyword_fast_path_classify
 
 CONFIG_PATH = Path("config/companies.json")
 CLASSIFICATION_CACHE_PATH = Path("data/classification_cache.json")
-OUTPUT_PATH = Path("data/jobs.json")
+OUTPUT_PATH = Path("docs/data/jobs.json")
 WORKLOG_PATH = Path("data/worklog.md")
 
 

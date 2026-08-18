@@ -1,55 +1,4 @@
-3M
-A. O. Smith
-Abbott Laboratories
-AbbVie
-Accenture
-Adobe Inc.
-Advanced Micro Devices
-AES Corporation
-Aflac
-Agilent Technologies
-Akamai Technologies
-Albemarle Corporation
-Alexandria Real Estate Equities
-Allegion
-Alliant Energy
-Allstate
-Alphabet Inc. (Class A)
-Alphabet Inc. (Class C)
-Altria
-Amazon
-Amcor
-Ameren
-American Electric Power
-American Express
-American International Group
-American Tower
-American Water Works
-Ameriprise Financial
-Ametek
-Amgen
-Amphenol
-Analog Devices
-Aon plc
-APA Corporation
-Apollo Global Management
-Apple Inc.
-Aptiv
-Ares Management
-Arista Networks
-Assurant
-AT&T
-Atmos Energy
-Autodesk
-Automatic Data Processing
-AutoZone
-AvalonBay Communities
-Avery Dennison
-Baker Hughes
-Ball Corporation
-Bank of America
 Baxter International
-Becton Dickinson
 Berkshire Hathaway
 Best Buy
 Bio-Techne
@@ -57,9 +6,7 @@ Biogen
 BlackRock
 Blackstone Inc.
 BNY Mellon
-Boeing
 Booking Holdings
-Bristol Myers Squibb
 Broadcom
 Broadridge Financial Solutions
 Brown & Brown
@@ -75,7 +22,6 @@ Cardinal Health
 Carnival Corporation
 Carrier Global
 Casey's
-Caterpillar Inc.
 Cboe Global Markets
 CBRE Group
 CDW Corporation
@@ -112,7 +58,6 @@ Constellation Brands
 Constellation Energy
 Cooper Companies (The)
 Copart
-Corning Inc.
 Corpay
 Corteva
 Costco
@@ -120,13 +65,10 @@ CRH plc
 CrowdStrike
 Crown Castle
 CSX Corporation
-Cummins
 CVS Health
-Danaher Corporation
 Darden Restaurants
 DaVita
 Deckers Brands
-Deere & Company
 Dell Technologies
 Delta Air Lines
 Devon Energy
@@ -139,11 +81,8 @@ Dominion Energy
 Domino's
 DoorDash
 Dover Corporation
-Dow Inc.
 DTE Energy
 Duke Energy
-DuPont
-Eaton Corporation
 eBay Inc.
 EchoStar
 Ecolab
@@ -151,7 +90,6 @@ Edison International
 Edwards Lifesciences
 Elevance Health
 Emcor
-Emerson Electric
 Entergy
 EOG Resources
 EQT Corporation
@@ -190,7 +128,6 @@ Franklin Resources
 Freeport-McMoRan
 Garmin
 Gartner
-GE Aerospace
 GE HealthCare
 GE Vernova
 Generac
@@ -211,8 +148,6 @@ Hershey Company (The)
 Hewlett Packard Enterprise
 Hilton Worldwide
 Home Depot (The)
-Honeywell Aerospace
-Honeywell Technologies
 Hormel Foods
 Host Hotels & Resorts
 Howmet Aerospace
@@ -224,11 +159,9 @@ Huntington Ingalls Industries
 IBM
 IDEX Corporation
 Idexx Laboratories
-Illinois Tool Works
 Incyte
 Ingersoll Rand
 Insulet Corporation
-Intel
 Interactive Brokers
 Intercontinental Exchange
 International Flavors & Fragrances
@@ -257,7 +190,6 @@ KKR & Co.
 KLA Corporation
 Kraft Heinz
 Kroger
-L3Harris
 Labcorp
 Lam Research
 Las Vegas Sands
@@ -267,7 +199,6 @@ Lennox International
 Lilly (Eli)
 Linde plc
 Live Nation Entertainment
-Lockheed Martin
 Loews Corporation
 Lowe's
 Lululemon Athletica
@@ -277,21 +208,18 @@ M&T Bank
 Marathon Petroleum
 Marriott International
 Marsh McLennan
-Martin Marietta Materials
 Marvell Technology
 Masco
 Mastercard
 McCormick & Company
 McDonald's
 McKesson Corporation
-Medtronic
 Merck & Co.
 Meta Platforms
 MetLife
 Mettler Toledo
 MGM Resorts
 Microchip Technology
-Micron Technology
 Microsoft
 Mid-America Apartment Communities
 Moderna
@@ -315,10 +243,8 @@ NiSource
 Nordson Corporation
 Norfolk Southern
 Northern Trust
-Northrop Grumman
 Norwegian Cruise Line Holdings
 NRG Energy
-Nucor
 Nvidia
 NVR
 NXP Semiconductors
@@ -361,15 +287,12 @@ Quest Diagnostics
 Qnity Electronics
 Ralph Lauren Corporation
 Raymond James Financial
-RTX Corporation
 Realty Income
 Regency Centers
-Regeneron Pharmaceuticals
 Regions Financial Corporation
 Republic Services
 ResMed|
 Revvity
-Rockwell Automation
 Rollins
 Roper Technologies
 Ross Stores
@@ -395,7 +318,6 @@ Stanley Black & Decker
 Starbucks
 State Street Corporation
 Steris
-Stryker Corporation
 Supermicro
 Synchrony Financial
 Synopsys
@@ -409,7 +331,6 @@ TE Connectivity
 Teledyne Technologies
 Teradyne
 Tesla
-Texas Instruments
 Texas Pacific Land Corporation
 Textron
 Thermo Fisher Scientific
@@ -417,7 +338,6 @@ TJX Companies
 TKO Group Holdings
 Trade Desk (The)
 Tractor Supply
-Trane Technologies
 TransDigm Group
 Travelers Companies (The)
 Trimble Inc.
@@ -438,13 +358,11 @@ Ventas
 Veralto
 Verisk Analytics
 Verizon
-Vertex Pharmaceuticals
 Vertiv
 Viatris
 Vici Properties
 Visa Inc.
 Vistra Corp.
-Vulcan Materials Company
 W. R. Berkley Corporation
 W. W. Grainger
 Wabtec
@@ -452,11 +370,9 @@ Walmart
 Walt Disney Company (The)
 Warner Bros. Discovery
 Waste Management
-Waters Corporation
 WEC Energy Group
 Wells Fargo
 Welltower
-West Pharmaceutical Services
 Western Digital
 Weyerhaeuser
 Williams-Sonoma
@@ -468,280 +384,67 @@ Xcel Energy
 Xylem Inc.
 Yum! Brands
 Zebra Technologies
-Zimmer Biomet
 Zoetis
-MerryMint
-Snapdocs
-Shopagram
-Edyn
-Style Lend
-Guesty
-Terravion
-TrueVault
-Unicornly
-Wit.ai
-Zesty
-Zidisha
-Zinc
-ZowPow
-Gobble
-AirPair
-GBatteries
-Unbabel
-MixerBox
-OpenCurriculum
-Dyspatch
-Whirlscape
-Avametric
-Framed Data
-Immunity Project
-Vidpresso
-Aptible
-Zip Phone
-Backpack
-Bannerman
-Parenthoods
-SpringWit
-Bikanta
-Billforward
-Bitaccess
-Carlypso
-Craft Coffee
-PersistIQ
-Doblet
-Owners Circle
-Fixed
-Flaviar
-Flytenow
-Hyperpad
-TAXA Biotechnologies
-GovPredict
-Blockspring
-Greentoe
-Hublo
-VizeraLabs
-Impraise
-Protocol Labs
-Kash
-Lawn Love
-ListRunner
-Replenish
-MetricWire
-MTailor
-Naytev
-Neptune.io
-Alchemy
-Nightingale
-Permutive
-PicnicAI
-In Your Corner
-Product Hunt
-Rigetti Computing
-Roost
-SFOX
-Apto Payments
-ShipBob
-Shout
-SalesSift
-SpotAngels
-HauteDay
-Tenjin
-Paid
-Think Gaming
-Payable
-Tinker
-Tule
-Roomstorm
-Whirl
-Women.com
-Zoomer
-Beep
-Front
-Cognito
-Helion Energy
-Bayes Impact
-Zenamins
-One Codex
-Ravti
-Sliced Investing
-Unwind Me
-Notable Labs
-3dot
-Final
-Pomello
-Tech in Asia
-20n
-Mezmo
-Smyte
-Magic
-Bizzy
-Bluesmart
-Booktrope
-Bright
-Numerion Labs
-Cribspot
-CyberFend
-Democracy Earth
-The Human Utility
-Zeitview
-Bankjoy
-GiveMeTap
-SparkGift
-GroupAhead
-GrubMarket
-WorkLife
-HigherMe
-Instavest
-Kickpay
-Labdoor
-Platzi
-Omniref
-Open Listings
-Pachyderm
-Pakible
-Paperspace
-BuildScience
-ReadMe
-ReSchedule Med
-Shift Messenger
-Shift Labs
-Sails Co.
-Smarking
-TeamNote
-Makrwatch
-Mobydish
-Remix
-Rare Door
-Underground Cellar
-Vest
-Resolve
-YesGraph
-Yhat
-Bonfire
-WayUp
-Cleanly
-Dealyze
-Lucira Health
-Quantierra
-eBrandvalue
-EquipmentShare
-Giveffect
-Glassjar
-NexTravel
-Level Frames
-Meadow
-Moltin
-Nextop
-Outbound
-Dabble
-Pigeonly
-Popular Pays
-Pretty Instant
-Priime
-Razorpay
-Rescue Forensics
-SigOpt
-Spoil
-Standard Cyborg
-Tab
-Zenflow
-Transcriptic
-Valor Water Analytics
-Vanhawks
-VetPronto
-Wink Health
-X-Zell
-Bagaveev Corporation
-Lully
-Chariot
-Tara AI
-Replika
-Automate Ads
-NimbleRx
-Nomiku
-ThinAir
-Lumi
-Mashgin
-Shasqi
-Triplebyte
-Lugg
-Teleport
-Serica
-teaBOT
-Leaders In Tech
-Ironclad
-Jopwell
-L.
-New Story
-OpenInvest
-Gemnote
-Assembly
-PartnerStack
-Roomblocker
-ROSS Intelligence
-Scope AR
-Second Measure
-SnapMagic
-SourceDNA
-Vernox
-Hickory
-Heroic Labs
-Airmada
-Call9
-CareLedger
-Branch8
-Confident LIMS
-Convox
-Cymmetria
-Shotput
-Eden
-Foxpass
-SunFarmer
-Stitch Health
-Reach
-Tesorio
-Verge Genomics
-Afrostream
-Apollo Health
-Willing
-Bistrobot
-Bluecrew
-Bodyport
-Appcanary
-Chaldal
-Cloudstitch
-Sphere Secure Workspace
-Drip Capital
-Circle Medical
-zPREDICTA
-jEugene
-Leada
-Locent
-Markhor
-Zeplin
-Microhealth
-Ohm
-Fountain
-Oolu
-Paribus
-PickTrace
-Prayas Analytics
-Interviewed
-Plate IQ
-RedCarpetUp
-Reduced Energy Microsystems
-Scentbird
-Seva Coffee
-Shape (ShapeScale)
-Shred Video
-Xfers
-Traversal Networks
-80,000 Hours
-Font Awesome
-Go1
-Saida
-HER
-Maderight
-Blitz Esports
-The Ticket Fairy
-Wheelys Café
+A. O. Smith
+Abbott Laboratories
+AbbVie
+Accenture
+Adobe Inc.
+Advanced Micro Devices
+AES Corporation
+Aflac
+Akamai Technologies
+Albemarle Corporation
+Alexandria Real Estate Equities
+Allegion
+Alliant Energy
+Allstate
+Alphabet Inc. (Class A)
+Alphabet Inc. (Class C)
+Altria
+Amazon
+Amcor
+Ameren
+American Electric Power
+American Express
+American International Group
+American Tower
+American Water Works
+Ameriprise Financial
+Ametek
+Amgen
+Amphenol
+Aon plc
+APA Corporation
+Apollo Global Management
+Apple Inc.
+Aptiv
+Ares Management
+Arista Networks
+Assurant
+AT&T
+Atmos Energy
+Autodesk
+Automatic Data Processing
+AutoZone
+AvalonBay Communities
+Avery Dennison
+Ball Corporation
+Bank of America
+Deere & Company
+L3Harris
+Cummins
+Honeywell Aerospace
+Honeywell Technologies
+Emerson Electric
+Texas Instruments
+Nucor
+Corning Inc.
+Eaton Corporation
+Illinois Tool Works
+Zimmer Biomet
+West Pharmaceutical Services
+Waters Corporation
+Vulcan Materials Company
+Martin Marietta Materials
+Lockheed Martin

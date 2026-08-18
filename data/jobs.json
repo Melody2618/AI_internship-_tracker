@@ -1,5 +1,35 @@
 [
   {
+    "id": "external-lever:acds:e468d15b-69c3-4534-8072-7ff3f85fbf83",
+    "title": "AI Operations Intern",
+    "company": "ACDS",
+    "location": "Lowell, AR",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jobs.lever.co/acds/e468d15b-69c3-4534-8072-7ff3f85fbf83",
+    "apply_url": "https://jobs.lever.co/acds/e468d15b-69c3-4534-8072-7ff3f85fbf83",
+    "ats": "lever",
+    "posted_at": "2026-08-07T17:40:42Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-lever:acds:5a872bb7-8d9f-46e3-9e72-f5c69445e787",
+    "title": "Align AI Software Development Intern",
+    "company": "ACDS",
+    "location": "Bentonville, AR",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787",
+    "apply_url": "https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787",
+    "ats": "lever",
+    "posted_at": "2026-08-17T15:18:11Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
     "id": "workday-agilent-4038526",
     "company": "Agilent",
     "title": "Electrical Engineering Intern",
@@ -10,48 +40,221 @@
     "apply_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526",
     "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526",
     "majors": [
-      "Electrical and Computer Engineering"
+      "Electrical Engineering"
     ]
   },
   {
-    "id": "workday-agilent-4038181",
-    "company": "Agilent",
-    "title": "Intern – Predictive Sales Prospecting",
-    "location": "US-DE-Wilmington",
-    "ats": "workday",
-    "posted_at": "Posted 30+ Days Ago",
-    "employment_type": null,
-    "apply_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038181",
-    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038181",
+    "id": "external-greenhouse:akunacapital:8018856",
+    "title": "Platform Engineer Intern, Summer 2027",
+    "company": "Akuna Capital",
+    "location": "Chicago, IL",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856",
+    "apply_url": "https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-13T14:21:52-04:00",
     "majors": [
-      "Industrial Engineering",
       "General/Other"
     ]
   },
   {
-    "id": "workday-agilent-4038869",
-    "company": "Agilent",
-    "title": "Segment Marketing Communications & Insights Intern",
-    "location": "US-DE-Wilmington",
-    "ats": "workday",
-    "posted_at": "Posted 15 Days Ago",
-    "employment_type": null,
-    "apply_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Segment-Marketing-Communications---Insights-Intern_4038869",
-    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Segment-Marketing-Communications---Insights-Intern_4038869",
+    "id": "external-greenhouse:akunacapital:8036614",
+    "title": "Quantitative Research Intern, Summer 2027",
+    "company": "Akuna Capital",
+    "location": "Chicago, IL",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614",
+    "apply_url": "https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-13T14:28:45-04:00",
     "majors": [
-      "Industrial Engineering"
+      "General/Other"
     ]
   },
   {
-    "id": "workday-agilent-4038651",
-    "company": "Agilent",
-    "title": "Video Production Intern",
-    "location": "US-DE-Wilmington",
-    "ats": "workday",
-    "posted_at": "Posted 3 Days Ago",
-    "employment_type": null,
-    "apply_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Video-Production-Intern_4038651",
-    "source_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Video-Production-Intern_4038651",
+    "id": "external-greenhouse:akunacapital:8018886",
+    "title": "Software Engineer Intern - C# .NET Desktop, Summer 2027",
+    "company": "Akuna Capital",
+    "location": "Chicago, IL",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://www.akunacapital.com/careers/job/8018886/?gh_jid=8018886",
+    "apply_url": "https://www.akunacapital.com/careers/job/8018886/?gh_jid=8018886",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-13T14:21:28-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:akunacapital:8018847",
+    "title": "Software Engineer Intern - C++, Summer 2027",
+    "company": "Akuna Capital",
+    "location": "Chicago, IL",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847",
+    "apply_url": "https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-13T14:41:20-04:00",
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:akunacapital:8018893",
+    "title": "Software Engineer Intern - Full Stack Web, Summer 2027",
+    "company": "Akuna Capital",
+    "location": "Chicago, IL",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://www.akunacapital.com/careers/job/8018893/?gh_jid=8018893",
+    "apply_url": "https://www.akunacapital.com/careers/job/8018893/?gh_jid=8018893",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-13T14:21:34-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:akunacapital:8018853",
+    "title": "Software Engineer Intern - Python, Summer 2027",
+    "company": "Akuna Capital",
+    "location": "Chicago, IL",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853",
+    "apply_url": "https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-13T14:21:39-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-amazon:amazon:3132414",
+    "title": "Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics",
+    "company": "Amazon",
+    "location": "North Reading, Massachusetts, USA",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics",
+    "apply_url": "https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics",
+    "ats": "amazon",
+    "posted_at": "2025-11-25T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-amazon:amazon:3104589",
+    "title": "Robotics - Applied Scientist II Intern / Co-op - 2026 (Robotics, Manipulation, Perception, Motion Planning, Autonomous Mobile Robots, Computer Vision, Machine Learning, Controls, and more)",
+    "company": "Amazon",
+    "location": "North Reading, Massachusetts, USA",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://www.amazon.jobs/en/jobs/3104589/robotics-applied-scientist-ii-intern-co-op-2026-robotics-manipulation-perception-motion-planning-autonomous-mobile-robots-computer-vision-machine-learning-controls-and-more",
+    "apply_url": "https://www.amazon.jobs/en/jobs/3104589/robotics-applied-scientist-ii-intern-co-op-2026-robotics-manipulation-perception-motion-planning-autonomous-mobile-robots-computer-vision-machine-learning-controls-and-more",
+    "ats": "amazon",
+    "posted_at": "2025-10-08T00:00:00Z",
+    "majors": [
+      "Computer Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-amazon:amazon:3136266",
+    "title": "Robotics - Software Development Engineer Intern/Co-op - 2026",
+    "company": "Amazon",
+    "location": "Westboro, Massachusetts, USA",
+    "department": "Hardware",
+    "team": "",
+    "posting_url": "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026",
+    "apply_url": "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026",
+    "ats": "amazon",
+    "posted_at": "2025-12-03T00:00:00Z",
+    "majors": [
+      "Computer Engineering",
+      "Mechanical Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-amazon:amazon:10412530",
+    "title": "Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)",
+    "company": "Amazon",
+    "location": "Seattle, Washington, USA",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
+    "apply_url": "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
+    "ats": "amazon",
+    "posted_at": "2026-05-06T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-amazon:amazon:3116030",
+    "title": "Software Development Engineer Internship - Fall 2026 (US)",
+    "company": "Amazon",
+    "location": "Seattle, Washington, USA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://www.amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us",
+    "apply_url": "https://www.amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us",
+    "ats": "amazon",
+    "posted_at": "2025-10-27T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:egug.fa.us2.oraclecloud.com:26011987",
+    "title": "Campus Graduate Masters Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Charlotte, NC",
+    "company": "American Express",
+    "location": "Charlotte, NC, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987",
+    "apply_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987",
+    "ats": "oracle",
+    "posted_at": "2026-08-17",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:egug.fa.us2.oraclecloud.com:26011082",
+    "title": "Campus Graduate Masters Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- New York, NY",
+    "company": "American Express",
+    "location": "New York, NY, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082",
+    "apply_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082",
+    "ats": "oracle",
+    "posted_at": "2026-08-17",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:andurilindustries:5148079007",
+    "title": "2027 Software Engineer Intern",
+    "company": "Anduril",
+    "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
+    "apply_url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
+    "ats": "greenhouse",
+    "posted_at": "2026-06-10T19:33:06-04:00",
     "majors": [
       "General/Other"
     ]
@@ -65,7 +268,6 @@
     "updated_at": "2026-08-11T15:52:47-04:00",
     "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5023394008",
     "majors": [
-      "Electrical and Computer Engineering",
       "General/Other"
     ]
   },
@@ -78,7 +280,6 @@
     "updated_at": "2026-08-11T16:18:40-04:00",
     "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008",
     "majors": [
-      "Electrical and Computer Engineering",
       "General/Other"
     ]
   },
@@ -91,121 +292,2861 @@
     "updated_at": "2026-08-11T16:17:47-04:00",
     "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183051008",
     "majors": [
-      "Electrical and Computer Engineering"
+      "General/Other"
     ]
   },
   {
-    "id": "greenhouse-anthropic-5183053008",
-    "company": "Anthropic",
-    "title": "Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",
-    "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+    "id": "workday-amat-R2611503",
+    "company": "Applied Materials",
+    "title": "2026 Fall Materials Engineering Co-op (TCAD Modeling) - Doctorate (Gloucester, MA)",
+    "location": "Gloucester,MA",
+    "ats": "workday",
+    "posted_at": "Posted 5 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/GloucesterMA/XMLNAME-2026-Fall-Materials-Engineering-Co-op---Doctorate--Gloucester--MA-_R2611503",
+    "source_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/GloucesterMA/XMLNAME-2026-Fall-Materials-Engineering-Co-op---Doctorate--Gloucester--MA-_R2611503",
+    "majors": [
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-amat-R2618309-1",
+    "company": "Applied Materials",
+    "title": "2026 Fall Process Integration Engineer Co-op (Cambridge, MA)",
+    "location": "Hudson,MA",
+    "ats": "workday",
+    "posted_at": "Posted 30+ Days Ago",
+    "employment_type": null,
+    "apply_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/HudsonMA/XMLNAME-2026-Fall-Process-Integration-Engineer-Co-op--Cambridge--MA-_R2618309-1",
+    "source_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/HudsonMA/XMLNAME-2026-Fall-Process-Integration-Engineer-Co-op--Cambridge--MA-_R2618309-1",
+    "majors": [
+      "Electrical Engineering",
+      "Materials Science and Engineering",
+      "Chemical Engineering"
+    ]
+  },
+  {
+    "id": "workday-amat-R2623409",
+    "company": "Applied Materials",
+    "title": "2026 Process Engineer Co-op - Adv Degree (Gloucester, MA)",
+    "location": "Gloucester,MA",
+    "ats": "workday",
+    "posted_at": "Posted 24 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/GloucesterMA/XMLNAME-2026-Process-Engineer-Co-op---Adv-Degree--Gloucester--MA-_R2623409",
+    "source_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/GloucesterMA/XMLNAME-2026-Process-Engineer-Co-op---Adv-Degree--Gloucester--MA-_R2623409",
+    "majors": [
+      "Materials Science and Engineering",
+      "Chemical Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "workday-amat-R2616095",
+    "company": "Applied Materials",
+    "title": "2026 Summer Intern - Physics & AI modeling Engineering",
+    "location": "Santa Clara,CA",
+    "ats": "workday",
+    "posted_at": "Posted 30+ Days Ago",
+    "employment_type": null,
+    "apply_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/XMLNAME-2026-Summer-Intern---Physics---AI-modeling-Engineering_R2616095",
+    "source_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/XMLNAME-2026-Summer-Intern---Physics---AI-modeling-Engineering_R2616095",
+    "majors": [
+      "Applied Sciences in Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "workday-amat-R2519236",
+    "company": "Applied Materials",
+    "title": "2026 Summer Mechanical Engineer Intern - Masters (Santa Clara, CA)",
+    "location": "Santa Clara,CA",
+    "ats": "workday",
+    "posted_at": "Posted 30+ Days Ago",
+    "employment_type": null,
+    "apply_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/XMLNAME-2026-Summer-Mechanical-Engineer-Intern---Masters--Santa-Clara--CA-_R2519236",
+    "source_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/XMLNAME-2026-Summer-Mechanical-Engineer-Intern---Masters--Santa-Clara--CA-_R2519236",
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "workday-amat-R2626230",
+    "company": "Applied Materials",
+    "title": "2026-2027 Process Engineer Co-op - Doctorate (Gloucester, MA)",
+    "location": "Gloucester,MA",
+    "ats": "workday",
+    "posted_at": "Posted 3 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/GloucesterMA/XMLNAME-2026-2027-Process-Engineer-Co-op---Doctorate--Gloucester--MA-_R2626230",
+    "source_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/GloucesterMA/XMLNAME-2026-2027-Process-Engineer-Co-op---Doctorate--Gloucester--MA-_R2626230",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-amat-R2625243",
+    "company": "Applied Materials",
+    "title": "Chemist  (Co-Op - Santa Clara)",
+    "location": "Santa Clara,CA",
+    "ats": "workday",
+    "posted_at": "Posted 11 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/Chemist---Co-Op---Santa-Clara-_R2625243",
+    "source_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/Chemist---Co-Op---Santa-Clara-_R2625243",
+    "majors": [
+      "Chemical Engineering",
+      "Applied Sciences in Engineering"
+    ]
+  },
+  {
+    "id": "external-greenhouse:arevonenergyimpltest:5211455007",
+    "title": "Data Science Intern, Interconnection & Transmission",
+    "company": "Arevon",
+    "location": "Scottsdale, AZ",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/arevonenergyimpltest/jobs/5211455007",
+    "apply_url": "https://job-boards.greenhouse.io/arevonenergyimpltest/jobs/5211455007",
     "ats": "greenhouse",
-    "updated_at": "2026-08-11T15:53:30-04:00",
-    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008",
+    "posted_at": "2026-08-14T17:37:17-04:00",
+    "majors": [
+      "Energy Systems Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:astranis:4699071006",
+    "title": "Software Engineer Intern - Enterprise Systems (Fall 2026)",
+    "company": "Astranis",
+    "location": "San Francisco, CA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/astranis/jobs/4699071006",
+    "apply_url": "https://job-boards.greenhouse.io/astranis/jobs/4699071006",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-23T18:05:51-04:00",
     "majors": [
       "General/Other"
     ]
   },
   {
-    "id": "greenhouse-archer-4213164002",
-    "company": "Archer Daniels Midland",
-    "title": "DVM Student Externship/Preceptorship Program — Archer Veterinary Clinic (Sees Exotics)",
-    "location": "Lemont, IL",
+    "id": "external-greenhouse:astranis:4681183006",
+    "title": "Software Engineer- Backend Intern (Fall 2026)",
+    "company": "Astranis",
+    "location": "San Francisco, CA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/astranis/jobs/4681183006",
+    "apply_url": "https://job-boards.greenhouse.io/astranis/jobs/4681183006",
     "ats": "greenhouse",
-    "updated_at": "2026-08-13T14:27:24-04:00",
-    "apply_url": "https://boards.greenhouse.io/archer/jobs/4213164002?gh_jid=4213164002",
-    "majors": [
-      "Biomedical Engineering"
-    ]
-  },
-  {
-    "id": "greenhouse-ark-4914958002",
-    "company": "Ark",
-    "title": "DVM Student Externship/Preceptorship Program — Ark Veterinary Hospital (Urgent Care)",
-    "location": "Henrietta, New York, United States",
-    "ats": "greenhouse",
-    "updated_at": "2026-08-13T14:27:38-04:00",
-    "apply_url": "https://boards.greenhouse.io/ark/jobs/4914958002?gh_jid=4914958002",
+    "posted_at": "2026-05-13T16:07:31-04:00",
     "majors": [
       "General/Other"
     ]
   },
   {
-    "id": "greenhouse-block-5108007008",
-    "company": "Block",
-    "title": "Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op)",
-    "location": "Bay Area, CA, United States of America",
+    "id": "external-greenhouse:axontalentcommunity:7800617003",
+    "title": "RenderATL 2027 US Software Engineering Internship",
+    "company": "Axon",
+    "location": "Seattle, Washington, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7800617003",
+    "apply_url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7800617003",
     "ats": "greenhouse",
-    "updated_at": "2026-08-12T14:32:38-04:00",
-    "apply_url": "http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008",
+    "posted_at": "2026-07-20T21:57:41-04:00",
     "majors": [
-      "Electrical and Computer Engineering"
+      "General/Other"
     ]
   },
   {
-    "id": "greenhouse-block-5108009008",
-    "company": "Block",
-    "title": "Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op)",
-    "location": "Toronto, Ontario , Canada",
+    "id": "external-greenhouse:axontalentcommunity:7800628003",
+    "title": "US Firmware Engineering Internship",
+    "company": "Axon",
+    "location": "Seattle, Washington, United States",
+    "department": "Hardware",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837246003",
+    "apply_url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837246003",
     "ats": "greenhouse",
-    "updated_at": "2026-08-12T14:32:38-04:00",
-    "apply_url": "http://block.xyz/careers/jobs/5108009008?gh_jid=5108009008",
+    "posted_at": "2026-07-20T21:57:45-04:00",
     "majors": [
-      "Electrical and Computer Engineering"
+      "Computer Engineering"
     ]
   },
   {
-    "id": "ashby-circuithub-3ed17f67-7055-444b-af21-5b5088f83902",
-    "company": "CircuitHub",
-    "title": "High-Paying Part-Time Roles for UMass Engineering Students",
-    "location": "South Deerfield, Massachusetts, USA",
-    "team": "Production",
-    "department": "Production",
-    "employment_type": "FullTime",
+    "id": "external-ashby:beaconsoftware:2452d342-a069-4eda-adbe-9df296808ca1",
+    "title": "Software Engineering Intern",
+    "company": "Beacon Software",
+    "location": "San Francisco, CA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1",
+    "apply_url": "https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1",
     "ats": "ashby",
-    "posted_at": "2025-08-29T14:59:22.714+00:00",
-    "apply_url": "https://jobs.ashbyhq.com/circuithub/3ed17f67-7055-444b-af21-5b5088f83902/application",
-    "source_url": "https://jobs.ashbyhq.com/circuithub/3ed17f67-7055-444b-af21-5b5088f83902",
+    "posted_at": "2026-06-02T00:08:18.727+00:00",
     "majors": [
       "General/Other"
     ]
   },
   {
-    "id": "greenhouse-fox-5040378002",
-    "company": "Fox Corporation (Class B)",
-    "title": "DVM Student Externship/Preceptorship Program - Fox Creek Veterinary Hospital",
-    "location": "Wildwood, MO",
-    "ats": "greenhouse",
-    "updated_at": "2026-08-13T14:27:28-04:00",
-    "apply_url": "https://job-boards.greenhouse.io/fox/jobs/5040378002",
+    "id": "external-workday:bah:/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
+    "title": "AI RAN Telecommunications Engineer Intern",
+    "company": "Booz Allen",
+    "location": "McLean, VA",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
+    "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
+    "ats": "workday",
+    "posted_at": "2026-08-11T00:00:00Z",
     "majors": [
-      "Biomedical Engineering"
+      "Electrical Engineering",
+      "Computer Engineering"
     ]
   },
   {
-    "id": "greenhouse-gusto-7833882",
-    "company": "Gusto",
-    "title": "Summer Opportunities - Retirement Sales AE",
-    "location": "Denver, CO",
-    "ats": "greenhouse",
-    "updated_at": "2026-08-10T12:10:06-04:00",
-    "apply_url": "https://job-boards.greenhouse.io/gusto/jobs/7833882",
+    "id": "external-smartrecruiters:BoschGroup:744000140317669",
+    "title": "ADAS Software Engineering Intern",
+    "company": "Bosch",
+    "location": "Plymouth, MI, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/BoschGroup/744000140317669",
+    "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000140317669",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-07-28T18:08:13.470Z",
+    "majors": [
+      "Computer Engineering"
+    ]
+  },
+  {
+    "id": "external-smartrecruiters:BoschGroup:744000141302469",
+    "title": "AI and SW Development Engineering Intern",
+    "company": "Bosch",
+    "location": "Plymouth, MI, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/BoschGroup/744000141302469",
+    "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000141302469",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-08-03T15:51:53.799Z",
     "majors": [
       "General/Other"
     ]
   },
   {
-    "id": "ashby-notion-6ccbc30c-2de0-4395-af14-3641cd15961b",
-    "company": "Notion",
-    "title": "Governance, Risk, and Compliance Intern (Fall 2026)",
-    "location": "San Francisco, California",
-    "team": "Early Career",
-    "department": "Early Career",
-    "employment_type": "Intern",
+    "id": "external-smartrecruiters:BoschGroup:744000140462550",
+    "title": "Autonomous Driving – Internship in Machine Learning",
+    "company": "Bosch",
+    "location": "Sunnyvale, CA, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/BoschGroup/744000140462550",
+    "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000140462550",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-07-29T13:15:12.980Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-smartrecruiters:BoschGroup:744000140089589",
+    "title": "Powertrain Controls Software Engineering Intern (6-Months)",
+    "company": "Bosch",
+    "location": "Farmington Hills, MI, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/BoschGroup/744000140089589",
+    "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000140089589",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-07-27T20:32:15.437Z",
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "external-smartrecruiters:BoschGroup:744000142898574",
+    "title": "Powertrain Controls Software Engineering Intern (6-Months, Full-Time)",
+    "company": "Bosch",
+    "location": "Farmington Hills, MI, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/BoschGroup/744000142898574",
+    "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000142898574",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-08-11T14:49:56.410Z",
+    "majors": [
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Computer Engineering"
+    ]
+  },
+  {
+    "id": "jobright-bytedancesitereliabilityengineerinterndatainfra2027summer",
+    "title": "Site Reliability Engineer Intern (Data Infra) - 2027 Summer",
+    "company": "ByteDance",
+    "location": "San Jose, CA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a82c95e3eeac101cfa9c034",
+    "apply_url": "https://jobright.ai/jobs/info/6a82c95e3eeac101cfa9c034",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:canadiansolar:/job/Walnut-Creek-CA/Intern--IT-Infrastructure-Support_10001383",
+    "title": "Intern, IT Infrastructure Support",
+    "company": "Canadian Solar",
+    "location": "Walnut Creek, CA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://canadiansolar.wd5.myworkdayjobs.com/CanadianSolar/job/Walnut-Creek-CA/Intern--IT-Infrastructure-Support_10001383",
+    "apply_url": "https://canadiansolar.wd5.myworkdayjobs.com/CanadianSolar/job/Walnut-Creek-CA/Intern--IT-Infrastructure-Support_10001383",
+    "ats": "workday",
+    "posted_at": "2026-08-10T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:cccis:/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841",
+    "title": "R&D & Data Science Internship Fall 2026",
+    "company": "CCC Intelligent Solutions",
+    "location": "Chicago (Green St), IL",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841",
+    "apply_url": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841",
+    "ats": "workday",
+    "posted_at": "2026-08-11T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:ctccampusboard:4708188005",
+    "title": "Quant Trading Internship - Summer 2027",
+    "company": "Chicago Trading Company",
+    "location": "Chicago, Illinois, United States",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005",
+    "apply_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-20T13:38:31-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:ctccampusboard:4708230005",
+    "title": "Software Engineering Internship - Summer 2027",
+    "company": "Chicago Trading Company",
+    "location": "Chicago, Illinois, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005",
+    "apply_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-20T11:59:16-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-connecticutinnovationsfallmechanicalengineeringintern",
+    "title": "Fall Mechanical Engineering Intern",
+    "company": "Connecticut Innovations",
+    "location": "Milford, CT, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a5e900a27bf767ea68f7a7f",
+    "apply_url": "https://jobright.ai/jobs/info/6a5e900a27bf767ea68f7a7f",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "external-workday:copart:/job/Dallas-TX---Headquarters/Data-Analytics-Engineer-Intern_JR110584",
+    "title": "Data Analytics Engineer Intern",
+    "company": "Copart",
+    "location": "Dallas, TX - Headquarters",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data-Analytics-Engineer-Intern_JR110584",
+    "apply_url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data-Analytics-Engineer-Intern_JR110584",
+    "ats": "workday",
+    "posted_at": "2026-08-11T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:copart:/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636",
+    "title": "Database Engineering Intern",
+    "company": "Copart",
+    "location": "Dallas, TX - Headquarters",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636",
+    "apply_url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636",
+    "ats": "workday",
+    "posted_at": "2026-08-07T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510",
+    "title": "Software Engineering Intern",
+    "company": "Copart",
+    "location": "Dallas, TX - Headquarters",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510",
+    "apply_url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510",
+    "ats": "workday",
+    "posted_at": "2026-08-07T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:coreandmain:/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
+    "title": "Intern - AI/ML Data Engineering  -  Onsite - St. Louis",
+    "company": "Core & Main",
+    "location": "Saint Louis, MO 63146",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://coreandmain.wd1.myworkdayjobs.com/coreandmain/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
+    "apply_url": "https://coreandmain.wd1.myworkdayjobs.com/coreandmain/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
+    "ats": "workday",
+    "posted_at": "2026-07-24T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:crowe:/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782",
+    "title": "AI Engineering Intern",
+    "company": "Crowe",
+    "location": "Chicago IL USA",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782",
+    "apply_url": "https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782",
+    "ats": "workday",
+    "posted_at": "2026-08-13T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:crowe:/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041",
+    "title": "Data Analytics Developer Intern",
+    "company": "Crowe",
+    "location": "Chicago IL USA",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041",
+    "apply_url": "https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041",
+    "ats": "workday",
+    "posted_at": "2026-08-14T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "greenhouse-datadog-8108241",
+    "company": "Datadog",
+    "title": "Product Management Intern",
+    "location": "New York, New York, USA",
+    "ats": "greenhouse",
+    "updated_at": "2026-08-17T10:41:16-04:00",
+    "apply_url": "https://careers.datadoghq.com/detail/8108241/?gh_jid=8108241",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "greenhouse-datadog-8052095",
+    "company": "Datadog",
+    "title": "Software Engineering Intern (Winter)",
+    "location": "Boston, Massachusetts, USA; New York, New York, USA",
+    "ats": "greenhouse",
+    "updated_at": "2026-08-17T10:51:43-04:00",
+    "apply_url": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-dccmtraveldemandmodelinginterntrafficplanning",
+    "title": "Travel Demand Modeling Intern - Traffic & Planning",
+    "company": "DCCM",
+    "location": "Austin, TX, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a57827021f64463ad3597f2",
+    "apply_url": "https://jobright.ai/jobs/info/6a57827021f64463ad3597f2",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering",
+      "Industrial Engineering"
+    ]
+  },
+  {
+    "id": "external-ashby:deepgram:dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
+    "title": "Software Engineering- Internship (Fall 2026/Summer 2027)",
+    "company": "Deepgram",
+    "location": "USA | Remote",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
+    "apply_url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
     "ats": "ashby",
-    "posted_at": "2026-07-15T23:18:57.929+00:00",
-    "apply_url": "https://jobs.ashbyhq.com/notion/6ccbc30c-2de0-4395-af14-3641cd15961b/application",
-    "source_url": "https://jobs.ashbyhq.com/notion/6ccbc30c-2de0-4395-af14-3641cd15961b",
+    "posted_at": "2026-07-17T16:00:27.132+00:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-lever:diversified-automation:827a092d-b8a3-4ca9-a84a-e8c236d1aabc",
+    "title": "Software Engineering Co-op",
+    "company": "Diversified Automation",
+    "location": "Louisville, KY",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.lever.co/diversified-automation/827a092d-b8a3-4ca9-a84a-e8c236d1aabc",
+    "apply_url": "https://jobs.lever.co/diversified-automation/827a092d-b8a3-4ca9-a84a-e8c236d1aabc",
+    "ats": "lever",
+    "posted_at": "2026-08-04T14:16:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "workday-dow-R2066388",
+    "company": "Dow",
+    "title": "Local College Co-op: Analytical Operations",
+    "location": "Kendallville (IN, USA)",
+    "ats": "workday",
+    "posted_at": "Posted 14 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://dow.wd1.myworkdayjobs.com/en-US/ExternalCareers/job/Kendallville-IN-USA/Local-College-Co-op--Analytical-Operations_R2066388",
+    "source_url": "https://dow.wd1.myworkdayjobs.com/en-US/ExternalCareers/job/Kendallville-IN-USA/Local-College-Co-op--Analytical-Operations_R2066388",
+    "majors": [
+      "Chemical Engineering",
+      "Applied Sciences in Engineering"
+    ]
+  },
+  {
+    "id": "workday-dow-R2067063",
+    "company": "Dow",
+    "title": "Local College Co-op: Auburn Operations",
+    "location": "Auburn (MI, USA)",
+    "ats": "workday",
+    "posted_at": "Posted 14 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://dow.wd1.myworkdayjobs.com/en-US/ExternalCareers/job/Auburn-MI-USA/Local-College-Co-op--Auburn-Operations_R2067063",
+    "source_url": "https://dow.wd1.myworkdayjobs.com/en-US/ExternalCareers/job/Auburn-MI-USA/Local-College-Co-op--Auburn-Operations_R2067063",
+    "majors": [
+      "Industrial Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "external-workday:draper:/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718",
+    "title": "Embedded Quality & Fielded Systems Intern",
+    "company": "Draper",
+    "location": "Cambridge, MA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718",
+    "apply_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718",
+    "ats": "workday",
+    "posted_at": "2026-08-05T00:00:00Z",
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-edgpipingdraftingintern2959",
+    "title": "Piping Drafting Intern (2959)",
+    "company": "EDG",
+    "location": "Lafayette, LA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a575427e9b77f668bd67898",
+    "apply_url": "https://jobright.ai/jobs/info/6a575427e9b77f668bd67898",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Mechanical Engineering",
+      "Civil Engineering"
+    ]
+  },
+  {
+    "id": "jobright-emotosmlresearchintern",
+    "title": "ML Research Intern",
+    "company": "Emotos",
+    "location": "San Francisco Bay Area, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a832cb33eeac101cfa9deef",
+    "apply_url": "https://jobright.ai/jobs/info/6a832cb33eeac101cfa9deef",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:figureai:4691070006",
+    "title": "Firmware Intern [Fall 2026]",
+    "company": "Figure",
+    "location": "San Jose, CA",
+    "department": "Hardware",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/figureai/jobs/4691070006",
+    "apply_url": "https://job-boards.greenhouse.io/figureai/jobs/4691070006",
+    "ats": "greenhouse",
+    "posted_at": "2026-06-22T14:13:34-04:00",
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "external-workday:firstam:/job/USA-California-Remote/Software-Engineering-Intern_R058260",
+    "title": "Software Engineering Intern",
+    "company": "First American",
+    "location": "USA, California, Remote",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Remote/Software-Engineering-Intern_R058260",
+    "apply_url": "https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Remote/Software-Engineering-Intern_R058260",
+    "ats": "workday",
+    "posted_at": "2026-08-14T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-framatomenorthamericachemicalengineeringinternunivcooptechnicallynchburg",
+    "title": "(Chemical Engineering) Intern - Univ/Co-Op Technical (Lynchburg)",
+    "company": "Framatome North America",
+    "location": "Lynchburg, VA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a831f08b5a0ac0e84a23948",
+    "apply_url": "https://jobright.ai/jobs/info/6a831f08b5a0ac0e84a23948",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Chemical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-framatomenorthamericamechanicalengineeringinternunivcooptechnicallynchburg",
+    "title": "(Mechanical Engineering) Intern - Univ/Co-Op Technical (Lynchburg)",
+    "company": "Framatome North America",
+    "location": "Lynchburg, VA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a8318693eeac101cfa9d615",
+    "apply_url": "https://jobright.ai/jobs/info/6a8318693eeac101cfa9d615",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-framatomenorthamericamechanicalengineeringinternunivcooptechnicalrichland",
+    "title": "(Mechanical Engineering) Intern - Univ/Co-Op Technical (Richland)",
+    "company": "Framatome North America",
+    "location": "Richland, WA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a8318489b859b227766c66e",
+    "apply_url": "https://jobright.ai/jobs/info/6a8318489b859b227766c66e",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "external-greenhouse:freeformfuturecorp:7872198003",
+    "title": "Software Engineering Intern (Summer 2027)",
+    "company": "Freeform",
+    "location": "Los Angeles, CA (On-site)",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7872198003",
+    "apply_url": "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7872198003",
+    "ats": "greenhouse",
+    "posted_at": "2026-08-14T20:52:46-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-galloengineeringinternshipjanuaryjune2027",
+    "title": "Engineering Internship (January-June 2027)",
+    "company": "GALLO",
+    "location": "Modesto, CA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a82cbdb2dbaf907b0764e61",
+    "apply_url": "https://jobright.ai/jobs/info/6a82cbdb2dbaf907b0764e61",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-galloengineeringinternshipjulydecember2027",
+    "title": "Engineering Internship (July- December 2027)",
+    "company": "GALLO",
+    "location": "Modesto, CA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a82cbda1081a745e970b80e",
+    "apply_url": "https://jobright.ai/jobs/info/6a82cbda1081a745e970b80e",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:generac:/job/Reno-NV---USA/Intern-Firmware-Engineering_JR16149",
+    "title": "Intern Firmware Engineering",
+    "company": "Generac",
+    "location": "Reno, NV - USA",
+    "department": "Hardware",
+    "team": "",
+    "posting_url": "https://generac.wd5.myworkdayjobs.com/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR16149",
+    "apply_url": "https://generac.wd5.myworkdayjobs.com/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR16149",
+    "ats": "workday",
+    "posted_at": "2026-08-14T00:00:00Z",
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "external-workday:gdit:/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401",
+    "title": "GDIT 2027 Summer AI / ML Internship",
+    "company": "General Dynamics Information Technology",
+    "location": "USA VA Falls Church - 3150 Fairview Park Dr (VAS095)",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401",
+    "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401",
+    "ats": "workday",
+    "posted_at": "2026-08-05T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912",
+    "title": "PTOC  AI/Machine Learning Internship -DC Metro Area",
+    "company": "General Dynamics Information Technology",
+    "location": "USA VA Falls Church",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912",
+    "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912",
+    "ats": "workday",
+    "posted_at": "2026-08-07T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1",
+    "title": "Summer 2027 Software Developer Internship",
+    "company": "General Dynamics Information Technology",
+    "location": "USA MD Annapolis Junction",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1",
+    "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1",
+    "ats": "workday",
+    "posted_at": "2026-08-12T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-graingergtginterncybersecurity",
+    "title": "GTG Intern - Cybersecurity",
+    "company": "Grainger",
+    "location": "Chicago, IL, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a82c9cd379c304e892f36d1",
+    "apply_url": "https://jobright.ai/jobs/info/6a82c9cd379c304e892f36d1",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-guaranteeelectricalcompanyelectricalconstructioninternstlouis",
+    "title": "Electrical Construction Intern- St. Louis",
+    "company": "Guarantee Electrical Company",
+    "location": "St. Louis, MO, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a832f44b5a0ac0e84a24016",
+    "apply_url": "https://jobright.ai/jobs/info/6a832f44b5a0ac0e84a24016",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-hdrelectricalengineerintern",
+    "title": "Electrical Engineer Intern",
+    "company": "HDR",
+    "location": "Kansas City, MO, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a7821837b3417772adeb50d",
+    "apply_url": "https://jobright.ai/jobs/info/6a7821837b3417772adeb50d",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-hdrelectricalengineeringintern",
+    "title": "Electrical Engineering Intern",
+    "company": "HDR",
+    "location": "Virginia Beach, VA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a83238d3eeac101cfa9db1b",
+    "apply_url": "https://jobright.ai/jobs/info/6a83238d3eeac101cfa9db1b",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "external-ashby:heliux:ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef",
+    "title": "Software Engineer (Internship, Summer 2027)",
+    "company": "Heliux",
+    "location": "HQ (San Francisco, CA)",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef",
+    "apply_url": "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef",
+    "ats": "ashby",
+    "posted_at": "2026-07-31T01:21:06.637+00:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-lever:hermeus:51378fa0-0327-45fd-9420-b6e7d8b56440",
+    "title": "Flight Software Engineering Intern - Fall 2026",
+    "company": "Hermeus",
+    "location": "Atlanta, GA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440",
+    "apply_url": "https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440",
+    "ats": "lever",
+    "posted_at": "2026-03-04T23:43:47Z",
+    "majors": [
+      "Computer Engineering",
+      "Aerospace Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-lever:hermeus:a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67",
+    "title": "Software Engineering Intern (Command & Control) - Fall 2026",
+    "company": "Hermeus",
+    "location": "Atlanta, GA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67",
+    "apply_url": "https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67",
+    "ats": "lever",
+    "posted_at": "2026-04-01T03:02:00Z",
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:hp:/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-2",
+    "title": "Enterprise Operations Software Internship",
+    "company": "Hewlett Packard (HP)",
+    "location": "Spring, Texas, United States of America",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-2",
+    "apply_url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-2",
+    "ats": "workday",
+    "posted_at": "2026-08-11T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:hyannisportresearch:7822989003",
+    "title": "Software Engineering Intern - Summer 2027",
+    "company": "HPR (Hyannis Port Research)",
+    "location": "Needham, MA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003",
+    "apply_url": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003",
+    "ats": "greenhouse",
+    "posted_at": "2026-08-01T12:00:00-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:wehrtyou:7964062",
+    "title": "Algorithm Development (Quant Research & Trading) Internship – Summer 2027",
+    "company": "Hudson River Trading",
+    "location": "London, United Kingdom; New York, NY, United States; Singapore",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
+    "apply_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-13T11:39:48-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:wehrtyou:8052083",
+    "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+    "company": "Hudson River Trading",
+    "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+    "apply_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-13T11:35:06-04:00",
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:idexx:/job/Westbrook-ME/Security-Operations--Cybersecurity--internship_J-053268",
+    "title": "Security Operations (Cybersecurity) internship",
+    "company": "IDEXX",
+    "location": "Westbrook, ME",
+    "department": "Security",
+    "team": "",
+    "posting_url": "https://idexx.wd1.myworkdayjobs.com/IDEXX/job/Westbrook-ME/Security-Operations--Cybersecurity--internship_J-053268",
+    "apply_url": "https://idexx.wd1.myworkdayjobs.com/IDEXX/job/Westbrook-ME/Security-Operations--Cybersecurity--internship_J-053268",
+    "ats": "workday",
+    "posted_at": "2026-08-03T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:imc:4907430101",
+    "title": "Machine Learning Research Intern - Summer 2027 - Chicago",
+    "company": "IMC Trading",
+    "location": "Chicago, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907430101",
+    "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907430101",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-01T13:18:38-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:imc:4907399101",
+    "title": "Quantitative Research Intern (BS/MS) - Summer 2027",
+    "company": "IMC Trading",
+    "location": "Chicago, United States",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907399101",
+    "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907399101",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-01T13:18:55-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:imc:4823923101",
+    "title": "Quantitative Trader Intern - Summer 2027",
+    "company": "IMC Trading",
+    "location": "Chicago, United States",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823923101",
+    "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823923101",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-01T13:11:12-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:imc:4823924101",
+    "title": "Software Engineer Intern - Summer 2027",
+    "company": "IMC Trading",
+    "location": "Chicago, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
+    "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-01T13:11:54-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-imegstructuralengineeringinterndallastx",
+    "title": "Structural Engineering Intern / Dallas, TX",
+    "company": "IMEG",
+    "location": "Dallas, TX, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a830c013eeac101cfa9d126",
+    "apply_url": "https://jobright.ai/jobs/info/6a830c013eeac101cfa9d126",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  {
+    "id": "jobright-imegstructuralengineeringinternfortworthtx",
+    "title": "Structural Engineering Intern / Fort Worth, TX",
+    "company": "IMEG",
+    "location": "Fort Worth, TX, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a830c23379c304e892f4824",
+    "apply_url": "https://jobright.ai/jobs/info/6a830c23379c304e892f4824",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  {
+    "id": "jobright-imegstructuralengineeringinternhoustontx",
+    "title": "Structural Engineering Intern / Houston, TX",
+    "company": "IMEG",
+    "location": "Houston, TX, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a830c0c1081a745e970c7de",
+    "apply_url": "https://jobright.ai/jobs/info/6a830c0c1081a745e970c7de",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  {
+    "id": "jobright-infineontechnologiesinternproductengineering",
+    "title": "Intern - Product Engineering",
+    "company": "Infineon Technologies",
+    "location": "Lynnwood, WA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a7998b0a26ccc369f83a2af",
+    "apply_url": "https://jobright.ai/jobs/info/6a7998b0a26ccc369f83a2af",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Mechanical Engineering",
+      "Industrial Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-smartrecruiters:InfiniteQuant:744000143287594",
+    "title": "Quantitative Developer - Internship - Summer 2027",
+    "company": "InfiniteQuant",
+    "location": "New York, New York, United States (Remote)",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594",
+    "apply_url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-08-13T11:30:29.931Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-smartrecruiters:InfiniteQuant:744000143307421",
+    "title": "Quantitative Researcher - Internship - Summer 2027",
+    "company": "InfiniteQuant",
+    "location": "New York, NY, United States",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000143307421",
+    "apply_url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000143307421",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-08-13T12:48:22.635Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-smartrecruiters:Interco:744000143346169",
+    "title": "Paid Internship -- Software Development -- React",
+    "company": "Interco",
+    "location": "St. Louis, MO, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/Interco/744000143346169",
+    "apply_url": "https://jobs.smartrecruiters.com/Interco/744000143346169",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-08-13T15:24:56.151Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-smartrecruiters:Intuitive:744000133458290",
+    "title": "Computer Vision Engineering Intern - Fall 2026",
+    "company": "Intuitive Surgical",
+    "location": "Sunnyvale, CA, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/Intuitive/744000133458290",
+    "apply_url": "https://jobs.smartrecruiters.com/Intuitive/744000133458290",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-06-22T21:41:38.327Z",
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:jj:/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820",
+    "title": "Software Engineer Coop",
+    "company": "Johnson & Johnson",
+    "location": "Cincinnati, Ohio, United States of America",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820",
+    "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820",
+    "ats": "workday",
+    "posted_at": "2026-08-07T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:jpmc.fa.oraclecloud.com:210773759",
+    "title": "2027 Code for Good Hackathon - Software Engineer Program - Summer Internship – United States",
+    "company": "JPMorganChase",
+    "location": "Chicago, IL, United States; Columbus, OH, United States; Houston, TX, United States; Jersey City, NJ, United States; New York, NY, United States; Palo Alto, CA, United States; Plano, TX, United States; Wilmington, DE, United States; Tampa, FL, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773759",
+    "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773759",
+    "ats": "oracle",
+    "posted_at": "2026-08-03",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:jpmc.fa.oraclecloud.com:210773869",
+    "title": "2027 Data & AI Program - Summer Internship - Analyst - United States",
+    "company": "JPMorganChase",
+    "location": "Chicago, IL, United States; Columbus, OH, United States; Wilmington, DE, United States; Plano, TX, United States; New York, NY, United States; Jersey City, NJ, United States; Newark, DE, United States; Palo Alto, CA, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773869",
+    "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773869",
+    "ats": "oracle",
+    "posted_at": "2026-08-03",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:jpmc.fa.oraclecloud.com:210775223",
+    "title": "2027 Data for Good Hackathon - Data & AI Program - Summer Internship",
+    "company": "JPMorganChase",
+    "location": "Chicago, IL, United States; Columbus, OH, United States; Wilmington, DE, United States; Plano, TX, United States; New York, NY, United States; Jersey City, NJ, United States; Palo Alto, CA, United States; Newark, DE, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210775223",
+    "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210775223",
+    "ats": "oracle",
+    "posted_at": "2026-08-03",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:jpmc.fa.oraclecloud.com:210773978",
+    "title": "2027 Quantitative Research - Risk and Treasury - Summer Internship - Associate - United States",
+    "company": "JPMorganChase",
+    "location": "New York, NY, United States; Plano, TX, United States; Chicago, IL, United States",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773978",
+    "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773978",
+    "ats": "oracle",
+    "posted_at": "2026-08-03",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:jpmc.fa.oraclecloud.com:210774074",
+    "title": "2027 Quantitative Research – Asset Management – Summer Internship – Analyst - United States",
+    "company": "JPMorganChase",
+    "location": "New York, NY, United States",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210774074",
+    "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210774074",
+    "ats": "oracle",
+    "posted_at": "2026-08-04",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:jpmc.fa.oraclecloud.com:210774038",
+    "title": "2027 Quantitative Research – Markets – Summer Internship - Analyst – United States",
+    "company": "JPMorganChase",
+    "location": "New York, NY, United States",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210774038",
+    "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210774038",
+    "ats": "oracle",
+    "posted_at": "2026-08-04",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:jpmc.fa.oraclecloud.com:210774061",
+    "title": "2027 Quantitative Research – Markets – Summer Internship - Associate– United States",
+    "company": "JPMorganChase",
+    "location": "New York, NY, United States",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210774061",
+    "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210774061",
+    "ats": "oracle",
+    "posted_at": "2026-08-04",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:keybank:/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384",
+    "title": "2027 Summer Key Technology & Services: Cyber/Information Security Track Internship- Cleveland",
+    "company": "KeyBank",
+    "location": "Brooklyn, OH",
+    "department": "Security",
+    "team": "",
+    "posting_url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384",
+    "apply_url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384",
+    "ats": "workday",
+    "posted_at": "2026-08-17T00:00:00Z",
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-lacassewestonincmechanicaldesigncoopinternaugustdecember2026",
+    "title": "Mechanical Design Co-Op/Intern: August - December 2026",
+    "company": "LaCasse & Weston, Inc.",
+    "location": "Portland metropolitan area, Maine, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a832cd03eeac101cfa9def6",
+    "apply_url": "https://jobright.ai/jobs/info/6a832cd03eeac101cfa9def6",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "external-workday:leidos:/job/Indianapolis-IN/Application-Developer-Intern_R-00188193-1",
+    "title": "Application Developer Intern",
+    "company": "Leidos",
+    "location": "Indianapolis, IN",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Indianapolis-IN/Application-Developer-Intern_R-00188193-1",
+    "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Indianapolis-IN/Application-Developer-Intern_R-00188193-1",
+    "ats": "workday",
+    "posted_at": "2026-07-29T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-lovestravelstopsfuelqualityinternsummer2027",
+    "title": "Fuel Quality Intern (Summer 2027)",
+    "company": "Love's Travel Stops",
+    "location": "Oklahoma City, OK, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a830d173eeac101cfa9d19d",
+    "apply_url": "https://jobright.ai/jobs/info/6a830d173eeac101cfa9d19d",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Chemical Engineering",
+      "Applied Sciences in Engineering"
+    ]
+  },
+  {
+    "id": "jobright-marathonpetroleumcorporationinterncooprefiningchemicalengineeringfall2026",
+    "title": "Intern/Co-op - Refining Chemical Engineering Fall 2026",
+    "company": "Marathon Petroleum Corporation",
+    "location": "Findlay, Ohio, United States of America",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a53adcdd007ee02d95fc31f",
+    "apply_url": "https://jobright.ai/jobs/info/6a53adcdd007ee02d95fc31f",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Chemical Engineering"
+    ]
+  },
+  {
+    "id": "workday-medtronic-R73625-1",
+    "company": "Medtronic",
+    "title": "IT Intern - Summer 2027",
+    "location": "Minneapolis, Minnesota, United States of America",
+    "ats": "workday",
+    "posted_at": "Posted 14 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/IT-Intern---Summer-2027_R73625-1",
+    "source_url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/IT-Intern---Summer-2027_R73625-1",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "workday-micron-JR108472",
+    "company": "Micron Technology",
+    "title": "Intern - Advanced DRAM Cell/Device Engineer",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 4 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Advanced-DRAM-Cell-Device-Engineer_JR108472",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Advanced-DRAM-Cell-Device-Engineer_JR108472",
+    "majors": [
+      "Electrical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR108533",
+    "company": "Micron Technology",
+    "title": "Intern - Digital IP Design Engineer, DRAM",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 4 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Digital-IP-Design-Engineer--DRAM_JR108533",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Digital-IP-Design-Engineer--DRAM_JR108533",
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR108458",
+    "company": "Micron Technology",
+    "title": "Intern - DRAM Design Engineer",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted Today",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---DRAM-Design-Engineer_JR108458",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---DRAM-Design-Engineer_JR108458",
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-microntechnologyinterndramdesignengineer",
+    "title": "Intern - DRAM Design Engineer",
+    "company": "Micron Technology",
+    "location": "Boise, ID, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a82ae6b3eeac101cfa9bc44",
+    "apply_url": "https://jobright.ai/jobs/info/6a82ae6b3eeac101cfa9bc44",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR108471",
+    "company": "Micron Technology",
+    "title": "Intern - DRAM IP Circuits Design Engineer",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 7 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---DRAM-IP-Circuits-Design-Engineer_JR108471",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---DRAM-IP-Circuits-Design-Engineer_JR108471",
+    "majors": [
+      "Electrical Engineering",
+      "Computer Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR107483",
+    "company": "Micron Technology",
+    "title": "Intern - DRAM PI",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted Yesterday",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---DRAM-PI_JR107483",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---DRAM-PI_JR107483",
+    "majors": [
+      "Materials Science and Engineering",
+      "Chemical Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR108075",
+    "company": "Micron Technology",
+    "title": "Intern - DRAM Process Integration",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 4 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---DRAM-Process-Integration_JR108075",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---DRAM-Process-Integration_JR108075",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR108053",
+    "company": "Micron Technology",
+    "title": "Intern - EUV & Materials Lithography",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted Today",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---EUV---Materials-Lithography_JR108053",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---EUV---Materials-Lithography_JR108053",
+    "majors": [
+      "Materials Science and Engineering",
+      "Chemical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-microntechnologyinterneuvmaterialslithography",
+    "title": "Intern - EUV & Materials Lithography",
+    "company": "Micron Technology",
+    "location": "Boise, ID, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a8260d5e2030208f277e950",
+    "apply_url": "https://jobright.ai/jobs/info/6a8260d5e2030208f277e950",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Materials Science and Engineering",
+      "Chemical Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR107508",
+    "company": "Micron Technology",
+    "title": "Intern - Photolithography Process",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 13 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Photolithography-Process_JR107508",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Photolithography-Process_JR107508",
+    "majors": [
+      "Electrical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR107319",
+    "company": "Micron Technology",
+    "title": "Intern - Process Development",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 13 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development_JR107319",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development_JR107319",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR107848",
+    "company": "Micron Technology",
+    "title": "Intern - Process Development Engineer, 3D DRAM CMP",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 7 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-CMP_JR107848",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-CMP_JR107848",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR107330",
+    "company": "Micron Technology",
+    "title": "Intern - Process Development Engineer, 3D DRAM Dry Etch",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 13 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Dry-Etch_JR107330",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Dry-Etch_JR107330",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR107311",
+    "company": "Micron Technology",
+    "title": "Intern - Process Development Engineer, 3D DRAM Metals",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 6 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Metals_JR107311",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Metals_JR107311",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR107312",
+    "company": "Micron Technology",
+    "title": "Intern - Process Development Engineer, 3D DRAM Photo",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 13 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Photo_JR107312",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Photo_JR107312",
+    "majors": [
+      "Electrical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR107326",
+    "company": "Micron Technology",
+    "title": "Intern - Process Development Engineer, Dry Etch",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 13 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Dry-Etch_JR107326",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Dry-Etch_JR107326",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR108060",
+    "company": "Micron Technology",
+    "title": "Intern - Process Development Engineer, Planar DRAM CMP",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 4 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Planar-DRAM-CMP_JR108060",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Planar-DRAM-CMP_JR108060",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR107323",
+    "company": "Micron Technology",
+    "title": "Intern - Process Development Engineer, Thin Films",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted Today",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Thin-Films_JR107323",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Thin-Films_JR107323",
+    "majors": [
+      "Materials Science and Engineering",
+      "Chemical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-microntechnologyinternprocessdevelopmentengineerthinfilms",
+    "title": "Intern - Process Development Engineer, Thin Films",
+    "company": "Micron Technology",
+    "location": "Boise, ID, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a8260dee2030208f277e952",
+    "apply_url": "https://jobright.ai/jobs/info/6a8260dee2030208f277e952",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR107347",
+    "company": "Micron Technology",
+    "title": "Intern - Process Pathfinding, DRAM Dry Etch",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 4 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Pathfinding--DRAM-Dry-Etch_JR107347",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Pathfinding--DRAM-Dry-Etch_JR107347",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR108074",
+    "company": "Micron Technology",
+    "title": "Intern - Wafer Bonding Process Development",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 4 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Wafer-Bonding-Process-Development_JR108074",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Wafer-Bonding-Process-Development_JR108074",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR108050",
+    "company": "Micron Technology",
+    "title": "Intern - Wet Etch Process Development Engineer",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted Today",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Wet-Etch-Process-Development-Engineer_JR108050",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Wet-Etch-Process-Development-Engineer_JR108050",
+    "majors": [
+      "Materials Science and Engineering",
+      "Chemical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-microntechnologyinternwetetchprocessdevelopmentengineer",
+    "title": "Intern - Wet Etch Process Development Engineer",
+    "company": "Micron Technology",
+    "location": "Boise, ID, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a8260d6e2030208f277e951",
+    "apply_url": "https://jobright.ai/jobs/info/6a8260d6e2030208f277e951",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "workday-micron-JR106729",
+    "company": "Micron Technology",
+    "title": "Intern – Process Development Engineer, 3D DRAM Wet Etch",
+    "location": "Boise, ID - Main Site",
+    "ats": "workday",
+    "posted_at": "Posted 11 Days Ago",
+    "employment_type": null,
+    "apply_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Wet-Etch_JR106729",
+    "source_url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Wet-Etch_JR106729",
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  {
+    "id": "jobright-mobilecommunicationsamericacommunicationssystemsinterndodskillbridgeintern",
+    "title": "Communications Systems Intern (DoD SkillBridge Intern)",
+    "company": "Mobile Communications America",
+    "location": "McMinnville, TN, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a5de273f29acc1a117442f9",
+    "apply_url": "https://jobright.ai/jobs/info/6a5de273f29acc1a117442f9",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Electrical Engineering",
+      "Computer Engineering"
+    ]
+  },
+  {
+    "id": "external-oracle:fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com:23339",
+    "title": "AI Intern",
+    "company": "Montenson",
+    "location": "MN, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23339",
+    "apply_url": "https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23339",
+    "ats": "oracle",
+    "posted_at": "2026-08-10",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:moog:/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145",
+    "title": "Intern, IT Computer Science - Data Analytics",
+    "company": "Moog",
+    "location": "Buffalo, NY",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145",
+    "apply_url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145",
+    "ats": "workday",
+    "posted_at": "2026-07-16T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:moog:/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1",
+    "title": "Intern, Software Engineering",
+    "company": "Moog",
+    "location": "Buffalo, NY",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1",
+    "apply_url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1",
+    "ats": "workday",
+    "posted_at": "2026-07-22T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
+    "title": "Android Platform Software Engineering Intern - Summer 2027",
+    "company": "Motorola",
+    "location": "Plantation, FL, More...",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
+    "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
+    "ats": "workday",
+    "posted_at": "2026-08-14T00:00:00Z",
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:motorolasolutions:/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372",
+    "title": "Intern - Embedded Software, System, and Test Engineer - 2026",
+    "company": "Motorola",
+    "location": "Irvine, CA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372",
+    "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372",
+    "ats": "workday",
+    "posted_at": "2026-03-30T00:00:00Z",
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-mottmacdonalddowskillbridgeinternshipjobdetailsmottmacdonald",
+    "title": "DoW SkillBridge Internship Job Details / Mott MacDonald",
+    "company": "Mott MacDonald",
+    "location": "San Ramon, CA, US",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a2a24bec07d4b6ae1c44304",
+    "apply_url": "https://jobright.ai/jobs/info/6a2a24bec07d4b6ae1c44304",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:nelnet:/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904",
+    "title": "Intern Program - Agentic AI",
+    "company": "Nelnet",
+    "location": "Lincoln, NE",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904",
+    "apply_url": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904",
+    "ats": "workday",
+    "posted_at": "2026-07-27T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39284",
+    "title": "AI R&D Engineer Co-op",
+    "company": "Nokia",
+    "location": "United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39284",
+    "apply_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39284",
+    "ats": "oracle",
+    "posted_at": "2026-08-06",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39287",
+    "title": "AI R&D Engineering Co-op",
+    "company": "Nokia",
+    "location": "United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39287",
+    "apply_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39287",
+    "ats": "oracle",
+    "posted_at": "2026-08-06",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
+    "title": "2027 Intern Software Engineer",
+    "company": "Northrop Grumman",
+    "location": "United States-Florida-Melbourne",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
+    "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
+    "ats": "workday",
+    "posted_at": "2026-08-12T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:northwesternmutual:/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
+    "title": "Public Investments Quantitative Analyst Intern, Summer 2027",
+    "company": "Northwestern Mutual",
+    "location": "Milwaukee, WI Corporate",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
+    "apply_url": "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
+    "ats": "workday",
+    "posted_at": "2026-08-12T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:nvidia:/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+    "title": "Applied Research Intern, NLP - Fall 2026",
+    "company": "NVIDIA",
+    "location": "US, CA, Santa Clara",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+    "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+    "ats": "workday",
+    "posted_at": "2026-07-01T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+    "title": "Software Engineering Intern, Dynamo - Fall 2026",
+    "company": "NVIDIA",
+    "location": "US, CA, Santa Clara",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+    "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+    "ats": "workday",
+    "posted_at": "2026-08-05T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:oldmissioncapital:7796180003",
+    "title": "Software Engineer – 2027 Internship Program (June Start)",
+    "company": "Old Mission Capital",
+    "location": "Chicago, IL, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003",
+    "apply_url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-15T13:45:13-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:oneok:/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449",
+    "title": "Cyber Security Intern - Tulsa, OK",
+    "company": "ONEOK",
+    "location": "Tulsa, OK",
+    "department": "Security",
+    "team": "",
+    "posting_url": "https://oneok.wd1.myworkdayjobs.com/ONEOK_Early_Careers/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449",
+    "apply_url": "https://oneok.wd1.myworkdayjobs.com/ONEOK_Early_Careers/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449",
+    "ats": "workday",
+    "posted_at": "2026-08-14T00:00:00Z",
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:eeho.fa.us2.oraclecloud.com:342415",
+    "title": "Platform Software Engineer 1 - Full-time Intern Conversion",
+    "company": "Oracle",
+    "location": "United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415",
+    "apply_url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415",
+    "ats": "oracle",
+    "posted_at": "2026-08-12",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:pdtpartners:8077685",
+    "title": "Summer 2027 Software Engineering Intern",
+    "company": "PDT Partners",
+    "location": "New York, NY",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
+    "apply_url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-24T16:16:09-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:pentair:/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700",
+    "title": "IT & Cybersecurity Leadership Development Internship Program -  Summer 2027",
+    "company": "Pentair",
+    "location": "Golden Valley, MN",
+    "department": "Security",
+    "team": "",
+    "posting_url": "https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700",
+    "apply_url": "https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700",
+    "ats": "workday",
+    "posted_at": "2026-08-03T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-oracle:fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com:26738",
+    "title": "Software Engineering / AI Intern - US - Remote",
+    "company": "Photon",
+    "location": "United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26738",
+    "apply_url": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26738",
+    "ats": "oracle",
+    "posted_at": "2026-08-15",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-lever:plus-2:2ee24f85-bfa1-47fc-bfe3-fd07521a7b62",
+    "title": "Deep Learning Research Intern — Multimodal BEV Perception",
+    "company": "PlusAI",
+    "location": "Santa Clara, CA",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jobs.lever.co/plus-2/2ee24f85-bfa1-47fc-bfe3-fd07521a7b62",
+    "apply_url": "https://jobs.lever.co/plus-2/2ee24f85-bfa1-47fc-bfe3-fd07521a7b62",
+    "ats": "lever",
+    "posted_at": "2026-08-04T17:18:01Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workable:pony-dot-ai:4C1F53EF5D",
+    "title": "Research Intern - Deep Learning",
+    "company": "Pony.ai",
+    "location": "Fremont, California, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://apply.workable.com/pony-dot-ai/j/4C1F53EF5D/",
+    "apply_url": "https://apply.workable.com/pony-dot-ai/j/4C1F53EF5D/",
+    "ats": "workable",
+    "posted_at": "2026-07-22T00:00:00.000Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workable:pony-dot-ai:BA5FFDBC71",
+    "title": "Software Engineer Intern - Generalist",
+    "company": "Pony.ai",
+    "location": "Fremont, California, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://apply.workable.com/pony-dot-ai/j/BA5FFDBC71/",
+    "apply_url": "https://apply.workable.com/pony-dot-ai/j/BA5FFDBC71/",
+    "ats": "workable",
+    "posted_at": "2026-07-22T00:00:00.000Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-ppcpartnersincautomationengineeringintern",
+    "title": "Automation Engineering Intern",
+    "company": "PPC Partners Inc.",
+    "location": "Wrightstown, WI, 54180, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a05fc24320bff2205ea6b60",
+    "apply_url": "https://jobright.ai/jobs/info/6a05fc24320bff2205ea6b60",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Industrial Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-providenceinfrastructureconsultantsengineeringinternship",
+    "title": "Engineering Internship",
+    "company": "Providence Infrastructure Consultants",
+    "location": "New Braunfels, TX, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a55c0ae2ce8bf79a13a07c2",
+    "apply_url": "https://jobright.ai/jobs/info/6a55c0ae2ce8bf79a13a07c2",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-pscbiotechcorporationengineeringintern",
+    "title": "Engineering Intern",
+    "company": "PSC Biotech® Corporation",
+    "location": "York, PA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a6cd324ba7efe79c2f66cb5",
+    "apply_url": "https://jobright.ai/jobs/info/6a6cd324ba7efe79c2f66cb5",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-smartrecruiters:RedBull:744000139168339",
+    "title": "2026 Internship, Fall - Data Science",
+    "company": "Red Bull",
+    "location": "Morristown, NJ, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/RedBull/744000139168339",
+    "apply_url": "https://jobs.smartrecruiters.com/RedBull/744000139168339",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-07-22T23:29:11.460Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:redwoodmaterials:6126784004",
+    "title": "Embedded Software Engineer Intern - Fall 2026",
+    "company": "Redwood Materials",
+    "location": "San Francisco, California, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://boards.greenhouse.io/redwoodmaterials/jobs/6126784004?gh_jid=6126784004",
+    "apply_url": "https://boards.greenhouse.io/redwoodmaterials/jobs/6126784004?gh_jid=6126784004",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-29T16:29:01-04:00",
+    "majors": [
+      "Computer Engineering"
+    ]
+  },
+  {
+    "id": "external-greenhouse:rendezvousrobotics:4328555009",
+    "title": "Software Engineering Intern (Fall 2026)",
+    "company": "Rendezvous Robotics",
+    "location": "Golden, CO",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4328555009",
+    "apply_url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4328555009",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-22T15:27:50-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-ashby:replit:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+    "title": "Software Engineering Intern (Summer 2027)",
+    "company": "Replit",
+    "location": "Foster City, CA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+    "apply_url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+    "ats": "ashby",
+    "posted_at": "2026-08-15T18:49:00.242+00:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-rivianuiucresearchparkinternfpgadesign",
+    "title": "UIUC Research Park Intern - FPGA Design",
+    "company": "Rivian",
+    "location": "Champaign, IL, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a8305222dbaf907b0765cee",
+    "apply_url": "https://jobright.ai/jobs/info/6a8305222dbaf907b0765cee",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "external-greenhouse:roblox:8072713",
+    "title": "[Summer 2027] Software Engineer Intern",
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+    "apply_url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+    "ats": "greenhouse",
+    "posted_at": "2026-08-05T12:03:16-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-rshcivilengineeringinternairfieldssummer2027",
+    "title": "Civil Engineering Intern (Airfields) - Summer 2027",
+    "company": "RS&H",
+    "location": "Los Angeles, CA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a82e4271081a745e970bd71",
+    "apply_url": "https://jobright.ai/jobs/info/6a82e4271081a745e970bd71",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  {
+    "id": "jobright-rshcivilengineeringinternhighwaysummer2027",
+    "title": "Civil Engineering Intern (Highway) - Summer 2027",
+    "company": "RS&H",
+    "location": "St. Charles, IL, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a82e43ab5a0ac0e84a226ec",
+    "apply_url": "https://jobright.ai/jobs/info/6a82e43ab5a0ac0e84a226ec",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  {
+    "id": "jobright-rshcivilengineeringinternwaterresourcessummer2027",
+    "title": "Civil Engineering Intern (Water Resources) - Summer 2027",
+    "company": "RS&H",
+    "location": "St. Charles, IL, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a82e424379c304e892f3d21",
+    "apply_url": "https://jobright.ai/jobs/info/6a82e424379c304e892f3d21",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering",
+      "Environmental Engineering"
+    ]
+  },
+  {
+    "id": "jobright-rshcivilengineeringinternsummer2027",
+    "title": "Civil Engineering Intern - Summer 2027",
+    "company": "RS&H",
+    "location": "Columbia, SC, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a82e42db5a0ac0e84a226dd",
+    "apply_url": "https://jobright.ai/jobs/info/6a82e42db5a0ac0e84a226dd",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  {
+    "id": "jobright-rshstructuralengineeringinternbridgesummer2027",
+    "title": "Structural Engineering Intern (Bridge) - Summer 2027",
+    "company": "RS&H",
+    "location": "St. Charles, IL, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a82e42c9b859b227766b6b5",
+    "apply_url": "https://jobright.ai/jobs/info/6a82e42c9b859b227766b6b5",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  {
+    "id": "external-workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129",
+    "title": "Software Engineering Intern (Summer 2027)",
+    "company": "RTX",
+    "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129",
+    "apply_url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129",
+    "ats": "workday",
+    "posted_at": "2026-08-14T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01866136",
+    "title": "Software Engineering Intern (Summer 2027)",
+    "company": "RTX",
+    "location": "US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01866136",
+    "apply_url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01866136",
+    "ats": "workday",
+    "posted_at": "2026-08-14T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875",
+    "title": "Software Engineering Intern (Summer 2027)",
+    "company": "RTX",
+    "location": "US-IA-CEDAR RAPIDS-137 ~ 855 35Th St NE ~ BLDG 137",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875",
+    "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875",
+    "ats": "workday",
+    "posted_at": "2026-08-12T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487",
+    "title": "Software Engineering Intern (Summer 2027)",
+    "company": "RTX",
+    "location": "US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487",
+    "apply_url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487",
+    "ats": "workday",
+    "posted_at": "2026-08-17T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workable:securityriskadvisors:3B23FB7BEB",
+    "title": "DevOps Engineering Generalist Co-op",
+    "company": "Securityriskadvisors",
+    "location": "Rochester, New York, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://apply.workable.com/securityriskadvisors/j/3B23FB7BEB/",
+    "apply_url": "https://apply.workable.com/securityriskadvisors/j/3B23FB7BEB/",
+    "ats": "workable",
+    "posted_at": "2026-08-12T00:00:00.000Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-lever:solopulseco:00fbde18-a387-4c9f-97d4-77059aec7b56",
+    "title": "Software Engineer Intern/Co-Op - Fall 2026",
+    "company": "SoloPulse",
+    "location": "Peachtree Corners, GA",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56",
+    "apply_url": "https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56",
+    "ats": "lever",
+    "posted_at": "2026-06-16T18:53:22Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:flir:/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193",
+    "title": "NHRC Software Engineering Internship (Summer 2027)",
+    "company": "Teledyne",
+    "location": "US - Huntsville, AL",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193",
+    "apply_url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193",
+    "ats": "workday",
+    "posted_at": "2026-08-13T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:tencent:/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1",
+    "title": "Research Intern – Video World Models (Research & ML Systems)",
+    "company": "Tencent",
+    "location": "US-California-Palo Alto",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1",
+    "apply_url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1",
+    "ats": "workday",
+    "posted_at": "2026-07-15T00:00:00Z",
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:tenstorrentuniversity:5186916007",
+    "title": "Software Engineering Intern, Power Modeling & AI Tools",
+    "company": "Tenstorrent",
+    "location": "Santa Clara, California, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007",
+    "apply_url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-23T14:30:30-04:00",
+    "majors": [
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "jobright-textronfallcoopaesmechanicalinstallationsengineer",
+    "title": "Fall Co-Op - AES Mechanical Installations Engineer",
+    "company": "Textron",
+    "location": "Wichita, KS, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a832965379c304e892f54c8",
+    "apply_url": "https://jobright.ai/jobs/info/6a832965379c304e892f54c8",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "external-greenhouse:thenuclearcompany:5383113008",
+    "title": "Fall 2026 AI Software Engineering Intern",
+    "company": "The Nuclear Company",
+    "location": "Washington, DC",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383113008",
+    "apply_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383113008",
+    "ats": "greenhouse",
+    "posted_at": "2026-08-07T12:56:55-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:thenuclearcompany:5383163008",
+    "title": "Fall 2026 AI/ML Engineering Intern",
+    "company": "The Nuclear Company",
+    "location": "Washington, DC",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383163008",
+    "apply_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383163008",
+    "ats": "greenhouse",
+    "posted_at": "2026-08-07T14:09:12-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:thenuclearcompany:5391923008",
+    "title": "Summer 2027 AI Applied Research Internship",
+    "company": "The Nuclear Company",
+    "location": "Washington, DC",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008",
+    "apply_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008",
+    "ats": "greenhouse",
+    "posted_at": "2026-08-14T17:06:17-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:thenuclearcompany:5383231008",
+    "title": "Summer 2027 AI/ML Engineering Intern",
+    "company": "The Nuclear Company",
+    "location": "Washington, DC",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383231008",
+    "apply_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383231008",
+    "ats": "greenhouse",
+    "posted_at": "2026-08-07T14:07:45-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:thenuclearcompany:5383244008",
+    "title": "Summer 2027 Data Science Intern",
+    "company": "The Nuclear Company",
+    "location": "Washington, DC",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383244008",
+    "apply_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383244008",
+    "ats": "greenhouse",
+    "posted_at": "2026-08-07T14:08:02-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:thenuclearcompany:5383236008",
+    "title": "Summer 2027 Software Engineering Intern",
+    "company": "The Nuclear Company",
+    "location": "Washington, DC",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008",
+    "apply_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008",
+    "ats": "greenhouse",
+    "posted_at": "2026-08-07T14:08:35-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-thewhitingturnercontractingcompanyconstructionintern",
+    "title": "Construction Intern",
+    "company": "The Whiting-Turner Contracting Company",
+    "location": "Charleston County, South Carolina, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a831e0b3eeac101cfa9d86e",
+    "apply_url": "https://jobright.ai/jobs/info/6a831e0b3eeac101cfa9d86e",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Civil Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-thewhitingturnercontractingcompanymechanicalelectricalplumbingmepconstructionint",
+    "title": "Mechanical, Electrical & Plumbing (MEP) Construction Intern",
+    "company": "The Whiting-Turner Contracting Company",
+    "location": "Towson, MD, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a8320753eeac101cfa9d97f",
+    "apply_url": "https://jobright.ai/jobs/info/6a8320753eeac101cfa9d97f",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Civil Engineering"
+    ]
+  },
+  {
+    "id": "jobright-togetheraisystemsresearchengineerinterngpuprogrammingfall2026",
+    "title": "Systems Research Engineer Intern - GPU Programming (Fall 2026)",
+    "company": "Together AI",
+    "location": "San Francisco, CA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a512355bf63b66c79979464",
+    "apply_url": "https://jobright.ai/jobs/info/6a512355bf63b66c79979464",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-toyotaresearchinstituteroboticsresearchinternposttraining",
+    "title": "Robotics Research Intern - Post-Training",
+    "company": "Toyota Research Institute",
+    "location": "Los Altos, CA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a832c44379c304e892f559b",
+    "apply_url": "https://jobright.ai/jobs/info/6a832c44379c304e892f559b",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:transmarketgroup:5212335007",
+    "title": "Software Engineering Intern",
+    "company": "TransMarket Group",
+    "location": "Chicago, Illinois, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5212335007?gh_jid=5212335007",
+    "apply_url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5212335007?gh_jid=5212335007",
+    "ats": "greenhouse",
+    "posted_at": "2026-08-14T11:18:03-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workday:valeo:/job/Troy-MI/Software-Engineer-Intern_REQ2026076575",
+    "title": "Software Engineer Intern",
+    "company": "Valeo",
+    "location": "Troy, MI",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Troy-MI/Software-Engineer-Intern_REQ2026076575",
+    "apply_url": "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Troy-MI/Software-Engineer-Intern_REQ2026076575",
+    "ats": "workday",
+    "posted_at": "2026-08-14T00:00:00Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-vecariusincmechanicalengineerinternwithsolidworks",
+    "title": "Mechanical Engineer (Intern with SolidWorks)",
+    "company": "VECARIUS, Inc.",
+    "location": "Somerville, MA, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a8329cf379c304e892f54e6",
+    "apply_url": "https://jobright.ai/jobs/info/6a8329cf379c304e892f54e6",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "external-greenhouse:virtu:8624408002",
+    "title": "2027 Internship - Quantitative Trading",
+    "company": "Virtu Financial",
+    "location": "Austin, TX; Chicago; New York",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
+    "apply_url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
+    "ats": "greenhouse",
+    "posted_at": "2026-07-21T15:54:04-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-vishayintertechnologyincinterncoopengineering",
+    "title": "Intern/Coop (Engineering)",
+    "company": "Vishay Intertechnology, Inc.",
+    "location": "Niagara Falls, NY, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a830fa1379c304e892f49a8",
+    "apply_url": "https://jobright.ai/jobs/info/6a830fa1379c304e892f49a8",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:voloridgeinvestmentmanagement:4224862009",
+    "title": "Quantitative Developer Intern 2027",
+    "company": "Voloridge",
+    "location": "Jupiter, FL",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009",
+    "apply_url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009",
+    "ats": "greenhouse",
+    "posted_at": "2026-06-11T09:46:12-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:voloridgeinvestmentmanagement:4226247009",
+    "title": "Quantitative Research Intern 2027",
+    "company": "Voloridge",
+    "location": "Jupiter, FL",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4226247009",
+    "apply_url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4226247009",
+    "ats": "greenhouse",
+    "posted_at": "2026-06-11T10:40:18-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-greenhouse:walleyecapital-external-students:4679168006",
+    "title": "Quantic – Quantitative Developer Intern (Summer 2027)",
+    "company": "Walleye Capital",
+    "location": "Boston, MA",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006",
+    "apply_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006",
+    "ats": "greenhouse",
+    "posted_at": "2026-06-01T07:17:40-04:00",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workable:wallstreetquants:494E392FD3",
+    "title": "Quantitative Researcher - Internship",
+    "company": "WallStreetQuants",
+    "location": "New York, New York, United States",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://apply.workable.com/wallstreetquants/j/494E392FD3/",
+    "apply_url": "https://apply.workable.com/wallstreetquants/j/494E392FD3/",
+    "ats": "workable",
+    "posted_at": "2026-07-15T00:00:00.000Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-workable:wallstreetquants:8CB119E789",
+    "title": "Quantitative Trading Intern",
+    "company": "WallStreetQuants",
+    "location": "Miami, Florida, United States",
+    "department": "Quant",
+    "team": "",
+    "posting_url": "https://apply.workable.com/wallstreetquants/j/8CB119E789/",
+    "apply_url": "https://apply.workable.com/wallstreetquants/j/8CB119E789/",
+    "ats": "workable",
+    "posted_at": "2026-07-15T00:00:00.000Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-smartrecruiters:WesternDigital:744000143171017",
+    "title": "Summer 2027 Intern - Software Engineering",
+    "company": "Western Digital",
+    "location": "San Jose, CA, United States",
+    "department": "Software",
+    "team": "",
+    "posting_url": "https://jobs.smartrecruiters.com/WesternDigital/744000143171017",
+    "apply_url": "https://jobs.smartrecruiters.com/WesternDigital/744000143171017",
+    "ats": "smartrecruiters",
+    "posted_at": "2026-08-12T19:38:42.100Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "jobright-wsppowerdistributiondesignengineeringinternsummer2027",
+    "title": "Power Distribution Design Engineering Intern - Summer 2027",
+    "company": "WSP",
+    "location": "Spring, TX, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a8328069b859b227766cd6f",
+    "apply_url": "https://jobright.ai/jobs/info/6a8328069b859b227766cd6f",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Electrical Engineering",
+      "Energy Systems Engineering"
+    ]
+  },
+  {
+    "id": "jobright-wspintheuspowerdistributiondesignengineeringinternsummer2027",
+    "title": "Power Distribution Design Engineering Intern - Summer 2027",
+    "company": "WSP in the U.S.",
+    "location": "The Woodlands, TX, United States",
+    "department": "",
+    "team": "",
+    "posting_url": "https://jobright.ai/jobs/info/6a8316bb2dbaf907b07663e3",
+    "apply_url": "https://jobright.ai/jobs/info/6a8316bb2dbaf907b07663e3",
+    "ats": "jobright_engineering_feed",
+    "posted_at": null,
+    "majors": [
+      "Electrical Engineering",
+      "Energy Systems Engineering"
+    ]
+  },
+  {
+    "id": "external-lever:xsolla:1c0e5375-2352-4a2c-a816-48ddebbdd3d6",
+    "title": "AI-First Engineering Intern",
+    "company": "Xsolla",
+    "location": "Los Angeles, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6",
+    "apply_url": "https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6",
+    "ats": "lever",
+    "posted_at": "2026-07-10T17:32:27Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-lever:xsolla:5d5fd6b3-d82f-437a-b251-abf4674ac874",
+    "title": "AI-First Engineering Intern",
+    "company": "Xsolla",
+    "location": "Raleigh, United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jobs.lever.co/xsolla/5d5fd6b3-d82f-437a-b251-abf4674ac874",
+    "apply_url": "https://jobs.lever.co/xsolla/5d5fd6b3-d82f-437a-b251-abf4674ac874",
+    "ats": "lever",
+    "posted_at": "2026-07-10T17:33:56Z",
+    "majors": [
+      "General/Other"
+    ]
+  },
+  {
+    "id": "external-ashby:yotta:09821a51-fbe6-42a7-a566-0d2b5d40fae3",
+    "title": "Research Engineer Intern - AI Systems",
+    "company": "Yotta Labs",
+    "location": "United States",
+    "department": "Data & ML/AI",
+    "team": "",
+    "posting_url": "https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3",
+    "apply_url": "https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3",
+    "ats": "ashby",
+    "posted_at": "2026-08-02T16:29:42.695+00:00",
     "majors": [
       "General/Other"
     ]

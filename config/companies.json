@@ -21,6 +21,33 @@
     "enabled": true
   },
   {
+    "name": "Boeing",
+    "ats": "workday",
+    "host": "https://boeing.wd1.myworkdayjobs.com",
+    "tenant": "boeing",
+    "site": "EXTERNAL_CAREERS",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Caterpillar",
+    "ats": "workday",
+    "host": "https://cat.wd5.myworkdayjobs.com",
+    "tenant": "cat",
+    "site": "CaterpillarCareers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Medtronic",
+    "ats": "workday",
+    "host": "https://medtronic.wd1.myworkdayjobs.com",
+    "tenant": "medtronic",
+    "site": "MedtronicCareers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
     "name": "Air Products",
     "ats": "greenhouse",
     "board_token": "air",
@@ -40,8 +67,11 @@
   },
   {
     "name": "Applied Materials",
-    "ats": "ashby",
-    "board_name": "applied",
+    "ats": "workday",
+    "host": "https://amat.wd1.myworkdayjobs.com",
+    "tenant": "amat",
+    "site": "External",
+    "locale": "en-US",
     "enabled": true
   },
   {
@@ -405,12 +435,6 @@
     "enabled": true
   },
   {
-    "name": "Weave",
-    "ats": "greenhouse",
-    "board_token": "weave",
-    "enabled": true
-  },
-  {
     "name": "Ginkgo Bioworks",
     "ats": "greenhouse",
     "board_token": "ginkgobioworks",
@@ -504,6 +528,168 @@
     "name": "Fetch",
     "ats": "greenhouse",
     "board_token": "fetch",
+    "enabled": true
+  },
+  {
+    "name": "Northrop Grumman",
+    "ats": "workday",
+    "host": "https://ngc.wd1.myworkdayjobs.com",
+    "tenant": "ngc",
+    "site": "Northrop_Grumman_External_Site",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "RTX",
+    "ats": "workday",
+    "host": "https://globalhr.wd5.myworkdayjobs.com",
+    "tenant": "globalhr",
+    "site": "REC_RTX_Ext_Gateway",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "GE Aerospace",
+    "ats": "workday",
+    "host": "https://geaerospace.wd5.myworkdayjobs.com",
+    "tenant": "geaerospace",
+    "site": "GE_ExternalSite",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Intel",
+    "ats": "workday",
+    "host": "https://intel.wd1.myworkdayjobs.com",
+    "tenant": "intel",
+    "site": "External",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Micron Technology",
+    "ats": "workday",
+    "host": "https://micron.wd1.myworkdayjobs.com",
+    "tenant": "micron",
+    "site": "External",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Dow",
+    "ats": "workday",
+    "host": "https://dow.wd1.myworkdayjobs.com",
+    "tenant": "dow",
+    "site": "ExternalCareers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "DuPont",
+    "ats": "workday",
+    "host": "https://dupont.wd5.myworkdayjobs.com",
+    "tenant": "dupont",
+    "site": "Jobs",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Stryker",
+    "ats": "workday",
+    "host": "https://stryker.wd1.myworkdayjobs.com",
+    "tenant": "stryker",
+    "site": "StrykerCareers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "3M",
+    "ats": "workday",
+    "host": "https://3m.wd1.myworkdayjobs.com",
+    "tenant": "3m",
+    "site": "Search",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Rockwell Automation",
+    "ats": "workday",
+    "host": "https://rockwellautomation.wd1.myworkdayjobs.com",
+    "tenant": "rockwellautomation",
+    "site": "External-Rockwell-Automation-Early-Careers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Danaher",
+    "ats": "workday",
+    "host": "https://danaher.wd1.myworkdayjobs.com",
+    "tenant": "danaher",
+    "site": "DanaherJobs",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Regeneron",
+    "ats": "workday",
+    "host": "https://regeneron.wd1.myworkdayjobs.com",
+    "tenant": "regeneron",
+    "site": "Careers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Vertex Pharmaceuticals",
+    "ats": "workday",
+    "host": "https://vrtx.wd501.myworkdayjobs.com",
+    "tenant": "vrtx",
+    "site": "Vertex_Careers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Analog Devices",
+    "ats": "workday",
+    "host": "https://analogdevices.wd1.myworkdayjobs.com",
+    "tenant": "analogdevices",
+    "site": "External",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Trane Technologies",
+    "ats": "workday",
+    "host": "https://tranetechnologies.wd12.myworkdayjobs.com",
+    "tenant": "tranetechnologies",
+    "site": "Trane_Technologies_Careers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Baker Hughes",
+    "ats": "workday",
+    "host": "https://bakerhughes.wd5.myworkdayjobs.com",
+    "tenant": "bakerhughes",
+    "site": "BakerHughes",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Becton Dickinson",
+    "ats": "workday",
+    "host": "https://bdx.wd1.myworkdayjobs.com",
+    "tenant": "bdx",
+    "site": "US_EARLY_TALENT_SITE",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Bristol Myers Squibb",
+    "ats": "workday",
+    "host": "https://bristolmyerssquibb.wd5.myworkdayjobs.com",
+    "tenant": "bristolmyerssquibb",
+    "site": "BMS",
+    "locale": "en-US",
     "enabled": true
   }
 ]

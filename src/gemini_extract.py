@@ -54,7 +54,8 @@ MAJOR_TAGS = [
     "Biomedical Engineering",
     "Chemical Engineering",
     "Civil Engineering",
-    "Electrical and Computer Engineering",
+    "Electrical Engineering",
+    "Computer Engineering",
     "Energy Systems Engineering",
     "Environmental Engineering",
     "Industrial Engineering",
@@ -63,6 +64,110 @@ MAJOR_TAGS = [
     "Packaging Engineering",
     "General/Other",
 ]
+
+# ============================================================
+# KEYWORD FAST-PATH (free, no Gemini call needed)
+#
+# TEAM NOTE: this is intentionally CONSERVATIVE — only exact,
+# unambiguous title phrases that mean one thing and one thing only.
+# It exists to reduce Gemini usage as the company list grows (many
+# companies use standard title phrasing like "Civil Engineer Intern"
+# verbatim), NOT to replace Gemini's judgment on ambiguous titles.
+#
+# Do NOT add loose/partial keywords here (e.g. bare "engineer" or
+# "AI") — that's exactly what caused the earlier bug where almost
+# everything got tagged "Electrical and Computer Engineering" by
+# default. Every pattern below should be specific enough that a
+# human would agree it ALWAYS means that major, no exceptions.
+#
+# A title matching one of these patterns is assumed engineering-
+# relevant AND assigned the mapped major, skipping Gemini entirely.
+# Everything else (the majority of ambiguous real-world titles)
+# still goes to Gemini as before.
+# ============================================================
+KEYWORD_MAJOR_FAST_PATH = {
+    r"\bcivil engineer(ing)?\b": ["Civil Engineering"],
+    r"\bmechanical engineer(ing)?\b": ["Mechanical Engineering"],
+    r"\bchemical engineer(ing)?\b": ["Chemical Engineering"],
+    r"\baerospace engineer(ing)?\b": ["Aerospace Engineering"],
+    r"\bbiomedical engineer(ing)?\b": ["Biomedical Engineering"],
+    r"\benvironmental engineer(ing)?\b": ["Environmental Engineering"],
+    r"\bindustrial engineer(ing)?\b": ["Industrial Engineering"],
+    r"\bpackaging engineer(ing)?\b": ["Packaging Engineering"],
+    r"\bmaterials (science|engineering)\b": ["Materials Science and Engineering"],
+    r"\bstructural engineer(ing)?\b": ["Civil Engineering"],
+    r"\bgeotechnical\b": ["Civil Engineering"],
+    r"\belectrical engineer(ing)?\b(?!.*\bcomputer\b)": ["Electrical Engineering"],
+    # Added based on real titles seen across today's runs — same
+    # conservative bar: only patterns that mean ONE thing, always.
+    r"\bfirmware\b": ["Computer Engineering"],
+    r"\bembedded (systems?|software)\b": ["Computer Engineering"],
+    r"\bhardware engineer(ing)?\b": ["Electrical Engineering", "Computer Engineering"],
+    r"\bcircuit design\b": ["Electrical Engineering"],
+    r"\banalog design\b": ["Electrical Engineering"],
+    r"\brf engineer(ing)?\b": ["Electrical Engineering"],
+    r"\bsemiconductor (engineer|device|process)\b": ["Electrical Engineering", "Materials Science and Engineering"],
+    r"\bpower systems? engineer(ing)?\b": ["Electrical Engineering", "Energy Systems Engineering"],
+    r"\btransportation engineer(ing)?\b": ["Civil Engineering"],
+    r"\bwater resources? engineer(ing)?\b": ["Civil Engineering", "Environmental Engineering"],
+    r"\bconstruction management\b": ["Civil Engineering"],
+    r"\bhvac\b": ["Mechanical Engineering"],
+    r"\bthermal engineer(ing)?\b": ["Mechanical Engineering"],
+    r"\bmanufacturing engineer(ing)?\b": ["Industrial Engineering", "Mechanical Engineering"],
+    r"\bpowertrain\b": ["Mechanical Engineering", "Electrical Engineering"],
+    r"\bnuclear engineer(ing)?\b": ["Energy Systems Engineering", "Mechanical Engineering"],
+}
+
+# Same idea, but for auto-REJECTION — titles that are unambiguously
+# NOT engineering, so no Gemini call is needed to confirm that either.
+# Just as conservative: only exact phrases that are always non-
+# engineering, never a real engineering role in disguise.
+KEYWORD_REJECT_FAST_PATH = (
+    r"\bdvm student\b",
+    r"\bveterinary\b",
+    r"\bveterinarian\b",
+    r"\bretail sales\b",
+    r"\bsales associate\b",
+    r"\baccount executive\b",
+    r"\bmarketing intern\b",
+    r"\bhuman resources intern\b",
+    r"\bhr intern\b",
+    r"\brecruiting intern\b",
+    r"\btalent acquisition\b",
+    r"\bretirement sales\b",
+    r"\bparalegal\b",
+    r"\blegal intern\b",
+    r"\bcontent writer\b",
+    r"\bsocial media intern\b",
+)
+
+
+def keyword_fast_path_classify(job: dict) -> dict | None:
+    """
+    Tries the free keyword fast-path before falling back to Gemini.
+    Returns a classification dict ({"is_internship", ...}) if a
+    strong, unambiguous match is found, or None if Gemini judgment
+    is still needed (the common case — most titles are ambiguous
+    enough that this returns None).
+
+    is_internship is deliberately NOT decided here — that still needs
+    either the existing regex_internship check or Gemini, since a
+    title like "Civil Engineer" alone doesn't tell you if it's an
+    internship or a senior full-time role. This function only
+    shortcuts the MAJOR/relevance decision, not the internship check.
+    """
+
+    title = str(job.get("title") or "").lower()
+
+    for pattern in KEYWORD_REJECT_FAST_PATH:
+        if re.search(pattern, title):
+            return {"is_internship": True, "engineering_relevant": False, "majors": []}
+
+    for pattern, majors in KEYWORD_MAJOR_FAST_PATH.items():
+        if re.search(pattern, title):
+            return {"is_internship": True, "engineering_relevant": True, "majors": majors}
+
+    return None
 
 
 def _call_gemini_with_retry(prompt: str):
@@ -175,25 +280,75 @@ def build_batch_classification_prompt(jobs: list[dict]) -> str:
     jobs_block = "\n".join(job_lines)
 
     return f"""
-You are reviewing a batch of job postings for a student engineering internship tracker.
+You are reviewing a batch of job postings for a student ENGINEERING internship
+tracker used by an engineering student organization. Being strict here matters
+more than being inclusive — students are relying on this list to only contain
+real engineering-relevant opportunities.
 
-For EACH job below (identified by its index number), decide:
+For EACH job below (identified by its index number), decide THREE things:
+
 1. is_internship: true if it's a student internship, co-op, or fellowship
-   (not a full-time or senior role)
-2. majors: which engineering majors it's relevant to, chosen ONLY from:
+   for someone CURRENTLY ENROLLED in school (not a full-time or senior
+   role). Be careful with the word "Graduate" — it's ambiguous:
+     - "Graduate Co-op", "Graduate Student Intern", "PhD Intern" usually
+       mean a student who has graduated undergrad but is still enrolled
+       in a graduate (MS/PhD) program — this IS a valid internship type.
+     - "Graduate Program", "Graduate Engineer", "Graduate Software
+       Engineer" (especially outside the US, e.g. UK/Australia/NZ) 
+       usually means a FULL-TIME entry-level hire for someone who has
+       ALREADY finished all schooling — this is NOT an internship, even
+       though it contains the word "Graduate". Set is_internship to
+       FALSE for these.
+   When genuinely ambiguous, look at whether the role sounds like a
+   fixed-duration, part-time-around-school placement (internship) vs.
+   an ongoing full-time job (not an internship).
+
+2. engineering_relevant: true ONLY if the role is genuinely engineering,
+   computer science, or applied-technical work — actually building, coding,
+   designing, testing, or researching a technical system or product.
+   Set this to FALSE for: sales roles (even "AI sales" or "tech sales"),
+   marketing/communications roles, veterinary/clinical/medical roles (e.g.
+   "DVM Student Externship"), general business operations, HR, finance/
+   accounting (unless genuinely quantitative/technical, like quant trading
+   or financial engineering), vague "high-paying opportunities" postings
+   with no real technical description, and any role whose title's core
+   function isn't engineering or technical, even if the word "AI",
+   "data", "systems", or "tech" appears somewhere in it.
+   When in doubt, set this to false — false negatives here are far less
+   harmful than including a role students didn't actually want listed.
+
+3. majors: ONLY if engineering_relevant is true, list which engineering
+   majors this role's actual day-to-day work matches, chosen ONLY from:
 {majors_list}
-   Use ["General/Other"] if nothing else fits clearly. A job can match more than one.
+   Be conservative and specific — do NOT default to a major just because
+   a role mentions software, AI, or data in general.
+   For "Electrical Engineering" vs "Computer Engineering" specifically:
+     - Electrical Engineering: circuits, power systems, signal processing,
+       analog/RF hardware, semiconductors, controls at the hardware level
+     - Computer Engineering: embedded systems, firmware, hardware-software
+       integration, chip/processor design, computer architecture
+     - Neither of these is for general software engineering, web dev, or
+       app dev roles with no hardware/embedded/circuit component — use
+       "General/Other" for those instead, even if the role is technical.
+   A generic "Data Analyst" or "AI Intern" role with no real engineering
+   substance should get ["General/Other"], not a specific major it
+   doesn't clearly match. If engineering_relevant is false, return an
+   empty list for majors.
 
 Jobs:
 {jobs_block}
 
 Return ONLY a valid JSON array, no explanation, no markdown formatting, one object
 per job, in the SAME ORDER as the input, each shaped like:
-{{"index": 0, "is_internship": true, "majors": ["Mechanical Engineering"]}}
+{{"index": 0, "is_internship": true, "engineering_relevant": true, "majors": ["Mechanical Engineering"]}}
 """
 
 
-def classify_jobs_batch(jobs: list[dict], batch_size: int = 40) -> list[dict]:
+def classify_jobs_batch(
+    jobs: list[dict],
+    batch_size: int = 40,
+    on_batch_complete=None,
+) -> list[dict]:
     """
     Classifies + tags a list of jobs in batches (one API call per batch,
     not per job) to stay well within the free tier's RPM/RPD limits.
@@ -207,14 +362,47 @@ def classify_jobs_batch(jobs: list[dict], batch_size: int = 40) -> list[dict]:
         error. This makes total runtime more predictable — steady and
         a bit slower throughout, instead of fast-then-stalled-then-fast.
 
+    `on_batch_complete`, if given, is called after EVERY batch as
+    on_batch_complete(batch_jobs, batch_results, success: bool) — all
+    same length except success, which is one bool for the batch.
+    success=False means Gemini failed for this batch (rate limit
+    exhausted, parse error) and batch_results are just safe fallback
+    defaults, NOT real classifications — callers should NOT cache
+    these as truth, since they'd permanently mislabel real postings
+    as rejected. Only cache when success=True.
+
+    This callback exists so a caller can save partial progress (e.g.
+    the classification cache) incrementally, rather than only at the
+    very end. Without this, a run that dies partway through a large
+    batch (rate-limit exhaustion, a crash, a Ctrl+C) loses ALL
+    classification work from that run, even the batches that
+    succeeded before the failure.
+
+    EARLY EXIT for cron/unattended runs: if the API call itself fails
+    outright (rate limit exhausted after retries, network error —
+    NOT a JSON parse error, which is a different problem and doesn't
+    mean the API is unreachable) CONSECUTIVE_FAILURE_LIMIT times in a
+    row, this stops attempting further batches entirely rather than
+    grinding through every remaining batch, each independently
+    burning 3 minutes (3 retries x 60s) only to fail the same way.
+    This matters a lot for cron scheduling: once the daily quota is
+    hit, every subsequent batch is doomed, so continuing to try them
+    just wastes the cron job's runtime for nothing. Remaining
+    unprocessed jobs get the same safe `default` + success=False
+    treatment as any other failed batch, so nothing crashes and
+    nothing gets wrongly cached.
+
     Returns a list the same length/order as `jobs`, each entry shaped like
-    {"is_internship": bool, "majors": [str, ...]}. Any job that fails to
-    parse gets a safe default (not an internship, untagged) rather than
-    crashing the whole batch.
+    {"is_internship": bool, "engineering_relevant": bool, "majors": [str, ...]}.
+    Any job that fails to parse gets a safe default (not an internship,
+    not engineering-relevant, untagged) rather than crashing the whole batch.
     """
 
+    CONSECUTIVE_FAILURE_LIMIT = 2
+    consecutive_api_failures = 0
+
     results: list[dict] = [None] * len(jobs)
-    default = {"is_internship": False, "majors": []}
+    default = {"is_internship": False, "engineering_relevant": False, "majors": []}
 
     total_batches = (len(jobs) + batch_size - 1) // batch_size
 
@@ -227,16 +415,49 @@ def classify_jobs_batch(jobs: list[dict], batch_size: int = 40) -> list[dict]:
         text = _call_gemini_with_retry(prompt)
 
         if text is None:
-            for i in range(len(batch)):
-                results[start + i] = default
+            consecutive_api_failures += 1
+
+            # Gemini genuinely failed here (rate limit exhausted after
+            # retries, network error) — this is NOT the same as Gemini
+            # judging these postings as non-internships. Using the
+            # `default` fallback lets the CURRENT run keep going
+            # without crashing, but callers must NOT treat this as a
+            # real result worth caching — success=False signals that.
+            batch_results_list = [default] * len(batch)
+            for i, r in enumerate(batch_results_list):
+                results[start + i] = r
+            if on_batch_complete:
+                on_batch_complete(batch, batch_results_list, False)
+
+            if consecutive_api_failures >= CONSECUTIVE_FAILURE_LIMIT:
+                remaining = len(jobs) - (start + len(batch))
+                print(f"\n{'!' * 60}")
+                print(f"STOPPING EARLY: {consecutive_api_failures} consecutive "
+                      f"API failures in a row (likely the daily rate limit, "
+                      f"not just the per-minute one — that resets at "
+                      f"midnight Pacific, not in a few minutes).")
+                print(f"Skipping the remaining {remaining} postings this run "
+                      f"instead of burning cron runtime on batches that "
+                      f"would almost certainly fail the same way. They'll "
+                      f"be classified on the next run once the quota resets.")
+                print(f"{'!' * 60}\n")
+                for j in range(start + len(batch), len(jobs)):
+                    results[j] = default
+                break
+
             continue
+
+        consecutive_api_failures = 0
 
         try:
             parsed = json.loads(text)
         except json.JSONDecodeError:
             print("Failed to parse Gemini's batch response:", text[:200])
-            for i in range(len(batch)):
-                results[start + i] = default
+            batch_results_list = [default] * len(batch)
+            for i, r in enumerate(batch_results_list):
+                results[start + i] = r
+            if on_batch_complete:
+                on_batch_complete(batch, batch_results_list, False)
             continue
 
         # Fill in whatever the model returned, keyed by its own index
@@ -251,13 +472,19 @@ def classify_jobs_batch(jobs: list[dict], batch_size: int = 40) -> list[dict]:
                 if not isinstance(majors, list):
                     majors = []
                 majors = [m for m in majors if m in MAJOR_TAGS]
+                engineering_relevant = bool(entry.get("engineering_relevant", False))
                 batch_results[idx] = {
                     "is_internship": bool(entry.get("is_internship", False)),
-                    "majors": majors,
+                    "engineering_relevant": engineering_relevant,
+                    "majors": majors if engineering_relevant else [],
                 }
 
-        for i in range(len(batch)):
-            results[start + i] = batch_results[i]
+        batch_results_list = [batch_results[i] for i in range(len(batch))]
+        for i, r in enumerate(batch_results_list):
+            results[start + i] = r
+
+        if on_batch_complete:
+            on_batch_complete(batch, batch_results_list, True)
 
         print(
             f"Classified batch {batch_num + 1}/{total_batches} "

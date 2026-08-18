@@ -9,7 +9,7 @@ import workday
 
 
 CONFIG_PATH = Path("config/companies.json")
-OUTPUT_PATH = Path("data/jobs.json")
+OUTPUT_PATH = Path("docs/data/jobs.json")
 
 
 def load_companies(config_path: Path) -> list[dict]:

@@ -45,6 +45,33 @@ select {
     font-size: 1rem;
 }
 
+.major-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.major-btn {
+    padding: 8px 14px;
+    border: 1px solid #bcccdc;
+    border-radius: 999px;
+    background: white;
+    color: #243b53;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.major-btn:hover {
+    background: #f0f4f8;
+}
+
+.major-btn.active {
+    background: #243b53;
+    color: white;
+    border-color: #243b53;
+}
+
 .table-wrapper {
     overflow-x: auto;
     background: white;

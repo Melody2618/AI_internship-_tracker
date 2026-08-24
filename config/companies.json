@@ -19,5 +19,677 @@
     "site": "Agilent_Student_Careers",
     "locale": "en-US",
     "enabled": true
+  },
+  {
+    "name": "Boeing",
+    "ats": "workday",
+    "host": "https://boeing.wd1.myworkdayjobs.com",
+    "tenant": "boeing",
+    "site": "EXTERNAL_CAREERS",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Caterpillar",
+    "ats": "workday",
+    "host": "https://cat.wd5.myworkdayjobs.com",
+    "tenant": "cat",
+    "site": "CaterpillarCareers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Medtronic",
+    "ats": "workday",
+    "host": "https://medtronic.wd1.myworkdayjobs.com",
+    "tenant": "medtronic",
+    "site": "MedtronicCareers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Air Products",
+    "ats": "greenhouse",
+    "board_token": "air",
+    "enabled": true
+  },
+  {
+    "name": "Airbnb",
+    "ats": "greenhouse",
+    "board_token": "airbnb",
+    "enabled": true
+  },
+  {
+    "name": "Align Technology",
+    "ats": "greenhouse",
+    "board_token": "align",
+    "enabled": true
+  },
+  {
+    "name": "Applied Materials",
+    "ats": "workday",
+    "host": "https://amat.wd1.myworkdayjobs.com",
+    "tenant": "amat",
+    "site": "External",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "AppLovin",
+    "ats": "greenhouse",
+    "board_token": "applovin",
+    "enabled": true
+  },
+  {
+    "name": "Arch Capital Group",
+    "ats": "ashby",
+    "board_name": "arch",
+    "enabled": true
+  },
+  {
+    "name": "Archer Daniels Midland",
+    "ats": "greenhouse",
+    "board_token": "archer",
+    "enabled": true
+  },
+  {
+    "name": "Arthur J. Gallagher & Co.",
+    "ats": "ashby",
+    "board_name": "arthur",
+    "enabled": true
+  },
+  {
+    "name": "Axon Enterprise",
+    "ats": "greenhouse",
+    "board_token": "axon",
+    "enabled": true
+  },
+  {
+    "name": "Block",
+    "ats": "greenhouse",
+    "board_token": "block",
+    "enabled": true
+  },
+  {
+    "name": "Boston Scientific",
+    "ats": "greenhouse",
+    "board_token": "boston",
+    "enabled": true
+  },
+  {
+    "name": "Carvana",
+    "ats": "greenhouse",
+    "board_token": "carvana",
+    "enabled": true
+  },
+  {
+    "name": "Coinbase",
+    "ats": "greenhouse",
+    "board_token": "coinbase",
+    "enabled": true
+  },
+  {
+    "name": "CoStar Group",
+    "ats": "greenhouse",
+    "board_token": "costar",
+    "enabled": true
+  },
+  {
+    "name": "Datadog",
+    "ats": "greenhouse",
+    "board_token": "datadog",
+    "enabled": true
+  },
+  {
+    "name": "D. R. Horton",
+    "ats": "greenhouse",
+    "board_token": "drhorton",
+    "enabled": true
+  },
+  {
+    "name": "Flex Ltd.",
+    "ats": "greenhouse",
+    "board_token": "flex",
+    "enabled": true
+  },
+  {
+    "name": "Fox Corporation (Class A)",
+    "ats": "greenhouse",
+    "board_token": "fox",
+    "enabled": true
+  },
+  {
+    "name": "Fox Corporation (Class B)",
+    "ats": "greenhouse",
+    "board_token": "fox",
+    "enabled": true
+  },
+  {
+    "name": "Gen Digital",
+    "ats": "ashby",
+    "board_name": "gen-digital",
+    "enabled": true
+  },
+  {
+    "name": "GoDaddy",
+    "ats": "greenhouse",
+    "board_token": "godaddy",
+    "enabled": true
+  },
+  {
+    "name": "Hasbro",
+    "ats": "greenhouse",
+    "board_token": "hasbro",
+    "enabled": true
+  },
+  {
+    "name": "Mosaic Company (The)",
+    "ats": "ashby",
+    "board_name": "mosaic",
+    "enabled": true
+  },
+  {
+    "name": "Parker Hannifin",
+    "ats": "ashby",
+    "board_name": "parker",
+    "enabled": true
+  },
+  {
+    "name": "Quanta Services",
+    "ats": "ashby",
+    "board_name": "quanta",
+    "enabled": true
+  },
+  {
+    "name": "Robinhood Markets",
+    "ats": "greenhouse",
+    "board_token": "robinhood",
+    "enabled": true
+  },
+  {
+    "name": "Steel Dynamics",
+    "ats": "ashby",
+    "board_name": "steel",
+    "enabled": true
+  },
+  {
+    "name": "Take-Two Interactive",
+    "ats": "greenhouse",
+    "board_token": "taketwo",
+    "enabled": true
+  },
+  {
+    "name": "Union Pacific Corporation",
+    "ats": "ashby",
+    "board_name": "union",
+    "enabled": true
+  },
+  {
+    "name": "Universal Health Services",
+    "ats": "greenhouse",
+    "board_token": "universal",
+    "enabled": true
+  },
+  {
+    "name": "Verisign",
+    "ats": "greenhouse",
+    "board_token": "verisign",
+    "enabled": true
+  },
+  {
+    "name": "CircuitHub",
+    "ats": "ashby",
+    "board_name": "circuithub",
+    "enabled": true
+  },
+  {
+    "name": "Rescale",
+    "ats": "ashby",
+    "board_name": "rescale",
+    "enabled": true
+  },
+  {
+    "name": "Gusto",
+    "ats": "greenhouse",
+    "board_token": "gusto",
+    "enabled": true
+  },
+  {
+    "name": "Make School",
+    "ats": "greenhouse",
+    "board_token": "make",
+    "enabled": true
+  },
+  {
+    "name": "Amplitude",
+    "ats": "ashby",
+    "board_name": "amplitude",
+    "enabled": true
+  },
+  {
+    "name": "Tilt",
+    "ats": "ashby",
+    "board_name": "tilt",
+    "enabled": true
+  },
+  {
+    "name": "Ark",
+    "ats": "greenhouse",
+    "board_token": "ark",
+    "enabled": true
+  },
+  {
+    "name": "Y Combinator",
+    "ats": "ashby",
+    "board_name": "ycombinator",
+    "enabled": true
+  },
+  {
+    "name": "Clutch",
+    "ats": "greenhouse",
+    "board_token": "clutch",
+    "enabled": true
+  },
+  {
+    "name": "HackerRank",
+    "ats": "greenhouse",
+    "board_token": "hackerrank",
+    "enabled": true
+  },
+  {
+    "name": "Genius",
+    "ats": "greenhouse",
+    "board_token": "genius",
+    "enabled": true
+  },
+  {
+    "name": "GoCardless",
+    "ats": "greenhouse",
+    "board_token": "gocardless",
+    "enabled": true
+  },
+  {
+    "name": "Sift",
+    "ats": "ashby",
+    "board_name": "sift",
+    "enabled": true
+  },
+  {
+    "name": "SingleStore",
+    "ats": "greenhouse",
+    "board_token": "singlestore",
+    "enabled": true
+  },
+  {
+    "name": "Tremendous",
+    "ats": "ashby",
+    "board_name": "tremendous",
+    "enabled": true
+  },
+  {
+    "name": "Close",
+    "ats": "ashby",
+    "board_name": "close",
+    "enabled": true
+  },
+  {
+    "name": "Zerocater",
+    "ats": "greenhouse",
+    "board_token": "zerocater",
+    "enabled": true
+  },
+  {
+    "name": "Docker",
+    "ats": "ashby",
+    "board_name": "docker",
+    "enabled": true
+  },
+  {
+    "name": "PagerDuty",
+    "ats": "greenhouse",
+    "board_token": "pagerduty",
+    "enabled": true
+  },
+  {
+    "name": "Ready For Zero",
+    "ats": "ashby",
+    "board_name": "ready",
+    "enabled": true
+  },
+  {
+    "name": "Zencoder",
+    "ats": "greenhouse",
+    "board_token": "zencoder",
+    "enabled": true
+  },
+  {
+    "name": "Stripe",
+    "ats": "greenhouse",
+    "board_token": "stripe",
+    "enabled": true
+  },
+  {
+    "name": "Mixpanel",
+    "ats": "greenhouse",
+    "board_token": "mixpanel",
+    "enabled": true
+  },
+  {
+    "name": "A Thinking Ape",
+    "ats": "greenhouse",
+    "board_token": "athinkingape",
+    "enabled": true
+  },
+  {
+    "name": "Realm",
+    "ats": "greenhouse",
+    "board_token": "realm",
+    "enabled": true
+  },
+  {
+    "name": "Weave",
+    "ats": "greenhouse",
+    "board_token": "weave",
+    "enabled": true
+  },
+  {
+    "name": "Algolia",
+    "ats": "greenhouse",
+    "board_token": "algolia",
+    "enabled": true
+  },
+  {
+    "name": "Checkr",
+    "ats": "greenhouse",
+    "board_token": "checkr",
+    "enabled": true
+  },
+  {
+    "name": "Clara Labs",
+    "ats": "greenhouse",
+    "board_token": "clara",
+    "enabled": true
+  },
+  {
+    "name": "Clear",
+    "ats": "greenhouse",
+    "board_token": "clear",
+    "enabled": true
+  },
+  {
+    "name": "Cheddar",
+    "ats": "greenhouse",
+    "board_token": "cheddar",
+    "enabled": true
+  },
+  {
+    "name": "UserGems",
+    "ats": "greenhouse",
+    "board_token": "usergems",
+    "enabled": true
+  },
+  {
+    "name": "Hive",
+    "ats": "greenhouse",
+    "board_token": "hive",
+    "enabled": true
+  },
+  {
+    "name": "Ginkgo Bioworks",
+    "ats": "greenhouse",
+    "board_token": "ginkgobioworks",
+    "enabled": true
+  },
+  {
+    "name": "Oklo",
+    "ats": "greenhouse",
+    "board_token": "oklo",
+    "enabled": true
+  },
+  {
+    "name": "Qventus",
+    "ats": "greenhouse",
+    "board_token": "qventus",
+    "enabled": true
+  },
+  {
+    "name": "Akido Labs",
+    "ats": "greenhouse",
+    "board_token": "akidolabs",
+    "enabled": true
+  },
+  {
+    "name": "SIRUM",
+    "ats": "greenhouse",
+    "board_token": "sirum",
+    "enabled": true
+  },
+  {
+    "name": "Tempo",
+    "ats": "greenhouse",
+    "board_token": "tempo",
+    "enabled": true
+  },
+  {
+    "name": "GitLab",
+    "ats": "greenhouse",
+    "board_token": "gitlab",
+    "enabled": true
+  },
+  {
+    "name": "Industrial Microbes",
+    "ats": "greenhouse",
+    "board_token": "industrial",
+    "enabled": true
+  },
+  {
+    "name": "Seed",
+    "ats": "greenhouse",
+    "board_token": "seed",
+    "enabled": true
+  },
+  {
+    "name": "Raven Tech",
+    "ats": "greenhouse",
+    "board_token": "raven",
+    "enabled": true
+  },
+  {
+    "name": "Flip",
+    "ats": "greenhouse",
+    "board_token": "flip",
+    "enabled": true
+  },
+  {
+    "name": "Spire Health",
+    "ats": "greenhouse",
+    "board_token": "spire",
+    "enabled": true
+  },
+  {
+    "name": "Thrive Agritech",
+    "ats": "greenhouse",
+    "board_token": "thrive",
+    "enabled": true
+  },
+  {
+    "name": "GiveCampus",
+    "ats": "greenhouse",
+    "board_token": "givecampus",
+    "enabled": true
+  },
+  {
+    "name": "Xendit",
+    "ats": "greenhouse",
+    "board_token": "xendit",
+    "enabled": true
+  },
+  {
+    "name": "Fetch",
+    "ats": "greenhouse",
+    "board_token": "fetch",
+    "enabled": true
+  },
+  {
+    "name": "Northrop Grumman",
+    "ats": "workday",
+    "host": "https://ngc.wd1.myworkdayjobs.com",
+    "tenant": "ngc",
+    "site": "Northrop_Grumman_External_Site",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "RTX",
+    "ats": "workday",
+    "host": "https://globalhr.wd5.myworkdayjobs.com",
+    "tenant": "globalhr",
+    "site": "REC_RTX_Ext_Gateway",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "GE Aerospace",
+    "ats": "workday",
+    "host": "https://geaerospace.wd5.myworkdayjobs.com",
+    "tenant": "geaerospace",
+    "site": "GE_ExternalSite",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Intel",
+    "ats": "workday",
+    "host": "https://intel.wd1.myworkdayjobs.com",
+    "tenant": "intel",
+    "site": "External",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Micron Technology",
+    "ats": "workday",
+    "host": "https://micron.wd1.myworkdayjobs.com",
+    "tenant": "micron",
+    "site": "External",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Dow",
+    "ats": "workday",
+    "host": "https://dow.wd1.myworkdayjobs.com",
+    "tenant": "dow",
+    "site": "ExternalCareers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "DuPont",
+    "ats": "workday",
+    "host": "https://dupont.wd5.myworkdayjobs.com",
+    "tenant": "dupont",
+    "site": "Jobs",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Stryker",
+    "ats": "workday",
+    "host": "https://stryker.wd1.myworkdayjobs.com",
+    "tenant": "stryker",
+    "site": "StrykerCareers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "3M",
+    "ats": "workday",
+    "host": "https://3m.wd1.myworkdayjobs.com",
+    "tenant": "3m",
+    "site": "Search",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Rockwell Automation",
+    "ats": "workday",
+    "host": "https://rockwellautomation.wd1.myworkdayjobs.com",
+    "tenant": "rockwellautomation",
+    "site": "External-Rockwell-Automation-Early-Careers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Danaher",
+    "ats": "workday",
+    "host": "https://danaher.wd1.myworkdayjobs.com",
+    "tenant": "danaher",
+    "site": "DanaherJobs",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Regeneron",
+    "ats": "workday",
+    "host": "https://regeneron.wd1.myworkdayjobs.com",
+    "tenant": "regeneron",
+    "site": "Careers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Vertex Pharmaceuticals",
+    "ats": "workday",
+    "host": "https://vrtx.wd501.myworkdayjobs.com",
+    "tenant": "vrtx",
+    "site": "Vertex_Careers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Analog Devices",
+    "ats": "workday",
+    "host": "https://analogdevices.wd1.myworkdayjobs.com",
+    "tenant": "analogdevices",
+    "site": "External",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Trane Technologies",
+    "ats": "workday",
+    "host": "https://tranetechnologies.wd12.myworkdayjobs.com",
+    "tenant": "tranetechnologies",
+    "site": "Trane_Technologies_Careers",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Baker Hughes",
+    "ats": "workday",
+    "host": "https://bakerhughes.wd5.myworkdayjobs.com",
+    "tenant": "bakerhughes",
+    "site": "BakerHughes",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Becton Dickinson",
+    "ats": "workday",
+    "host": "https://bdx.wd1.myworkdayjobs.com",
+    "tenant": "bdx",
+    "site": "US_EARLY_TALENT_SITE",
+    "locale": "en-US",
+    "enabled": true
+  },
+  {
+    "name": "Bristol Myers Squibb",
+    "ats": "workday",
+    "host": "https://bristolmyerssquibb.wd5.myworkdayjobs.com",
+    "tenant": "bristolmyerssquibb",
+    "site": "BMS",
+    "locale": "en-US",
+    "enabled": true
   }
 ]

@@ -123,6 +123,11 @@ def save_jobs(jobs: list[dict], output_path: Path) -> None:
 
 
 def main() -> None:
+    # TEAM NOTE: writes to its OWN file (ashby_jobs.json) — NOT
+    # data/jobs.json, which is the combined output from the real
+    # pipeline (src/main.py). Safe to run directly for testing the
+    # Ashby scraper alone. For the actual pipeline, use:
+    #   python3 src/main.py
     config_path = Path("config/companies.json")
     output_path = Path("data/ashby_jobs.json")
 

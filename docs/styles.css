@@ -15,6 +15,13 @@ body {
     padding: 40px 0;
 }
 
+.convention-banner {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 header {
     margin-bottom: 30px;
 }

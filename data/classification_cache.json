@@ -578,6 +578,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-anthropic-5409299008": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-anthropic-5404390008": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -1668,6 +1673,14 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-boeing-JR2026519045": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Aerospace Engineering",
+      "Mechanical Engineering"
+    ]
+  },
   "workday-boeing-JR2026516297": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -1858,6 +1871,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-boeing-JR2026517680-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-boeing-JR2026523346-1": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -1888,11 +1906,6 @@
     "majors": []
   },
   "workday-boeing-JR2026521283-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-boeing-JR2026523317": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -2954,11 +2967,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-boeing-JR2026514172-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-boeing-JR2026515604-2": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -3163,11 +3171,6 @@
       "General/Other"
     ]
   },
-  "workday-boeing-JR2026521909": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-boeing-JR2026492682-1": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -3185,25 +3188,12 @@
       "General/Other"
     ]
   },
-  "workday-boeing-JR2026497106-1": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Materials Science and Engineering",
-      "Aerospace Engineering"
-    ]
-  },
   "workday-boeing-JR2026521255-2": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
   "workday-boeing-JR2026516711-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-boeing-JR2026504913": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -3267,14 +3257,6 @@
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
-  },
-  "workday-boeing-JR2026517917-1": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Aerospace Engineering",
-      "Electrical Engineering"
-    ]
   },
   "workday-boeing-JR2026513000-1": {
     "is_internship": false,
@@ -3764,6 +3746,70 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-cat-R0000390959": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering",
+      "General/Other"
+    ]
+  },
+  "workday-cat-R0000387378": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  "workday-cat-R0000387379": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Electrical Engineering",
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  "workday-cat-R0000390277": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-cat-R0000391464": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "workday-cat-R0000391458": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "workday-cat-R0000390781": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-cat-R0000391392": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-cat-R0000391444": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
   "workday-cat-R0000391415": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -3973,11 +4019,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-cat-R0000391050": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-cat-R0000391262": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -4075,16 +4116,6 @@
       "Industrial Engineering",
       "General/Other"
     ]
-  },
-  "workday-cat-R0000351723": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-cat-R0000386703": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
   },
   "workday-cat-R0000379128": {
     "is_internship": false,
@@ -4400,15 +4431,6 @@
     "majors": [
       "Mechanical Engineering",
       "Electrical Engineering"
-    ]
-  },
-  "workday-cat-R0000390959": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "Electrical Engineering",
-      "General/Other"
     ]
   },
   "workday-cat-R0000345925": {
@@ -5530,11 +5552,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-cat-R0000384671": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-cat-R0000389773": {
     "is_internship": true,
     "engineering_relevant": false,
@@ -6486,22 +6503,6 @@
       "Electrical Engineering"
     ]
   },
-  "workday-cat-R0000387379": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "Computer Engineering",
-      "General/Other"
-    ]
-  },
-  "workday-cat-R0000387378": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Mechanical Engineering"
-    ]
-  },
   "workday-cat-R0000329919": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -6890,11 +6891,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-cat-R0000383715": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-cat-R0000384559": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -7148,6 +7144,48 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-medtronic-R75116-1": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering"
+    ]
+  },
+  "workday-medtronic-R70453-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-medtronic-R75835-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-medtronic-R75833-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-medtronic-R76326-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-medtronic-R75313-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-medtronic-R74752-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-medtronic-R76315-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-medtronic-R73390-1": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -7164,11 +7202,6 @@
     "majors": []
   },
   "workday-medtronic-R72321-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R76256-1": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -7420,11 +7453,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-medtronic-R74444-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-medtronic-R74412-2": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -7441,11 +7469,6 @@
     "majors": []
   },
   "workday-medtronic-R75156-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R76008-2": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -7502,11 +7525,6 @@
     "majors": []
   },
   "workday-medtronic-R74205-2": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R71415-1": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -7747,6 +7765,11 @@
     "majors": []
   },
   "workday-medtronic-R73975-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-medtronic-R75250": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -8085,13 +8108,6 @@
       "Mechanical Engineering"
     ]
   },
-  "workday-medtronic-R75116-1": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Industrial Engineering"
-    ]
-  },
   "workday-medtronic-R71711-1": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -8233,6 +8249,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-medtronic-R72141-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-medtronic-R73883-1": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -8243,17 +8264,7 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-medtronic-R73357-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-medtronic-R74802-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R72968-1": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -8442,15 +8453,6 @@
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
-  },
-  "workday-medtronic-R74434-1": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Chemical Engineering",
-      "Mechanical Engineering",
-      "Industrial Engineering"
-    ]
   },
   "workday-medtronic-R75120": {
     "is_internship": false,
@@ -9214,17 +9216,7 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-medtronic-R72719-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-medtronic-R72327-2": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R73599-1": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -9730,11 +9722,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-medtronic-R67194-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-medtronic-R61803-1": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -10203,17 +10190,27 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "greenhouse-airbnb-7964996": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "greenhouse-airbnb-7870802": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-airbnb-7964996": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-airbnb-7230257": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-airbnb-7417294": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-airbnb-8080766": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -10359,10 +10356,51 @@
       "Mechanical Engineering"
     ]
   },
+  "workday-amat-R2624179": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
   "workday-amat-R2610521": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
+  },
+  "workday-amat-R2627542": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Electrical Engineering",
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  "workday-amat-R2620136": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  "workday-amat-R2625771": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  "workday-amat-R2627541": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Applied Sciences in Engineering",
+      "Materials Science and Engineering"
+    ]
   },
   "workday-amat-R2615037": {
     "is_internship": false,
@@ -10797,14 +10835,6 @@
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
-  },
-  "workday-amat-R2625824": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Industrial Engineering",
-      "Mechanical Engineering"
-    ]
   },
   "workday-amat-R2626361": {
     "is_internship": false,
@@ -11388,6 +11418,13 @@
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
+  },
+  "workday-amat-R2626820": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
   },
   "workday-amat-R2626823": {
     "is_internship": false,
@@ -15321,14 +15358,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-amat-R2620990-1": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "General/Other"
-    ]
-  },
   "workday-amat-R2620993": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -15901,21 +15930,6 @@
       "General/Other"
     ]
   },
-  "workday-amat-R2615107": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "workday-amat-R2616847": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "Mechanical Engineering"
-    ]
-  },
   "workday-amat-R2416455": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -16328,6 +16342,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-amat-R2519512": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-amat-R2517466": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -16573,6 +16592,13 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-axon-7976602003": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
   "greenhouse-axon-7746492003": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -16802,6 +16828,11 @@
     "majors": [
       "General/Other"
     ]
+  },
+  "greenhouse-axon-7849284003": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
   },
   "greenhouse-axon-7823326003": {
     "is_internship": false,
@@ -17524,6 +17555,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8165415": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8049071": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -17803,6 +17839,11 @@
     "majors": []
   },
   "greenhouse-carvana-8120061": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-7983318": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -18247,6 +18288,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8112495": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8144436": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -18497,6 +18543,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8107397": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8156350": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -18588,6 +18639,11 @@
     "majors": []
   },
   "greenhouse-carvana-8144799": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8165321": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -18752,6 +18808,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8145008": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8130504": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -18817,12 +18878,22 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8144981": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8161732": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
   "greenhouse-carvana-8144917": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8144984": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -18952,12 +19023,37 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8148558": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8148505": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8144013": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8156629": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8044656": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
   "greenhouse-carvana-8144000": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8155499": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -18973,6 +19069,16 @@
     "majors": []
   },
   "greenhouse-carvana-8094736": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8157781": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8135199": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -18993,6 +19099,11 @@
     "majors": []
   },
   "greenhouse-carvana-8161730": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8147982": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -19082,7 +19193,17 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8080151": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8010899": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8140017": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -19158,6 +19279,11 @@
     "majors": []
   },
   "greenhouse-carvana-8133803": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8147159": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -19952,6 +20078,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-7939509": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8160566": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -19988,6 +20119,11 @@
     "majors": []
   },
   "greenhouse-carvana-7607668": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-7976605": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -20057,6 +20193,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-7813100": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-7847348": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -20078,6 +20219,11 @@
     "majors": []
   },
   "greenhouse-carvana-7769873": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-7612710": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -20122,6 +20268,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8000862": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-7996906": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -20138,6 +20289,11 @@
     "majors": []
   },
   "greenhouse-carvana-7985377": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8048877": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -20202,6 +20358,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8068067": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-7964289": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -20232,6 +20393,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-7950352": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8157747": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -20248,6 +20414,11 @@
     "majors": []
   },
   "greenhouse-carvana-7931050": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-7939508": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -20302,7 +20473,17 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-7778343": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-7705169": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-7667287": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -20323,6 +20504,11 @@
     "majors": []
   },
   "greenhouse-carvana-7607639": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-7574589": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -20652,6 +20838,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-7993182": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-7974967": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -20917,6 +21108,16 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-7926922": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-7926745": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8046506": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -21027,6 +21228,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8162481": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8144759": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -21062,12 +21268,22 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8165203": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8144698": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
   "greenhouse-carvana-8144179": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8165194": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -21172,6 +21388,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8155417": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8155268": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -21188,6 +21409,11 @@
     "majors": []
   },
   "greenhouse-carvana-8144453": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8148626": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -21302,12 +21528,22 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8107165": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8144308": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
   "greenhouse-carvana-8144390": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8157788": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -21393,6 +21629,11 @@
     "majors": []
   },
   "greenhouse-carvana-8165112": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8145027": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -21572,6 +21813,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-7991596": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8165066": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -21583,6 +21829,11 @@
     "majors": []
   },
   "greenhouse-carvana-8080400": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8128938": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -21672,6 +21923,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8144193": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8145029": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -21743,6 +21999,11 @@
     "majors": []
   },
   "greenhouse-carvana-8147631": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8067834": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -21887,7 +22148,17 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8144300": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-7985990": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-7895883": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -21908,6 +22179,11 @@
     "majors": []
   },
   "greenhouse-carvana-8099119": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-7735833": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -22312,6 +22588,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8165294": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8154792": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -22343,6 +22624,11 @@
     "majors": []
   },
   "greenhouse-carvana-8060294": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8060176": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -22497,6 +22783,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-7921659": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8102770": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -22647,12 +22938,22 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-carvana-8108782": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-carvana-8144609": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
   "greenhouse-carvana-8144731": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8165221": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -22698,6 +22999,16 @@
     "majors": []
   },
   "greenhouse-carvana-8144238": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8125746": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-carvana-8125707": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -23925,6 +24236,16 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-coinbase-8031253": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-coinbase-7994501": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-coinbase-8030594": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -24042,6 +24363,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-coinbase-8165389": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-coinbase-8049976": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -24101,6 +24427,11 @@
     "majors": [
       "General/Other"
     ]
+  },
+  "greenhouse-coinbase-8165441": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
   },
   "greenhouse-coinbase-8122777": {
     "is_internship": false,
@@ -24174,6 +24505,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-datadog-8130580": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-datadog-8138342": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -24215,6 +24551,11 @@
     "majors": []
   },
   "greenhouse-datadog-8119837": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-datadog-6009779": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -24296,6 +24637,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-datadog-6703351": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-datadog-7868421": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -24347,6 +24693,11 @@
     "majors": []
   },
   "greenhouse-datadog-7997846": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-datadog-7526356": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -24419,6 +24770,11 @@
     "majors": []
   },
   "greenhouse-datadog-7650367": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-datadog-7806043": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -24911,6 +25267,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-hasbro-4259238009": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-hasbro-4313024009": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -24980,6 +25341,11 @@
     "majors": []
   },
   "greenhouse-hasbro-4251923009": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-hasbro-4340955009": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -25634,6 +26000,11 @@
     "majors": []
   },
   "greenhouse-gusto-8078212": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-gusto-7586222": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -26541,6 +26912,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "greenhouse-pagerduty-6155975004": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-pagerduty-6141657004": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -26644,17 +27020,17 @@
       "General/Other"
     ]
   },
-  "greenhouse-stripe-6686634": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "greenhouse-stripe-6042172": {
     "is_internship": false,
     "engineering_relevant": true,
     "majors": [
       "General/Other"
     ]
+  },
+  "greenhouse-stripe-6686634": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
   },
   "greenhouse-stripe-7913700": {
     "is_internship": false,
@@ -26667,6 +27043,11 @@
     "majors": []
   },
   "greenhouse-stripe-7557899": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-stripe-8131144": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -26956,7 +27337,7 @@
       "General/Other"
     ]
   },
-  "greenhouse-stripe-8055050": {
+  "greenhouse-stripe-8075570": {
     "is_internship": false,
     "engineering_relevant": true,
     "majors": [
@@ -26970,7 +27351,7 @@
       "General/Other"
     ]
   },
-  "greenhouse-stripe-8075570": {
+  "greenhouse-stripe-8055050": {
     "is_internship": false,
     "engineering_relevant": true,
     "majors": [
@@ -27219,14 +27600,14 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "greenhouse-stripe-8137997": {
+  "greenhouse-stripe-8014859": {
     "is_internship": false,
     "engineering_relevant": true,
     "majors": [
       "General/Other"
     ]
   },
-  "greenhouse-stripe-8014859": {
+  "greenhouse-stripe-8137997": {
     "is_internship": false,
     "engineering_relevant": true,
     "majors": [
@@ -27240,12 +27621,12 @@
       "General/Other"
     ]
   },
-  "greenhouse-stripe-8021192": {
+  "greenhouse-stripe-8109554": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
-  "greenhouse-stripe-8109554": {
+  "greenhouse-stripe-8021192": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -27285,11 +27666,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "greenhouse-stripe-8093103": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "greenhouse-stripe-7544547": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -27310,12 +27686,12 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "greenhouse-stripe-7913406": {
+  "greenhouse-stripe-7554002": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
-  "greenhouse-stripe-7554002": {
+  "greenhouse-stripe-7913406": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -27567,12 +27943,12 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "greenhouse-stripe-8106775": {
+  "greenhouse-stripe-8089882": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
-  "greenhouse-stripe-8089882": {
+  "greenhouse-stripe-8106775": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -27794,12 +28170,12 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "greenhouse-stripe-8142856": {
+  "greenhouse-stripe-8154525": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
-  "greenhouse-stripe-8154525": {
+  "greenhouse-stripe-8142856": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -28564,6 +28940,11 @@
       "Industrial Engineering"
     ]
   },
+  "greenhouse-oklo-5637095004": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "greenhouse-oklo-6116761004": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -29102,6 +29483,29 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-ngc-R10243552": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Aerospace Engineering",
+      "General/Other"
+    ]
+  },
+  "workday-ngc-R10248335-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-ngc-R10248333": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-ngc-R10245892-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-ngc-R10247916": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -29144,6 +29548,11 @@
     "majors": [
       "Industrial Engineering"
     ]
+  },
+  "workday-ngc-R10248336": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
   },
   "workday-ngc-R10248280-1": {
     "is_internship": false,
@@ -29361,11 +29770,6 @@
     "majors": []
   },
   "workday-ngc-R10248140": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-ngc-R10246706": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -29702,13 +30106,6 @@
     "engineering_relevant": true,
     "majors": [
       "General/Other"
-    ]
-  },
-  "workday-ngc-R10247972": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering"
     ]
   },
   "workday-ngc-R10245065": {
@@ -30377,11 +30774,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-ngc-R10245904": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-ngc-R10247671": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -30572,16 +30964,6 @@
     "majors": [
       "General/Other"
     ]
-  },
-  "workday-ngc-R10238858": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-ngc-R10247555": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
   },
   "workday-ngc-R10247472": {
     "is_internship": false,
@@ -31337,14 +31719,6 @@
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
-  },
-  "workday-ngc-R10246671": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Aerospace Engineering",
-      "General/Other"
-    ]
   },
   "workday-ngc-R10239560-1": {
     "is_internship": false,
@@ -32998,14 +33372,6 @@
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
-  },
-  "workday-ngc-R10243552": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Aerospace Engineering",
-      "General/Other"
-    ]
   },
   "workday-ngc-R10243449": {
     "is_internship": false,
@@ -35152,6 +35518,54 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-globalhr-01869785": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Aerospace Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  "workday-globalhr-01869283": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-globalhr-01854416": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-globalhr-01869475": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-globalhr-01871016": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-globalhr-01867415": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-globalhr-01869933": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-globalhr-01865972": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-globalhr-01867760": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-globalhr-01870964": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -35627,11 +36041,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-globalhr-01870587": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-globalhr-01869443": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -35954,14 +36363,6 @@
     "majors": [
       "Aerospace Engineering",
       "Mechanical Engineering"
-    ]
-  },
-  "workday-globalhr-01869785": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Aerospace Engineering",
-      "Electrical Engineering"
     ]
   },
   "workday-globalhr-01863740": {
@@ -36579,13 +36980,6 @@
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
-  },
-  "workday-globalhr-01869887": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Industrial Engineering"
-    ]
   },
   "workday-globalhr-01848512": {
     "is_internship": false,
@@ -41772,19 +42166,6 @@
       "Aerospace Engineering"
     ]
   },
-  "workday-globalhr-01862598": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-globalhr-01855314": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Mechanical Engineering",
-      "Aerospace Engineering"
-    ]
-  },
   "workday-globalhr-01862233-1": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -43057,6 +43438,11 @@
     "majors": []
   },
   "workday-globalhr-01858307": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-globalhr-01852416": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -45363,6 +45749,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-geaerospace-R5039455-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-geaerospace-R5039182-1": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -45437,11 +45828,6 @@
     "majors": []
   },
   "workday-geaerospace-R5037286-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-geaerospace-R5039066-1": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -46462,11 +46848,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-geaerospace-R5037806-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-geaerospace-R5038516-1": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -46506,11 +46887,6 @@
     ]
   },
   "workday-geaerospace-R5038423-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-geaerospace-R5037154-1": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -47263,6 +47639,16 @@
       "Computer Engineering",
       "Electrical Engineering"
     ]
+  },
+  "workday-intel-JR0286780": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-intel-JR0286046": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
   },
   "workday-intel-JR0286670": {
     "is_internship": false,
@@ -49260,6 +49646,11 @@
       "General/Other"
     ]
   },
+  "workday-intel-JR0285289": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-intel-JR0285510": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -49613,6 +50004,26 @@
     "majors": [
       "Electrical Engineering",
       "Materials Science and Engineering"
+    ]
+  },
+  "workday-micron-JR105541": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-micron-JR110479": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-micron-JR110335": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Electrical Engineering",
+      "Chemical Engineering",
+      "Materials Science and Engineering",
+      "Mechanical Engineering"
     ]
   },
   "workday-micron-JR110018": {
@@ -58499,11 +58910,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-dupont-248557W": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-dupont-249523W": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -58736,6 +59142,29 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-stryker-R570666": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-stryker-R566419": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "General/Other"
+    ]
+  },
+  "workday-stryker-R572524": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-stryker-R571651": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-stryker-R571551": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -58851,11 +59280,6 @@
     "majors": [
       "Industrial Engineering"
     ]
-  },
-  "workday-stryker-R569097-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
   },
   "workday-stryker-R570858": {
     "is_internship": true,
@@ -61869,6 +62293,19 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-3m-R01169855": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-3m-R01170099": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "Mechanical Engineering"
+    ]
+  },
   "workday-3m-R01170276": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -62171,6 +62608,21 @@
     "majors": []
   },
   "workday-3m-R01159425-2": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-3m-R01169955": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-3m-R01169878-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-3m-R01167803": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -64114,6 +64566,21 @@
       "Mechanical Engineering"
     ]
   },
+  "workday-danaher-R1316326": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-danaher-R1315547": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-danaher-R1317371": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-danaher-R1317185": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -64629,11 +65096,6 @@
     "majors": []
   },
   "workday-danaher-R1314631": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-danaher-R1316326": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -65577,6 +66039,16 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-danaher-R1316180": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-danaher-R1316379": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-danaher-R1317101": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -65587,11 +66059,6 @@
     ]
   },
   "workday-danaher-R1316037": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-danaher-R1316379": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -66306,11 +66773,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-danaher-R1316180": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-danaher-R1316050": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -66486,11 +66948,6 @@
     ]
   },
   "workday-danaher-R1313838": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-danaher-R1316062": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -68458,6 +68915,14 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-analogdevices-R263570": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "Mechanical Engineering"
+    ]
+  },
   "workday-analogdevices-R265579": {
     "is_internship": true,
     "engineering_relevant": true,
@@ -69227,11 +69692,6 @@
       "Biomedical Engineering"
     ]
   },
-  "workday-analogdevices-R262945": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-analogdevices-R261860": {
     "is_internship": false,
     "engineering_relevant": true,
@@ -69625,14 +70085,6 @@
     "majors": [
       "Electrical Engineering",
       "Computer Engineering"
-    ]
-  },
-  "workday-analogdevices-R263570": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Industrial Engineering",
-      "Mechanical Engineering"
     ]
   },
   "workday-analogdevices-R263143": {
@@ -70049,6 +70501,11 @@
     "majors": [
       "General/Other"
     ]
+  },
+  "workday-tranetechnologies-JR-14020": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
   },
   "workday-tranetechnologies-JR-13988-1": {
     "is_internship": false,
@@ -72195,11 +72652,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-tranetechnologies-JR-11223": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-tranetechnologies-JR-8969": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -72705,14 +73157,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-tranetechnologies-JR-7093": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "Electrical Engineering"
-    ]
-  },
   "workday-tranetechnologies-JR-9589": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -72848,11 +73292,6 @@
       "Electrical Engineering",
       "Mechanical Engineering"
     ]
-  },
-  "workday-tranetechnologies-JR-8618": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
   },
   "workday-tranetechnologies-JR-7626-1": {
     "is_internship": true,
@@ -73873,6 +74312,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-bakerhughes-R166580": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-bakerhughes-R164753": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -73901,6 +74345,16 @@
     "majors": []
   },
   "workday-bakerhughes-R147560": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-bakerhughes-R167144": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-bakerhughes-R168055": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -73959,11 +74413,6 @@
   },
   "workday-bakerhughes-R167985-1": {
     "is_internship": true,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-bakerhughes-R164054": {
-    "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
@@ -74567,11 +75016,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-bakerhughes-R167495-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-bakerhughes-R161567-1": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -74670,11 +75114,6 @@
     "majors": []
   },
   "workday-bakerhughes-R164921-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-bakerhughes-R168406": {
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
@@ -76300,6 +76739,11 @@
     "engineering_relevant": false,
     "majors": []
   },
+  "workday-bristolmyerssquibb-R1605596": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
   "workday-bristolmyerssquibb-R1605795": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -76530,11 +76974,6 @@
     "engineering_relevant": false,
     "majors": []
   },
-  "workday-bristolmyerssquibb-R1605442-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
   "workday-bristolmyerssquibb-R1600366-1": {
     "is_internship": false,
     "engineering_relevant": false,
@@ -76612,11 +77051,6 @@
       "Biomedical Engineering",
       "General/Other"
     ]
-  },
-  "workday-bristolmyerssquibb-R1601522": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
   },
   "workday-bristolmyerssquibb-R1605324": {
     "is_internship": false,
@@ -77088,6 +77522,244 @@
     "is_internship": false,
     "engineering_relevant": false,
     "majors": []
+  },
+  "external-ashby:northwoodspace:ce3d4b73-461e-4128-a6f1-f933897e8119": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-greenhouse:charlesriverassociates:8128811": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-greenhouse:xairatherapeutics:5225658007": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Biomedical Engineering",
+      "Applied Sciences in Engineering",
+      "General/Other"
+    ]
+  },
+  "external-oracle:ehzq.fa.us2.oraclecloud.com:115687": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-oracle:hdhl.fa.us6.oraclecloud.com:1007361": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  "external-workday:bah:/job/Atlanta-GA/University---2027-Summer-Games-Cyber-Security-Intern---Atlanta--GA_R0248139": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Atlanta-GA/University---2027-Summer-Games-Software-Developer-Intern---Atlanta--GA_R0248138": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Atlanta-GA/University--2027-Summer-Games-Data-Scientist-Intern_R0248140": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Cyber-Security-Intern---Charleston--SC_R0248136": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Data-Scientist-Intern_R0248137": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Software-Developer-Intern_R0248134": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Cybersecurity-Intern_R0248131": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/McLean-VA/University---Summer-27--Cybersecurity-Analyst-Intern_R0248214": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Rome-NY/University--2027-Summer-Games-Cyber-Security-Intern_R0248142": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/Rome-NY/University--2027-Summer-Games-Software-Developer-Intern_R0248141": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/San-Diego-CA/AI-Software-Developer-Intern_R0248115": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:brunswick:/job/Menomonee-Falls-WI/Software-Engineer-Intern_JR-051426-1": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:cccis:/job/Chicago-Green-St-IL/AI-Enablement-Intern_0014872": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:conagrabrands:/job/Omaha-Nebraska/Cybersecurity-Internship---Summer-2027_Req-039965": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  "external-workday:hp:/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  "external-workday:leidos:/job/San-Diego-CA/Data-Science-Intern_R-00190740": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284869": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  "external-workday:tiaa:/job/New-York-NY-USA/Churchill-Summer-Internship--Investment-Infrastructure---Technology--IIT-_R260800515-1": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-lever:anavationllc:f7c83978-8510-409c-a5a3-17618511f819": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/El-Segundo-CA/University--2027-Summer-Games-Data-Scientist-Intern_R0248050": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern_R0248029": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:bah:/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
   },
   "external-amazon:amazon:10517149": {
     "is_internship": true,
@@ -78857,32 +79529,10 @@
       "General/Other"
     ]
   },
-  "external-workable:wallstreetquants:494E392FD3": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workable:wallstreetquants:8CB119E789": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
   "external-greenhouse:oldmissioncapital:7796180003": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:tencent:/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
       "General/Other"
     ]
   },
@@ -79132,1241 +79782,6 @@
       "General/Other"
     ]
   },
-  "greenhouse-anthropic-5409299008": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-boeing-JR2026519045": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Aerospace Engineering",
-      "Mechanical Engineering"
-    ]
-  },
-  "workday-boeing-JR2026521216": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Aerospace Engineering",
-      "Mechanical Engineering"
-    ]
-  },
-  "workday-boeing-JR2026517680-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-cat-R0000390277": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-cat-R0000391464": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Industrial Engineering",
-      "Mechanical Engineering"
-    ]
-  },
-  "workday-cat-R0000391458": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Industrial Engineering",
-      "Mechanical Engineering"
-    ]
-  },
-  "workday-cat-R0000390781": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-cat-R0000391392": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-cat-R0000391444": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "General/Other"
-    ]
-  },
-  "workday-medtronic-R70453-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R75835-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R75833-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R76326-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R75313-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R74752-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R76315-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R75250": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-medtronic-R72141-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-airbnb-7230257": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-airbnb-8080766": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-amat-R2624179": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Chemical Engineering",
-      "Materials Science and Engineering"
-    ]
-  },
-  "workday-amat-R2627542": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "Computer Engineering",
-      "General/Other"
-    ]
-  },
-  "workday-amat-R2620136": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Industrial Engineering",
-      "Materials Science and Engineering"
-    ]
-  },
-  "workday-amat-R2625771": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Chemical Engineering",
-      "Materials Science and Engineering"
-    ]
-  },
-  "workday-amat-R2627541": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Applied Sciences in Engineering",
-      "Materials Science and Engineering"
-    ]
-  },
-  "workday-amat-R2626820": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "workday-amat-R2519512": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-axon-7976602003": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "greenhouse-axon-7849284003": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8165415": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7983318": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8112495": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8107397": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8165321": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8145008": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8144981": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8144984": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8148558": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8148505": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8144013": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8156629": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8155499": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8157781": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8135199": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8147982": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8080151": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8140017": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8147159": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7939509": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7976605": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7813100": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7612710": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8000862": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8048877": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8068067": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7950352": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7939508": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7778343": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7667287": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7574589": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7993182": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7926922": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7926745": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8162481": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8165203": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8165194": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8155417": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8148626": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8107165": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8157788": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8145027": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7991596": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8128938": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8144193": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8067834": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8144300": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7895883": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7735833": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8165294": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8060176": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-7921659": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8108782": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8165221": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8125746": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-carvana-8125707": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-coinbase-8031253": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-coinbase-7994501": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-coinbase-8165389": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-coinbase-8165441": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-datadog-8130580": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-datadog-6009779": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-datadog-6703351": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-datadog-7526356": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-datadog-7806043": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-hasbro-4259238009": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-hasbro-4340955009": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-gusto-7586222": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-pagerduty-6155975004": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-stripe-8131144": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-stripe-8039800": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "greenhouse-oklo-5637095004": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-ngc-R10248335-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-ngc-R10248333": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-ngc-R10245892-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-ngc-R10248336": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-globalhr-01869283": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-globalhr-01854416": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-globalhr-01869475": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-globalhr-01871016": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-globalhr-01867415": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-globalhr-01869933": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-globalhr-01865972": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-globalhr-01867760": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-globalhr-01852416": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-geaerospace-R5039455-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-intel-JR0286780": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-intel-JR0286046": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-intel-JR0285289": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-micron-JR105541": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-micron-JR110479": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-micron-JR110335": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "Chemical Engineering",
-      "Materials Science and Engineering",
-      "Mechanical Engineering"
-    ]
-  },
-  "workday-stryker-R570666": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-stryker-R566419": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Industrial Engineering",
-      "General/Other"
-    ]
-  },
-  "workday-stryker-R572524": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-stryker-R571651": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-3m-R01169855": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-3m-R01170099": {
-    "is_internship": false,
-    "engineering_relevant": true,
-    "majors": [
-      "Industrial Engineering",
-      "Mechanical Engineering"
-    ]
-  },
-  "workday-3m-R01169955": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-3m-R01169878-1": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-3m-R01167803": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-danaher-R1315547": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-danaher-R1317371": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-tranetechnologies-JR-14020": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-bakerhughes-R166580": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-bakerhughes-R167144": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-bakerhughes-R168055": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "workday-bristolmyerssquibb-R1605596": {
-    "is_internship": false,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "external-ashby:northwoodspace:ce3d4b73-461e-4128-a6f1-f933897e8119": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-greenhouse:charlesriverassociates:8128811": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-greenhouse:xairatherapeutics:5225658007": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Biomedical Engineering",
-      "Applied Sciences in Engineering",
-      "General/Other"
-    ]
-  },
-  "external-oracle:ehzq.fa.us2.oraclecloud.com:115687": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-oracle:hdhl.fa.us6.oraclecloud.com:1007361": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering"
-    ]
-  },
-  "external-workday:bah:/job/Atlanta-GA/University---2027-Summer-Games-Cyber-Security-Intern---Atlanta--GA_R0248139": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Atlanta-GA/University---2027-Summer-Games-Software-Developer-Intern---Atlanta--GA_R0248138": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Atlanta-GA/University--2027-Summer-Games-Data-Scientist-Intern_R0248140": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Cyber-Security-Intern---Charleston--SC_R0248136": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Data-Scientist-Intern_R0248137": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Software-Developer-Intern_R0248134": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Cybersecurity-Intern_R0248131": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/McLean-VA/University---Summer-27--Cybersecurity-Analyst-Intern_R0248214": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Rome-NY/University--2027-Summer-Games-Cyber-Security-Intern_R0248142": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/Rome-NY/University--2027-Summer-Games-Software-Developer-Intern_R0248141": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/San-Diego-CA/AI-Software-Developer-Intern_R0248115": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:brunswick:/job/Menomonee-Falls-WI/Software-Engineer-Intern_JR-051426-1": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:cccis:/job/Chicago-Green-St-IL/AI-Enablement-Intern_0014872": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:conagrabrands:/job/Omaha-Nebraska/Cybersecurity-Internship---Summer-2027_Req-039965": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "General/Other"
-    ]
-  },
-  "external-workday:hp:/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "General/Other"
-    ]
-  },
-  "external-workday:leidos:/job/San-Diego-CA/Data-Science-Intern_R-00190740": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284869": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "General/Other"
-    ]
-  },
-  "external-workday:tiaa:/job/New-York-NY-USA/Churchill-Summer-Internship--Investment-Infrastructure---Technology--IIT-_R260800515-1": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-lever:anavationllc:f7c83978-8510-409c-a5a3-17618511f819": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/El-Segundo-CA/University--2027-Summer-Games-Data-Scientist-Intern_R0248050": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern_R0248029": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "external-workday:bah:/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "General/Other"
-    ]
-  },
-  "jobright-garvertransportationinternmunicipal": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering"
-    ]
-  },
-  "jobright-rugerfirearmssummer2027engineeringinternship": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "jobright-kochearlycareerengineerintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "jobright-kochgeorgiapacificengineeringintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Chemical Engineering",
-      "Industrial Engineering",
-      "Mechanical Engineering",
-      "General/Other"
-    ]
-  },
-  "jobright-thenuclearcompanyfall2026aimlengineeringintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "jobright-psiquantuminternopticalpackagingandcharacterizationengineer": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "Materials Science and Engineering",
-      "Packaging Engineering"
-    ]
-  },
-  "jobright-ducommunincorporatedmbeintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Materials Science and Engineering",
-      "Mechanical Engineering"
-    ]
-  },
-  "jobright-thenuclearcompanyspring2027aimlengineeringintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "jobright-kpmgcanadariskservicestechnologyriskservicesinterncoopontarioatlanticwintersumme": {
-    "is_internship": true,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "jobright-hdrtransmissionlineintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "Energy Systems Engineering"
-    ]
-  },
-  "jobright-thenuclearcompanysummer2027aimlengineeringintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "jobright-hdrelectricalbimintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering"
-    ]
-  },
-  "jobright-hdrspringfieldroadwayintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering"
-    ]
-  },
-  "jobright-hdrtrafficplanningintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering"
-    ]
-  },
-  "jobright-hdrmechanicalbimintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Mechanical Engineering"
-    ]
-  },
-  "jobright-hdrsaintlouisconstructioninspectionintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering"
-    ]
-  },
-  "jobright-kostalgroupsystemsengineeringintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Industrial Engineering",
-      "General/Other"
-    ]
-  },
-  "jobright-hdrkansascityconstructioninspectionintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering"
-    ]
-  },
-  "jobright-hdrfreightrailintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering"
-    ]
-  },
-  "jobright-kpmgcanadariskservicesnoncpaforensictechnologyinterncooptorontowintersummerorfal": {
-    "is_internship": true,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "jobright-hdrinstrumentationcontrolsintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "Mechanical Engineering"
-    ]
-  },
-  "jobright-iffprocessengineerinterncoop": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Chemical Engineering",
-      "Industrial Engineering"
-    ]
-  },
-  "jobright-kpmgcanadariskservicestechnologyriskservicesinterncooptorontosummerorfall2027": {
-    "is_internship": true,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "jobright-hdrinformationcommunicationtechnologyictsecurityintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "Electrical Engineering"
-    ]
-  },
-  "jobright-hdraviationcivilintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering"
-    ]
-  },
-  "jobright-hdrkansascityroadwayintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering"
-    ]
-  },
-  "jobright-hdrsaintlouisroadwayintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering"
-    ]
-  },
-  "jobright-northropgrumman2027internvehicleengineeringcaoknd": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Mechanical Engineering"
-    ]
-  },
-  "jobright-hdradvancedtechnologyforsurfacetransportationatstfundingintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering",
-      "Industrial Engineering"
-    ]
-  },
-  "jobright-hdrsubstationintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "Energy Systems Engineering"
-    ]
-  },
-  "jobright-echogloballogisticsinternjuniorenterprisesitesupportengineer": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "General/Other"
-    ]
-  },
-  "jobright-cushmanwakefieldmechatronicsroboticsapprentice": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Mechanical Engineering",
-      "Electrical Engineering"
-    ]
-  },
-  "jobright-plannedsystemsinternationaldodskillbridgeclientengineerintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Computer Engineering",
-      "General/Other"
-    ]
-  },
-  "jobright-sanofi2027springcoopopportunitiescambridgema": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "jobright-aholddelhaizeusasafetyintern": {
-    "is_internship": true,
-    "engineering_relevant": false,
-    "majors": []
-  },
-  "jobright-helixelectricprojectengineerinternfall26": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Civil Engineering",
-      "Mechanical Engineering"
-    ]
-  },
   "jobright-ghdindigenousengineerinterncoop": {
     "is_internship": true,
     "engineering_relevant": true,
@@ -80374,53 +79789,157 @@
       "General/Other"
     ]
   },
-  "jobright-amerendermscoopintern": {
-    "is_internship": true,
+  "workday-boeing-JR2026522229-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-cat-R0000379324": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-medtronic-R76297-1": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-amat-R2625821": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "workday-amat-R2626705": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "workday-amat-R2627552": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "greenhouse-stripe-8011682": {
+    "is_internship": false,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "greenhouse-stripe-7761694": {
+    "is_internship": false,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "workday-ngc-R10248173": {
+    "is_internship": false,
     "engineering_relevant": true,
     "majors": [
       "Electrical Engineering",
-      "Energy Systems Engineering"
-    ]
-  },
-  "jobright-epicgamesmachinelearningintern": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
+      "Computer Engineering",
       "General/Other"
     ]
   },
-  "jobright-capgeminiinternshiporacledeployerjobdetailscapgemini": {
-    "is_internship": true,
+  "workday-ngc-R10248345": {
+    "is_internship": false,
     "engineering_relevant": true,
     "majors": [
+      "Computer Engineering",
       "General/Other"
     ]
   },
-  "jobright-cargillcropinputssummerinternsaskatchewan": {
-    "is_internship": true,
+  "workday-globalhr-01860810": {
+    "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
-  "jobright-etcengineeringinternfallwinter2026": {
-    "is_internship": true,
+  "workday-globalhr-01871121": {
+    "is_internship": false,
     "engineering_relevant": true,
     "majors": [
-      "General/Other"
+      "Industrial Engineering",
+      "Mechanical Engineering"
     ]
   },
-  "jobright-virginadeptoftransporationc0813engineeringinternwage": {
-    "is_internship": true,
+  "workday-analogdevices-R265147": {
+    "is_internship": false,
     "engineering_relevant": true,
     "majors": [
-      "General/Other"
+      "Mechanical Engineering",
+      "Industrial Engineering"
     ]
   },
-  "jobright-cargillcropinputssummerinternalberta": {
-    "is_internship": true,
+  "workday-bristolmyerssquibb-R1605327": {
+    "is_internship": false,
     "engineering_relevant": false,
     "majors": []
   },
-  "jobright-bytedancemulticloudcdnschedulingplatformengineerinterncdnplatform2027summer": {
+  "external-workday:workiva:/job/USA---Remote/Summer-2027-Intern---Software-Engineering_R12190": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "external-workday:workiva:/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-traylorbrosincfall2026engineerinterncoopundergroundconstructiontunneling": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  "jobright-garvertransportationinternbridge": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  "jobright-marvintooldiemakerintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Mechanical Engineering",
+      "Industrial Engineering"
+    ]
+  },
+  "jobright-neuralinkrdmaterialsengineerintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Materials Science and Engineering"
+    ]
+  },
+  "jobright-arcoafamilyofconstructioncompaniesconcretesuperintendentintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  "jobright-ensemblehealthpartnersengineeringexcellenceintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "General/Other"
+    ]
+  },
+  "jobright-asmglobalautomationaitechnologyexperienceintern": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
@@ -80428,67 +79947,108 @@
       "General/Other"
     ]
   },
-  "jobright-louisianaeconomicdevelopmentinternapplicationdeveloper2027servicenow": {
+  "jobright-lincolnelectriccontrolsengineeringsummer2027internshipshelbytownshipmi": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Computer Engineering"
+    ]
+  },
+  "jobright-strytenenergy2027summerinternprocurement": {
+    "is_internship": true,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "jobright-strytenenergy2027summerinternplasticsengineer": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "jobright-strytenenergy2027summerinternsystemengineer": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
       "General/Other"
     ]
   },
-  "jobright-galloglasscompanygalloglassmaintenanceoperationsinternshipjulydecember": {
+  "jobright-strytenenergy2027summerinterninjectionmoldingengineer": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
       "Mechanical Engineering",
+      "Chemical Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  "jobright-strytenenergy2027summerinternengineering": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-strytenenergy2027summerinterncontinuousimprovement": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
       "Industrial Engineering"
     ]
   },
-  "jobright-bimedaqaintern6monthscontractrole": {
+  "jobright-strytenenergy2027summerinterncontrolsengineerroboticsautomation": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
-      "General/Other"
+      "Electrical Engineering",
+      "Computer Engineering",
+      "Mechanical Engineering"
     ]
   },
-  "jobright-virginiadepartmentoftransportationc0813engineeringinternwage": {
+  "jobright-terraconintern": {
+    "is_internship": true,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "jobright-asmglobalsecurityintern": {
+    "is_internship": true,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "jobright-calgoncarbonasiaintern": {
+    "is_internship": true,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "jobright-asmmaterialsprojectinternspring2027": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
-      "General/Other"
+      "Materials Science and Engineering"
     ]
   },
-  "jobright-astrolabwinter2026productionengineeringintern": {
+  "jobright-ckassociatesenvironmentalconsultantsstudentinternshipforengineersandenvironmenta": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
-      "General/Other"
+      "Environmental Engineering"
     ]
   },
-  "jobright-astranisspacetechnologiescadengineerinternsummer2027": {
+  "jobright-motrex2027summerinternprocurement": {
     "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Mechanical Engineering",
-      "Aerospace Engineering"
-    ]
+    "engineering_relevant": false,
+    "majors": []
   },
-  "jobright-astranisspacetechnologiescadengineerinternwinter2027": {
+  "jobright-motrexllc2027summerinternprocurement": {
     "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Mechanical Engineering",
-      "Aerospace Engineering"
-    ]
+    "engineering_relevant": false,
+    "majors": []
   },
-  "jobright-astranisspacetechnologiescadengineerinternspring2027": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Mechanical Engineering",
-      "Aerospace Engineering"
-    ]
-  },
-  "jobright-northwoodsitesintern2027summerinternship": {
+  "jobright-helixelectricprojectengineerinternsummer2027": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
@@ -80496,7 +80056,15 @@
       "Mechanical Engineering"
     ]
   },
-  "jobright-northwoodfleetreliabilityintern2027summerinternship": {
+  "jobright-siliconcriticalmaterialsresearchintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Materials Science and Engineering",
+      "Chemical Engineering"
+    ]
+  },
+  "jobright-ttmtechnologiesmaintenanceintern": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
@@ -80504,60 +80072,291 @@
       "Industrial Engineering"
     ]
   },
-  "jobright-xairatherapeuticsaiscientistinterncomputationalproteindesign": {
+  "jobright-eatoncontinuousimprovementintern": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
-      "Biomedical Engineering",
+      "Industrial Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "jobright-maxinsightsdataoperationsintern": {
+    "is_internship": true,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "jobright-huaweicanadainternengineeropenjiuwenaiagentplatform": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-bignightentertainmentgroupcardvaultbytombradydesignfabricationinterncoop": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Mechanical Engineering",
+      "Materials Science and Engineering",
+      "Packaging Engineering"
+    ]
+  },
+  "jobright-newportnewsshipbuildingadivisionofhii2027supplychainsummerinternshipsupplychainm": {
+    "is_internship": true,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "jobright-hii2027supplychainsummerinternshipsupplychainmgmtintern": {
+    "is_internship": true,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "jobright-hufindiaprivatelimitedinternengineerleaderprogramjobdetailshufhlsbeckfrstgmbhcok": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other",
+      "Industrial Engineering"
+    ]
+  },
+  "jobright-arconationalconstructioncompanyconcretesuperintendentintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Civil Engineering"
+    ]
+  },
+  "jobright-biospace2027businesstechnologysolutionsinterncybersecurityundergraduate": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  "jobright-abbvie2027businesstechnologysolutionsinterndatasoftwareengineeringundergraduate": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-teslainternshipsoftwareengineerautomateddiagnosticsinternspring2027": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "Electrical Engineering",
+      "General/Other"
+    ]
+  },
+  "jobright-solarturbines2027internshiptmptechnpi": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "jobright-sapsapixpinternaiengineer": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-rbc2027wintergrmaistresstestinganalyticsintern4months": {
+    "is_internship": true,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "jobright-proctergambledataaiengineeringinternship": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-postmanaiengineerinternshipsummer2026applicationsopennow": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-charlesschwabtechnology2027interndataengineering": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-generalmillsinternshipdigitaltechnologyassociate": {
+    "is_internship": true,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "jobright-americanexpresscampusgraduatemasterssummerinternshipprogram2027aiengineerenterpr": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-americanexpresscampusundergraduatesummerinternshipprogram2027aiengineerenterpris": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-g3digitalforensicsintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  "jobright-mastercarddataengineeringinternsummer2027stlouismous": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-mitlincolnlaboratoryrapidprototypingaeromechcoopfall2026group77jobdetailsmitlinc": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Aerospace Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "jobright-mitlincolnlaboratorygroup0835microfabindustrialengcoopmicroelectronicslaboratory": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "Materials Science and Engineering"
+    ]
+  },
+  "jobright-northcarolinadepartmentofagricultureandconsumerservicesinterniipowersupplyandene": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Electrical Engineering",
+      "Energy Systems Engineering"
+    ]
+  },
+  "jobright-gevernovaindustrialmechanicaltechnician2026internship": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  "jobright-grittairoboticsplanningcontrolsengineerintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Mechanical Engineering",
+      "Computer Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  "jobright-processtechnologyengineeringintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-charlesschwabtechnology2027internaicybersecurity": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  "jobright-bytedanceselfbuiltengineerinterncdnplatform2027summer": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Computer Engineering",
+      "General/Other"
+    ]
+  },
+  "jobright-nationallaboratoryoftherockiesiiivprocessingintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Materials Science and Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  "jobright-longbuildingtechnologiescontrolstechnicianintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Electrical Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "jobright-gknaerospacemeintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Mechanical Engineering"
+    ]
+  },
+  "jobright-missiontechnologiesadivisionofhiidataengineerskillbridgeintern28499": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "General/Other"
+    ]
+  },
+  "jobright-unitedstatessteelcorporationsurfaceengineersummerintern": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Materials Science and Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "jobright-unitedstatessteelcorporationstudentinternplantprocesses": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Chemical Engineering",
+      "Industrial Engineering"
+    ]
+  },
+  "jobright-microventionterumoengineerinternmanufacturing": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Industrial Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  "jobright-sapsapixpinternsapbusinessnetworksupplierenablementtransformationspecialist": {
+    "is_internship": true,
+    "engineering_relevant": false,
+    "majors": []
+  },
+  "jobright-eatonlaboratorytechnicianinternrobinsonpa": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Chemical Engineering",
+      "Materials Science and Engineering",
       "Applied Sciences in Engineering"
     ]
   },
-  "jobright-honeywellaerospacesemiconductorengineeringinternsummer2027": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "Materials Science and Engineering"
-    ]
-  },
-  "jobright-honeywellaerospacesoftwareaiinternsummer2027uspersonrequired": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "jobright-honeywellaerospacesoftwareaiinternsummer2027": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "jobright-honeywellaerospacetestengineeringinternsummer2027": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "General/Other"
-    ]
-  },
-  "jobright-honeywellaerospacesemiconductorengineeringinternsummer2027uspersonrequired": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "Electrical Engineering",
-      "Materials Science and Engineering"
-    ]
-  },
-  "jobright-sundtconstructionswbuildinggroupinternengineer": {
-    "is_internship": true,
-    "engineering_relevant": true,
-    "majors": [
-      "General/Other"
-    ]
-  },
-  "jobright-coffmanengineersfireprotectionengineeringinternprecollege": {
+  "jobright-walterpmoorestructuralintern": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
@@ -80565,12 +80364,19 @@
       "Mechanical Engineering"
     ]
   },
-  "jobright-lsbindustriesinccapitalengineeringintern60134": {
+  "jobright-kiewitcivilstructuralintern48monthcoopwesterncanadaregionfall2026": {
     "is_internship": true,
     "engineering_relevant": true,
     "majors": [
-      "Mechanical Engineering",
       "Civil Engineering"
+    ]
+  },
+  "jobright-nationallaboratoryoftherockiesgraduatesummerinterndatacentermodelerforpowersyste": {
+    "is_internship": true,
+    "engineering_relevant": true,
+    "majors": [
+      "Electrical Engineering",
+      "Energy Systems Engineering"
     ]
   }
 }

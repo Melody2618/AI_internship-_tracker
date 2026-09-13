@@ -14,6 +14,12 @@
         rel="stylesheet"
         href="styles.css"
     >
+
+    <!-- Firebase (compat build, no bundler needed for a static site) -->
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+    <script src="firebase-config.js"></script>
 </head>
 
 <body>
@@ -22,7 +28,22 @@
         alt="SHPE 2026 National Convention — Indianapolis, IN — October 28-31 — shpe.org/2026"
         class="convention-banner"
     >
-    <main class="container">
+
+    <!-- Sign-in gate: shown until a verified @scarletmail.rutgers.edu account signs in -->
+    <div id="auth-gate" class="auth-gate">
+        <p class="eyebrow">SHE IVP &middot; AI &amp; TECH COMMITTEE</p>
+        <h1>Internship Tracker</h1>
+        <p>Sign in with your ScarletMail account to view current listings.</p>
+        <button id="sign-in-button" type="button">Sign in with Google</button>
+        <p id="auth-error" class="error"></p>
+    </div>
+
+    <main class="container" id="app-content" hidden>
+        <div class="signed-in-bar">
+            <span id="signed-in-as"></span>
+            <button id="sign-out-button" type="button">Sign out</button>
+        </div>
+
         <header>
             <p class="eyebrow">SHE IVP &middot; AI &amp; TECH COMMITTEE</p>
             <h1>Internship Tracker</h1>

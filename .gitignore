@@ -3,6 +3,10 @@
 .env
 venv/
 
+#firebase
+data/jobs_output.json
+firebase-service-account.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

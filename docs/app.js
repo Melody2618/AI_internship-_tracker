@@ -27,18 +27,77 @@ const tableBody = document.getElementById("jobs-table-body");
 const jobCount = document.getElementById("job-count");
 const errorMessage = document.getElementById("error-message");
 
+const authGate = document.getElementById("auth-gate");
+const authError = document.getElementById("auth-error");
+const appContent = document.getElementById("app-content");
+const signInButton = document.getElementById("sign-in-button");
+const signOutButton = document.getElementById("sign-out-button");
+const signedInAs = document.getElementById("signed-in-as");
+
+
+// ---- Firebase setup ----
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+const db = firebase.firestore();
+
+
+function isAllowedEmail(user) {
+    return (
+        !!user &&
+        user.emailVerified &&
+        typeof user.email === "string" &&
+        user.email.toLowerCase().endsWith(`@${ALLOWED_EMAIL_DOMAIN}`)
+    );
+}
+
+
+signInButton.addEventListener("click", () => {
+    authError.textContent = "";
+
+    const provider = new firebase.auth.GoogleAuthProvider();
+    // UX hint only, Google honors this to pre-filter the account picker,
+    // it is not what actually enforces access. firestore.rules does that.
+    provider.setCustomParameters({ hd: ALLOWED_EMAIL_DOMAIN });
+
+    auth.signInWithPopup(provider).catch(error => {
+        console.error(error);
+        authError.textContent = "Sign-in failed. Please try again.";
+    });
+});
+
+
+signOutButton.addEventListener("click", () => {
+    auth.signOut();
+});
+
+
+auth.onAuthStateChanged(user => {
+    if (!user) {
+        appContent.hidden = true;
+        authGate.hidden = false;
+        return;
+    }
+
+    if (!isAllowedEmail(user)) {
+        authError.textContent =
+            `This tracker is limited to @${ALLOWED_EMAIL_DOMAIN} accounts.`;
+        auth.signOut();
+        return;
+    }
+
+    authGate.hidden = true;
+    appContent.hidden = false;
+    signedInAs.textContent = `Signed in as ${user.email}`;
+
+    loadJobs();
+});
+
 
 async function loadJobs() {
     try {
-        const response = await fetch("data/jobs.json");
+        const snapshot = await db.collection("jobs").get();
 
-        if (!response.ok) {
-            throw new Error(
-                `Could not load jobs.json: ${response.status}`
-            );
-        }
-
-        allJobs = await response.json();
+        allJobs = snapshot.docs.map(doc => doc.data());
 
         populateCompanyFilter();
         renderMajorFilterButtons();
@@ -210,5 +269,3 @@ function createCell(value) {
 searchInput.addEventListener("input", filterJobs);
 companyFilter.addEventListener("change", filterJobs);
 atsFilter.addEventListener("change", filterJobs);
-
-loadJobs();

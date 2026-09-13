@@ -36,7 +36,7 @@ def main() -> None:
 
     cred = credentials.ApplicationDefault()
     firebase_admin.initialize_app(cred)
-    db = firestore.client()
+    db = firestore.client(database_id="default")
     collection_ref = db.collection(COLLECTION_NAME)
 
     current_ids = set()

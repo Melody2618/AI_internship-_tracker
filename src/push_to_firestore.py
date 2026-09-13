@@ -44,7 +44,7 @@ def main() -> None:
     ops_in_batch = 0
 
     for job in jobs:
-        doc_id = str(job.get("id", "")).strip()
+        doc_id = str(job.get("id", "")).strip().replace("/", "_")
         if not doc_id:
             continue
 

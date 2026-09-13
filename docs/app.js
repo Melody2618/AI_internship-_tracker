@@ -38,7 +38,11 @@ const signedInAs = document.getElementById("signed-in-as");
 // ---- Firebase setup ----
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
-const db = firebase.firestore();
+// Firestore itself is initialized in index.html's module script (see
+// comment there), since only the modular SDK supports our named
+// database. window.firestoreDb etc. are set by the time loadJobs()
+// actually runs (triggered by a real sign-in, which always takes far
+// longer than that small module script needs to finish loading).
 
 
 function isAllowedEmail(user) {
@@ -95,7 +99,9 @@ auth.onAuthStateChanged(user => {
 
 async function loadJobs() {
     try {
-        const snapshot = await db.collection("jobs").get();
+        const snapshot = await window.firestoreGetDocs(
+            window.firestoreCollection(window.firestoreDb, "jobs")
+        );
 
         allJobs = snapshot.docs.map(doc => doc.data());
 

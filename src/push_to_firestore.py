@@ -40,16 +40,38 @@ def main() -> None:
     collection_ref = db.collection(COLLECTION_NAME)
 
     current_ids = set()
+    skipped = 0
     batch = db.batch()
     ops_in_batch = 0
 
     for job in jobs:
-        doc_id = str(job.get("id", "")).strip().replace("/", "_")
-        if not doc_id:
+        # Firestore document IDs can't contain "/", can't be exactly "."
+        # or "..", can't match __*__, and can't exceed 1500 bytes. Sources
+        # outside our control (the external feeds especially) can produce
+        # IDs with any of these, so sanitize defensively rather than
+        # trying to predict every shape in advance.
+        raw_id = str(job.get("id", "")).strip()
+        if not raw_id:
+            continue
+
+        doc_id = raw_id.replace("/", "_")
+        if doc_id in (".", ".."):
+            doc_id = f"job-{doc_id.replace('.', 'dot')}"
+        if doc_id.startswith("__") and doc_id.endswith("__"):
+            doc_id = f"job-{doc_id}"
+        if len(doc_id.encode("utf-8")) > 1500:
+            doc_id = doc_id.encode("utf-8")[:1400].decode("utf-8", "ignore")
+
+        try:
+            batch.set(collection_ref.document(doc_id), job)
+        except ValueError as error:
+            # Don't let one bad ID from an upstream source take down the
+            # whole run, every other posting still needs to get through.
+            print(f"Skipping job with invalid id {raw_id!r}: {error}")
+            skipped += 1
             continue
 
         current_ids.add(doc_id)
-        batch.set(collection_ref.document(doc_id), job)
         ops_in_batch += 1
 
         if ops_in_batch >= BATCH_LIMIT:
@@ -82,7 +104,8 @@ def main() -> None:
 
     print(
         f"Pushed {len(current_ids)} postings to Firestore, "
-        f"removed {removed} stale postings."
+        f"removed {removed} stale postings, "
+        f"skipped {skipped} with unfixable ids."
     )
 
 

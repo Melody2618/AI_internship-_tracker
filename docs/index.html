@@ -19,27 +19,6 @@
     <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
     <script src="firebase-config.js"></script>
-
-    <!--
-      Firestore uses the newer "modular" SDK instead of the compat build
-      above, because only the modular API supports connecting to a named
-      Firestore database. Our database is named "default" (not the
-      reserved "(default)"), so app.js needs getFirestore(app, "default")
-      rather than the compat firebase.firestore() call, which always
-      connects to "(default)" with no way to override it.
-    -->
-    <script type="module">
-        import { getApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
-        import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
-
-        // Reuses the same app that firebase.initializeApp() sets up in
-        // app.js (compat and modular share the same underlying app
-        // registry), so there's no "duplicate app" conflict here.
-        const app = getApp();
-        window.firestoreDb = getFirestore(app, "default");
-        window.firestoreCollection = collection;
-        window.firestoreGetDocs = getDocs;
-    </script>
 </head>
 
 <body>
@@ -129,6 +108,12 @@
         ></p>
     </main>
 
-    <script src="app.js"></script>
+    <!--
+      Loaded as a module so it can import the Firestore SDK directly
+      (see the top of app.js), needed for our named database, "default"
+      rather than the reserved "(default)". Everything else in app.js
+      is unchanged, plain script logic; modules just also support import.
+    -->
+    <script type="module" src="app.js"></script>
 </body>
 </html>

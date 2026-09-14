@@ -1,3 +1,6 @@
+import { getApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+
 let allJobs = [];
 let selectedMajor = "";
 
@@ -36,13 +39,19 @@ const signedInAs = document.getElementById("signed-in-as");
 
 
 // ---- Firebase setup ----
+// firebase.initializeApp() (compat, for Auth) runs first, then getApp()
+// immediately after, in this same script, top to bottom, so there's no
+// cross-script ordering to get wrong, unlike the earlier version of this
+// file which split Auth and Firestore setup across two separate script
+// tags and assumed one would finish before the other.
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
-// Firestore itself is initialized in index.html's module script (see
-// comment there), since only the modular SDK supports our named
-// database. window.firestoreDb etc. are set by the time loadJobs()
-// actually runs (triggered by a real sign-in, which always takes far
-// longer than that small module script needs to finish loading).
+
+// Firestore uses the modular SDK (imported above) instead of compat,
+// since only the modular API supports connecting to a named database.
+// Ours is named "default" (not the reserved "(default)").
+const firestoreApp = getApp();
+const db = getFirestore(firestoreApp, "default");
 
 
 function isAllowedEmail(user) {
@@ -99,9 +108,7 @@ auth.onAuthStateChanged(user => {
 
 async function loadJobs() {
     try {
-        const snapshot = await window.firestoreGetDocs(
-            window.firestoreCollection(window.firestoreDb, "jobs")
-        );
+        const snapshot = await getDocs(collection(db, "jobs"));
 
         allJobs = snapshot.docs.map(doc => doc.data());
 

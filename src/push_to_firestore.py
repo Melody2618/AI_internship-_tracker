@@ -18,6 +18,7 @@ Environment:
 """
 
 import json
+import os
 from pathlib import Path
 
 import firebase_admin
@@ -28,7 +29,25 @@ COLLECTION_NAME = "jobs"
 BATCH_LIMIT = 400  # Firestore batched writes cap at 500 operations
 
 
+def print_credential_identity() -> None:
+    """Prints which project/service account is actually in use, without
+    ever printing the private key. This is a debugging aid, not a
+    permanent fixture, remove it once things are confirmed working."""
+    cred_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
+    print(f"GOOGLE_APPLICATION_CREDENTIALS points to: {cred_path}")
+
+    if not cred_path or not Path(cred_path).exists():
+        print("WARNING: that path does not exist, credentials were not written correctly.")
+        return
+
+    info = json.loads(Path(cred_path).read_text())
+    print(f"Credential project_id: {info.get('project_id')}")
+    print(f"Credential client_email: {info.get('client_email')}")
+
+
 def main() -> None:
+    print_credential_identity()
+
     if not INPUT_PATH.exists():
         raise SystemExit(f"{INPUT_PATH} not found, run src/main.py first.")
 

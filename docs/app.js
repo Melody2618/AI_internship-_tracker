@@ -1,4 +1,11 @@
-import { getApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+import {
+    getAuth,
+    GoogleAuthProvider,
+    signInWithPopup,
+    signOut,
+    onAuthStateChanged,
+} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 let allJobs = [];
@@ -39,19 +46,20 @@ const signedInAs = document.getElementById("signed-in-as");
 
 
 // ---- Firebase setup ----
-// firebase.initializeApp() (compat, for Auth) runs first, then getApp()
-// immediately after, in this same script, top to bottom, so there's no
-// cross-script ordering to get wrong, unlike the earlier version of this
-// file which split Auth and Firestore setup across two separate script
-// tags and assumed one would finish before the other.
-firebase.initializeApp(firebaseConfig);
-const auth = firebase.auth();
+// Auth and Firestore both use the modular SDK now, not a mix of compat
+// and modular. Compat (loaded as a classic <script> from CDN) and
+// modular (loaded via ES import) turned out to be two separate SDK
+// bundles that don't share the same app registry, which is what broke
+// the earlier version of this file: firebase.initializeApp() (compat)
+// created an app that modular getApp() couldn't see at all. Using one
+// consistent API end to end avoids that entirely.
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
 
-// Firestore uses the modular SDK (imported above) instead of compat,
-// since only the modular API supports connecting to a named database.
-// Ours is named "default" (not the reserved "(default)").
-const firestoreApp = getApp();
-const db = getFirestore(firestoreApp, "default");
+// Firestore needs the modular API regardless, since only it supports
+// connecting to a named database. Ours is named "default" (not the
+// reserved "(default)").
+const db = getFirestore(app, "default");
 
 
 function isAllowedEmail(user) {
@@ -67,12 +75,12 @@ function isAllowedEmail(user) {
 signInButton.addEventListener("click", () => {
     authError.textContent = "";
 
-    const provider = new firebase.auth.GoogleAuthProvider();
+    const provider = new GoogleAuthProvider();
     // UX hint only, Google honors this to pre-filter the account picker,
     // it is not what actually enforces access. firestore.rules does that.
     provider.setCustomParameters({ hd: ALLOWED_EMAIL_DOMAIN });
 
-    auth.signInWithPopup(provider).catch(error => {
+    signInWithPopup(auth, provider).catch(error => {
         console.error(error);
         authError.textContent = "Sign-in failed. Please try again.";
     });
@@ -80,11 +88,11 @@ signInButton.addEventListener("click", () => {
 
 
 signOutButton.addEventListener("click", () => {
-    auth.signOut();
+    signOut(auth);
 });
 
 
-auth.onAuthStateChanged(user => {
+onAuthStateChanged(auth, user => {
     if (!user) {
         appContent.hidden = true;
         authGate.hidden = false;
@@ -94,7 +102,7 @@ auth.onAuthStateChanged(user => {
     if (!isAllowedEmail(user)) {
         authError.textContent =
             `This tracker is limited to @${ALLOWED_EMAIL_DOMAIN} accounts.`;
-        auth.signOut();
+        signOut(auth);
         return;
     }
 

@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
 
+    <!--
+      Forward visitors from the old GitHub Pages address to Firebase
+      Hosting. Sign-in only works reliably on phones when the site and
+      the sign-in handler share a domain (she-internship-tracker.firebaseapp.com).
+      Has no effect when the page is already served from Firebase.
+    -->
+    <script>
+        if (location.hostname.endsWith("github.io")) {
+            location.replace("https://she-internship-tracker.firebaseapp.com" + location.search + location.hash);
+        }
+    </script>
+
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"
@@ -19,105 +31,4 @@
       Firebase config only, no SDK scripts here. Everything Firebase-
       related (Auth and Firestore) is loaded via ES module imports at
       the top of app.js instead. Mixing the older compat build with
-      modular imports caused a bug where they didn't share the same
-      app instance, so we use one consistent API throughout.
-    -->
-    <script src="firebase-config.js"></script>
-</head>
-
-<body>
-    <img
-        src="images/shpe-banner.png"
-        alt="SHPE 2026 National Convention — Indianapolis, IN — October 28-31 — shpe.org/2026"
-        class="convention-banner"
-    >
-
-    <!-- Sign-in gate: shown until a verified @scarletmail.rutgers.edu account signs in -->
-    <div id="auth-gate" class="auth-gate">
-        <p class="eyebrow">SHE IVP &middot; AI &amp; TECH COMMITTEE</p>
-        <h1>Internship Tracker</h1>
-        <p>Sign in with your ScarletMail account to view current listings.</p>
-        <button id="sign-in-button" type="button">Sign in with Google</button>
-        <p id="auth-error" class="error"></p>
-    </div>
-
-    <main class="container" id="app-content" hidden>
-        <div class="signed-in-bar">
-            <span id="signed-in-as"></span>
-            <button id="sign-out-button" type="button">Sign out</button>
-        </div>
-
-        <header>
-            <p class="eyebrow">SHE IVP &middot; AI &amp; TECH COMMITTEE</p>
-            <h1>Internship Tracker</h1>
-            <div class="title-rule"></div>
-
-            <p>
-                Internship, fellowship, student, and early-career
-                listings collected from company career boards.
-            </p>
-        </header>
-
-        <section class="controls">
-            <input
-                id="search-input"
-                type="search"
-                placeholder="Search company, title, or location"
-            >
-
-            <select id="company-filter">
-                <option value="">All companies</option>
-            </select>
-
-            <select id="ats-filter">
-                <option value="">All platforms</option>
-                <option value="greenhouse">Greenhouse</option>
-                <option value="ashby">Ashby</option>
-                <option value="workday">Workday</option>
-            </select>
-        </section>
-
-        <section
-            class="major-filters"
-            id="major-filters"
-            aria-label="Filter by engineering major"
-        >
-            <!-- Major filter buttons are added here by app.js -->
-        </section>
-
-        <p id="job-count">
-            Loading jobs...
-        </p>
-
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Company</th>
-                        <th>Position</th>
-                        <th>Location</th>
-                        <th>Major(s)</th>
-                        <th>Platform</th>
-                        <th>Application</th>
-                    </tr>
-                </thead>
-
-                <tbody id="jobs-table-body"></tbody>
-            </table>
-        </div>
-
-        <p
-            id="error-message"
-            class="error"
-        ></p>
-    </main>
-
-    <!--
-      Loaded as a module so it can import the Firestore SDK directly
-      (see the top of app.js), needed for our named database, "default"
-      rather than the reserved "(default)". Everything else in app.js
-      is unchanged, plain script logic; modules just also support import.
-    -->
-    <script type="module" src="app.js"></script>
-</body>
-</html>
+      modular imports caused a bug

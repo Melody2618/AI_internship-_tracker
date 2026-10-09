@@ -6,7 +6,7 @@ import {
     signOut,
     onAuthStateChanged,
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
-import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+import { getFirestore, collection, getDocs, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 let allJobs = [];
 let selectedMajor = "";
@@ -62,13 +62,21 @@ const auth = getAuth(app);
 const db = getFirestore(app, "default");
 
 
-function isAllowedEmail(user) {
-    return (
-        !!user &&
-        user.emailVerified &&
-        typeof user.email === "string" &&
-        user.email.toLowerCase().endsWith(`@${ALLOWED_EMAIL_DOMAIN}`)
-    );
+// Access is limited to emails listed in the Firestore "allowlist"
+// collection (document ID = lowercase email). firestore.rules enforces
+// this on the server; this check only decides what the page shows.
+async function isAllowedEmail(user) {
+    if (!user || !user.emailVerified || typeof user.email !== "string") {
+        return false;
+    }
+    try {
+        const entry = await getDoc(doc(db, "allowlist", user.email.toLowerCase()));
+        return entry.exists();
+    } catch (error) {
+        // permission-denied means the email is not on the allowlist
+        console.error(error);
+        return false;
+    }
 }
 
 
@@ -76,9 +84,8 @@ signInButton.addEventListener("click", () => {
     authError.textContent = "";
 
     const provider = new GoogleAuthProvider();
-    // UX hint only, Google honors this to pre-filter the account picker,
-    // it is not what actually enforces access. firestore.rules does that.
-    provider.setCustomParameters({ hd: ALLOWED_EMAIL_DOMAIN });
+    // Always show the account picker so people can switch accounts.
+    provider.setCustomParameters({ prompt: "select_account" });
 
     signInWithPopup(auth, provider).catch(error => {
         console.error(error);
@@ -92,16 +99,16 @@ signOutButton.addEventListener("click", () => {
 });
 
 
-onAuthStateChanged(auth, user => {
+onAuthStateChanged(auth, async user => {
     if (!user) {
         appContent.hidden = true;
         authGate.hidden = false;
         return;
     }
 
-    if (!isAllowedEmail(user)) {
+    if (!(await isAllowedEmail(user))) {
         authError.textContent =
-            `This tracker is limited to @${ALLOWED_EMAIL_DOMAIN} accounts.`;
+            `${user.email} doesn't have access yet. Contact the SHE IVP AI & Tech Committee to be added.`;
         signOut(auth);
         return;
     }
